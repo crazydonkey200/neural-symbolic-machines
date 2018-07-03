@@ -1,0 +1,4344 @@
+nu-0	cofidis
+nu-1	1
+nu-2	?
+nu-3	candy sale
+nu-4	20
+nu-5	world junior championships
+nu-6	15
+nu-7	363.0
+nu-8	
+nu-9	2000-xx-xx
+nu-10	2013-xx-xx
+nu-11	john o'flynn
+nu-12	titles-finals
+nu-13	1
+nu-14	c
+nu-15	24.0
+nu-16	tomomi manako
+nu-17	14
+nu-18	vidant medical center	pender memorial hospital	the mcdowell hospital	lenoir memorial hospital	ashe memorial hospital	onslow memorial hospital	sandhills regional medical center	novant health rowan medical center	durham regional hospital	rex healthcare	wayne memorial hospital	novant health brunswick medical center	sampson regional medical center	novant health charlotte orthopaedic hospital	cape fear valley medical center	duke health raleigh hospital	wakemed	blue ridge regional hospital	highsmith-rainey specialty hospital	new hanover regional medical center	vidant bertie hospital	harris regional hospital	novant health huntersville medical center
+nu-19	8
+nu-20	1
+nu-21	brazil
+nu-22	11.0
+nu-23	quest	ragamuffin	afr midnight rambler	industrial quest	nokia	fudge	ausmaid	aspect computing
+nu-24	gl-b-6
+nu-25	8
+nu-26	15
+nu-27	simon makienok christoffersen
+nu-28	9
+nu-29	1
+nu-30	pennsylvania avenue metro extra line
+nu-31	dw stadium
+nu-32	2
+nu-33	1915-16	1918-19	1913-14	1912-20	1919-20	1912-13	1914-15	1917-18	1916-17
+nu-34	patricia valiahmetova	jahaira novgorodova	carmen jenockova	mariesea mnesicu	anastasija larkova
+nu-35	1
+nu-36	4
+nu-37	10
+nu-38	20
+nu-39	2004-xx-xx
+nu-40	5
+nu-41	clint dempsey
+nu-42	strasbourg cathedral
+nu-43	democratic
+nu-44	totals:\n105 seasons
+nu-45	504000.0
+nu-46	22
+nu-47	7
+nu-48	chile	ecuador
+nu-49	2
+nu-50	carlin
+nu-51	13
+nu-52	yankton
+nu-53	1955-1957
+nu-54	david russell
+nu-55	world championships
+nu-56	1
+nu-57	mig-15
+nu-58	shaul ladani
+nu-59	150000.0
+nu-60	2011
+nu-61	s
+nu-62	astronomy
+nu-63	18
+nu-64	5
+nu-65	alissa joanndova
+nu-66	2010-12-06
+nu-67	1
+nu-68	18
+nu-69	lord high steward
+nu-70	karolina pliskova
+nu-71	2
+nu-72	2003-xx-xx
+nu-73	2
+nu-74	3
+nu-75	4
+nu-76	31
+nu-77	736.0
+nu-78	mike conway
+nu-79	athens, greece
+nu-80	3
+nu-81	1
+nu-82	12
+nu-83	doriano romboni
+nu-84	wigan warriors
+nu-85	1
+nu-86	4
+nu-87	66 000
+nu-88	mikhail youzhny	viktor troicki
+nu-89	0
+nu-90	2
+nu-91	mexico city	westwood	mont-tremblant	watkins glen
+nu-92	21
+nu-93	totals
+nu-94	17
+nu-95	3
+nu-96	17%
+nu-97	2011-10-xx
+nu-98	mike imrie
+nu-99	chardon, ohio	newbury, ohio	chester township, ohio
+nu-100	derek fisher	derrick favors	todd fuller	jim farmer	terry furlow	bernie fryer
+nu-101	blue train
+nu-102	yelena kondulaynen\n44.the actress
+nu-103	westwood
+nu-104	march 12
+nu-105	loris capirossi
+nu-106	2011-xx-xx
+nu-107	africa
+nu-108	1939/40
+nu-109	11.0
+nu-110	3
+nu-111	0.0
+nu-112	1
+nu-113	3
+nu-114	1
+nu-115	sean mcloughlin
+nu-116	1986-09-19
+nu-117	joel smith
+nu-118	xxxx-10-17
+nu-119	3.0
+nu-120	6
+nu-121	france
+nu-122	50
+nu-123	new image
+nu-124	11
+nu-125	republican
+nu-126	united states
+nu-127	2005-06-xx	2008-09-xx	2001-02-xx	2010-11-xx	2006-07-xx	2003-04-xx
+nu-128	2005-08-27
+nu-129	1
+nu-130	25
+nu-131	honda
+nu-132	49
+nu-133	amman
+nu-134	1.0
+nu-135	6
+nu-136	b
+nu-137	6
+nu-138	due to erosion today it stands at the height of 138.8 metres (455 ft)
+nu-139	15
+nu-140	mclaren-honda	minardi-ford	lotus-lamborghini	arrows-ford	williams-renault	dallara-ford	benetton-ford	eurobrun-judd	ags-ford	tyrrell-ford	ligier-ford	onyx-ford	brabham-judd	leyton house-judd	ferrari	lola-lamborghini
+nu-141	1
+nu-142	2004-07-23
+nu-143	9
+nu-144	samuel wyatt house
+nu-145	pavel vidanov	tomislav kostadinov	todor yanchev	cillian sheridan	christian tiboni	rumen trifonov
+nu-146	call it what you want
+nu-147	0.0
+nu-148	olympic games	european u23 championships
+nu-149	17.0
+nu-150	george washington
+nu-151	96.0
+nu-152	14
+nu-153	48.4%
+nu-154	16.0
+nu-155	52
+nu-156	vitantonio liuzzi
+nu-157	10
+nu-158	1
+nu-159	16
+nu-160	2
+nu-161	malaysia
+nu-162	4
+nu-163	1.0
+nu-164	2
+nu-165	alejandro valverde
+nu-166	the heritage of the desert
+nu-167	―
+nu-168	-
+nu-169	10
+nu-170	debrecen, hungary
+nu-171	3.0
+nu-172	1
+nu-173	rasmussen reports
+nu-174	canada
+nu-175	6.0
+nu-176	18
+nu-177	1967-12-30	1967-12-16	1967-12-09
+nu-178	johan mellstrom
+nu-179	36.0
+nu-180	actinium
+nu-181	19
+nu-182	2009-xx-xx
+nu-183	10000.0
+nu-184	jozy altidore	eric wynalda	clint dempsey	damarcus beasley	joe-max moore	brian mcbride	earnie stewart	eddie johnson	landon donovan
+nu-185	united states
+nu-186	indianapolis, united states	paris, france
+nu-187	10
+nu-188	1.0
+nu-189	5
+nu-190	nymphomaniac: volume ii
+nu-191	volcan tajumulco pb
+nu-192	galles-kraco racing
+nu-193	1
+nu-194	21
+nu-195	soviet union
+nu-196	greg pickett
+nu-197	sheriff stadium, tiraspol, moldova
+nu-198	newcomer award
+nu-199	2001-xx-xx
+nu-200	george a. drew
+nu-201	the weekend aunt helen came
+nu-202	iceland
+nu-203	0
+nu-204	3
+nu-205	10.0	43.0
+nu-206	pennsylvania railroad e2 #7002
+nu-207	english
+nu-208	1
+nu-209	32
+nu-210	manchester city	manchester united	newcastle united	tottenham hotspur	aston villa	preston north end	west ham united	birmingham city	arsenal	bolton wanderers	nottingham forest	west bromwich albion	blackpool	fulham	cardiff city	blackburn rovers	sheffield wednesday	everton	burnley	wolverhampton wanderers	leicester city
+nu-211	1
+nu-212	asian indoor games
+nu-213	neptune
+nu-214	angel like	it ain't a thang	out here	they pray with snakes	lake of fire	lady in the jaguar	seven	the harvest	intro	digging	red mist	sippin	rollin hard
+nu-215	al williams
+nu-216	12
+nu-217	2011-xx-xx
+nu-218	defense
+nu-219	1
+nu-220	4
+nu-221	pittsburgh ironmen
+nu-222	evan bush
+nu-223	12
+nu-224	gerry poulson	graham moore	douglas mackinnon	ken horn	john reardon
+nu-225	6
+nu-226	palais royal!
+nu-227	engr.sikandar zaman
+nu-228	
+nu-229	4
+nu-230	damarcus beasley
+nu-231	39.998
+nu-232	reading
+nu-233	gillig
+nu-234	1
+nu-235	1917-18
+nu-236	united states	canada
+nu-237	don powers
+nu-238	1
+nu-239	carl fogarty
+nu-240	train station\nbus terminal
+nu-241	9
+nu-242	2
+nu-243	ontario fury	at sacramento surge	at bay area rosal	turlock express
+nu-244	tab
+nu-245	18
+nu-246	21
+nu-247	19
+nu-248	veronica ribot
+nu-249	john o'flynn
+nu-250	blue hill
+nu-251	$34.7 billion
+nu-252	15
+nu-253	7
+nu-254	1
+nu-255	2
+nu-256	1
+nu-257	10
+nu-258	72-72-70-71=285
+nu-259	5 seniti
+nu-260	billyken kid
+nu-261	60.0
+nu-262	beetle 2
+nu-263	1
+nu-264	15
+nu-265	seattle seahawks
+nu-266	meir yitzhak halevi
+nu-267	5
+nu-268	team usa
+nu-269	zoe costello
+nu-270	3:14:58:46
+nu-271	0:49
+nu-272	united states
+nu-273	planet pop
+nu-274	alissa joanndova
+nu-275	all-africa games
+nu-276	shell
+nu-277	1993-12-05	1992-04-04
+nu-278	284.142857143
+nu-279	progressive republican
+nu-280	4
+nu-281	2.0	5.0	45.0
+nu-282	4
+nu-283	2010/11	2009/10	2008/09	2012/13	2006/07	2011/12	2007/08
+nu-284	1
+nu-285	3
+nu-286	"best mistake"\n(featuring g. martin)
+nu-287	jim farmer
+nu-288	alstadhaug church
+nu-289	4
+nu-290	20
+nu-291	redroid
+nu-292	homem objeto
+nu-293	2013-xx-xx
+nu-294	denny hulme
+nu-295	1955/56
+nu-296	the time of the knife
+nu-297	norway
+nu-298	kingston centre\ncataraqui town centre
+nu-299	£674,705
+nu-300	chancellor of the duchy of lancaster\n1918
+nu-301	1972-xx-xx
+nu-302	high point, north carolina
+nu-303	ruslan zakharov
+nu-304	switcheroo
+nu-305	2004-xx-xx	2009-xx-xx
+nu-306	1.0	2.0	3.0
+nu-307	0
+nu-308	67.0
+nu-309	suisei
+nu-310	1
+nu-311	a♯
+nu-312	xxxx-12-21
+nu-313	1
+nu-314	total
+nu-315	14
+nu-316	1
+nu-317	major general ahmed bilal
+nu-318	2
+nu-319	2014-xx-xx	2000-xx-xx	1978-xx-xx	1982-xx-xx	1954-xx-xx	1966-xx-xx	1972-xx-xx	1959-xx-xx	1996-xx-xx	1956-xx-xx	2006-xx-xx	1987-xx-xx	1989-xx-xx	1980-xx-xx	1974-xx-xx	1973-xx-xx	1963-xx-xx	1988-xx-xx	1985-xx-xx	2003-xx-xx	1955-xx-xx	1961-xx-xx	2009-xx-xx	1968-xx-xx	1984-xx-xx	1952-xx-xx	1964-xx-xx	1983-xx-xx	1971-xx-xx	2001-xx-xx	1977-xx-xx	1991-xx-xx	2010-xx-xx	1969-xx-xx	1979-xx-xx	1981-xx-xx	2007-xx-xx	2013-xx-xx	1995-xx-xx	1975-xx-xx	2002-xx-xx	1953-xx-xx	2005-xx-xx	1990-xx-xx	2008-xx-xx	1970-xx-xx	1958-xx-xx	1997-xx-xx	1967-xx-xx	1960-xx-xx	1957-xx-xx	1992-xx-xx	1998-xx-xx	2012-xx-xx	1976-xx-xx	2004-xx-xx	2011-xx-xx	1965-xx-xx	1993-xx-xx	1999-xx-xx	1994-xx-xx	1962-xx-xx	1986-xx-xx
+nu-320	philip morris k.k. championship
+nu-321	1989.0
+nu-322	19.0
+nu-323	15
+nu-324	justin rodriguez
+nu-325	united kingdom
+nu-326	4
+nu-327	6.0
+nu-328	112
+nu-329	moggina manasu
+nu-330	0
+nu-331	10
+nu-332	2003-xx-xx	1999-xx-xx
+nu-333	1
+nu-334	democratic
+nu-335	1:46.70
+nu-336	2:07:02.8248
+nu-337	4
+nu-338	472.0375
+nu-339	1977-1978
+nu-340	patrick f. mccartan
+nu-341	thaddeus bell
+nu-342	state of origin series
+nu-343	2012-13
+nu-344	1
+nu-345	chile f2
+nu-346	tamarind
+nu-347	netherlands
+nu-348		blue	orange/brown	purple	yellow and purple	yellow	green	white	red
+nu-349	9
+nu-350	larisa verbitskaya\n43.the tv presenter
+nu-351	marlboro 500
+nu-352	1
+nu-353	lightship
+nu-354	pegasus
+nu-355	6
+nu-356	super rugby
+nu-357	paul tracy
+nu-358	rodney eyles	geoff hunt	jansher khan	mohamed el shorbagy	del harris	john white	jahangir khan	nick matthew	thierry lincou	rodney martin	ramy ashour	amr shabana	chris dittmar	james willstrop	peter nicol	gregory gaultier	dean williams	david palmer	mohibullah khan	jonathon power	lee beachill	ahmed barada	karim darwish	peter marshall	qamar zaman	ross norman
+nu-359	canada
+nu-360	10
+nu-361	alex hofmann
+nu-362	2003-xx-xx
+nu-363	tbd
+nu-364	28
+nu-365	nightrain
+nu-366	208 km	212 km
+nu-367	bucharest
+nu-368	2006-xx-xx	2002-xx-xx
+nu-369	1
+nu-370	12
+nu-371	karl heinz schroder
+nu-372	spin city
+nu-373	3
+nu-374	3776.0
+nu-375	#9 (fcs) northern iowa
+nu-376	8
+nu-377	pg21	pg29	pg36	pg42	pg48
+nu-378	2
+nu-379	14
+nu-380	donington park
+nu-381	7
+nu-382	1
+nu-383	1
+nu-384	2013-xx-xx
+nu-385	francis forde
+nu-386	1.0
+nu-387	22.0
+nu-388	11
+nu-389	libya
+nu-390	4.0
+nu-391	070
+nu-392	3
+nu-393	flying dutchman
+nu-394	11.0
+nu-395	4
+nu-396	75.0
+nu-397	17.0	34.0
+nu-398	united states
+nu-399	13
+nu-400	beijing guoan
+nu-401	sacramento
+nu-402	3.0
+nu-403	beaver creek, usa	lake louise, canada	bansko, bulgaria
+nu-404	7
+nu-405	1
+nu-406	solar system
+nu-407	3
+nu-408	team bigazzi srl
+nu-409	season 7
+nu-410	5
+nu-411	8
+nu-412	0
+nu-413	10
+nu-414	2
+nu-415	1
+nu-416	unlimited
+nu-417	tignes, france
+nu-418	gl-a-2	gl-a-3	gl-a-6	quarterfinals-1	gl-a-5	gl-a-4
+nu-419	hailin city
+nu-420	3
+nu-421	1.0
+nu-422	itumeleng khune
+nu-423	17
+nu-424	15
+nu-425	183.0
+nu-426	nigel bond
+nu-427	zoe costello
+nu-428	spas delev
+nu-429	19
+nu-430	12.9
+nu-431	86.0
+nu-432	1
+nu-433	survey usa
+nu-434	hawthorn leslie
+nu-435	12
+nu-436	1
+nu-437	17.0
+nu-438	massachusetts turnpike
+nu-439	42.1%
+nu-440	giants stadium	lincoln financial field
+nu-441	ayumi hamasaki
+nu-442	12
+nu-443	2011-11-06
+nu-444	jem palmer	nikki grahame	tom mcdermott	preston	narinder kaur	steph (stephanie) coldicott	craig phillips	rebeckah vaughan	dexter koh	maysoon shaladi	mario mugan	rachel ifon	sada wilkington	david ramsden	callum knell	mark henderson	beinazir lasharie	daley ojuederie	shievonne robinson
+nu-445	3
+nu-446	44864.0
+nu-447	josef kaufmann racing
+nu-448	352000.0
+nu-449	415
+nu-450	united states
+nu-451	15
+nu-452	13
+nu-453	team penske
+nu-454	weight of the world	tatia
+nu-455	with eliel saarinen
+nu-456	all-africa games
+nu-457	7
+nu-458	minnesota
+nu-459	doug shierson racing
+nu-460	total
+nu-461	15
+nu-462	2
+nu-463	3
+nu-464	1
+nu-465	2012-12-17	2012-10-18	2012-11-27	2013-02-01	2013-02-09
+nu-466	mestalla, valencia, spain
+nu-467	19.0
+nu-468	10
+nu-469	11
+nu-470	bryan field
+nu-471	japan
+nu-472	dick bielski
+nu-473	raven-symone
+nu-474	4
+nu-475	newcastle united
+nu-476	1979
+nu-477	davis racing
+nu-478	2000-xx-xx	2007-xx-xx	2003-xx-xx	2002-xx-xx	2004-xx-xx	2009-xx-xx	2005-xx-xx	2001-xx-xx	2006-xx-xx	2008-xx-xx	2010-xx-xx
+nu-479	gn&ge
+nu-480	fernandez racing
+nu-481	hindi
+nu-482	xxxx-08-31
+nu-483	1
+nu-484	2012-xx-xx
+nu-485	philip d'antoni	ernest tidyman	william friedkin	phillip d'antoni	gerald b. greenberg	gene hackman
+nu-486	nymphomaniac: volume i	the five obstructions
+nu-487	1
+nu-488	2
+nu-489	center
+nu-490	57
+nu-491	21840.0
+nu-492	2,000
+nu-493	
+nu-494	dig me out
+nu-495	1
+nu-496	17
+nu-497	john sanchez	susana martinez
+nu-498	0
+nu-499	united states
+nu-500	2013-xx-xx
+nu-501	asia racing team	sonangol motopark
+nu-502	lord high admiral	lord great chamberlain
+nu-503	5
+nu-504	23
+nu-505	buffalo jr. sabres
+nu-506	2
+nu-507	japan
+nu-508	max boydston
+nu-509	stuttgart open, germany
+nu-510	pg16
+nu-511	sebastien bourdais
+nu-512	4
+nu-513	9
+nu-514	184
+nu-515	2008-12-27
+nu-516	charlotte	riverside	daytona	miami	michigan	sebring	laguna seca	sears point	mid-ohio	lime rock	pocono	watkins glen	portland	road america	road atlanta
+nu-517	1920-10-16
+nu-518	chevrolet corvette	jaguar xjs
+nu-519	2
+nu-520	2008-xx-xx
+nu-521	6.0
+nu-522	at hamilton tiger-cats
+nu-523	11
+nu-524	other asia
+nu-525	st. louis cardinals
+nu-526	11
+nu-527	christopher harrison
+nu-528	cn tower
+nu-529	17
+nu-530	62176.0
+nu-531	13
+nu-532	-	36
+nu-533	7
+nu-534	2
+nu-535	75053.0
+nu-536	china
+nu-537	whistler, bc, canada
+nu-538	6
+nu-539	7
+nu-540	13
+nu-541	1.0
+nu-542	2006-xx-xx
+nu-543	23
+nu-544	13
+nu-545	toyota	tashkent
+nu-546	3
+nu-547	9
+nu-548	1
+nu-549	1973-xx-xx	1972-xx-xx	1974-xx-xx
+nu-550	4
+nu-551	olympic games
+nu-552	john 'tune' kristiansen
+nu-553	fiat 500 1.4 sport	citroen c4 2.0 sx 5dr 6sp a d	saab 9-3 linear convertible 1.9tid m	suzuki swift glxh 1.5 5dr	fiat 500 1.4 lounge 3d	suzuki swift glxh2 1.5 5dr	volkswagen golf tdi 103kw 4motion	suzuki swift glx 1.5 5dr	peugeot 207 xs 1.4 5dr 5spd m p
+nu-554	£1.00
+nu-555	camelopardalis a
+nu-556	orion	amphion	leander	sydney\n(ex-phaeton)	achilles	apollo	neptune	ajax
+nu-557	khaled yousef al-obaidli
+nu-558	lokomotiv moscow
+nu-559	analysis publications	institution of engineering & technology	analysys publications
+nu-560	10
+nu-561	3
+nu-562	17
+nu-563	seattle seahawks
+nu-564	8.10
+nu-565	220000.0
+nu-566	li yihua
+nu-567	yes\nunofficial
+nu-568	17
+nu-569	55
+nu-570	0.0
+nu-571	2
+nu-572	9.0
+nu-573	indiana county
+nu-574	robin frijns
+nu-575	209945.0
+nu-576	4
+nu-577	west germany
+nu-578	5
+nu-579	miami	sebring
+nu-580	tora harris
+nu-581	melisa popanicic
+nu-582	iaaf grand prix final
+nu-583	6.839
+nu-584	18
+nu-585	25.0
+nu-586	xxxx-03-20
+nu-587	60	88	59	17
+nu-588	colorado springs
+nu-589	2008-10-31
+nu-590	3.0
+nu-591	andre leducq	charles pelissier	eugenio gestri	jef demuysere	antonin magne	rafaele di paco	max bulla
+nu-592	total number of pasurams
+nu-593	invasion of the super-skrull
+nu-594	thomas jefferson high school
+nu-595	telugu
+nu-596	2
+nu-597	pinehurst, usa
+nu-598	milka duno
+nu-599	45.0
+nu-600	argentina
+nu-601	at dallas cowboys
+nu-602	20000.0	48712.0	81338.0
+nu-603	asia-pacific panasonic open\n(co-sanctioned by the asian tour)
+nu-604	australia
+nu-605	1
+nu-606	33
+nu-607	fbi guy
+nu-608	662.0
+nu-609	2061.0
+nu-610	u.s. marshals
+nu-611	lanny poffo
+nu-612	at washington redskins
+nu-613	telenovela
+nu-614	dig me out
+nu-615	andre cote
+nu-616	27 july 2010
+nu-617	at #5 michigan
+nu-618	7
+nu-619	32
+nu-620	never 2 much of u
+nu-621	canada	russia	france
+nu-622	lake of fire
+nu-623	11
+nu-624	6
+nu-625	3
+nu-626	3
+nu-627	tim kaine	angus king	tammy baldwin	heidi heitkamp	joe donnelly	deb fischer	dean heller	elizabeth warren	chris murphy	ted cruz	martin heinrich	jeff flake	mazie hirono
+nu-628	1974-xx-xx
+nu-629	3
+nu-630	holsnøy
+nu-631	amos mansdorf
+nu-632	juan monaco	fabio fognini	guillermo coria	thomaz bellucci	santiago giraldo	kevin anderson	nikolay davydenko	gaston gaudio	fernando gonzalez	david ferrer
+nu-633	glenat
+nu-634	maj gen winston p. wilson	mg donald w. mcgowan
+nu-635	descendants of esau 36:2 - 5
+nu-636	7
+nu-637	world indoor championships
+nu-638	185.0
+nu-639	132046.0
+nu-640	france
+nu-641	8
+nu-642	277
+nu-643	kodachrome 40 film
+nu-644	xxxx-11-05
+nu-645	30
+nu-646	1
+nu-647	33
+nu-648	2009-11-01
+nu-649	andorra
+nu-650	freeway comprises the eastern 5 miles (8.0 km) of route 57, connecting route 187 to u.s. route 5 and i-91
+nu-651	2
+nu-652	1
+nu-653	10
+nu-654	peru	guyana
+nu-655	6
+nu-656	belize
+nu-657	soviet union
+nu-658	2000-xx-xx
+nu-659	124
+nu-660	1
+nu-661	total
+nu-662	6:10.02
+nu-663	2
+nu-664	alpine
+nu-665	colorado state
+nu-666	5
+nu-667	cosmopolitan ultimate woman of the year
+nu-668	xxxx-10-23
+nu-669	karl heinz schroder
+nu-670	36.1%	33.3%	4.1%	-
+nu-671	6th
+nu-672	31
+nu-673	gabriela szabo
+nu-674	aleksandar krajisnik\n19, majur, near sabac
+nu-675	sainey touray
+nu-676	charles r. blasdel
+nu-677	5
+nu-678	6
+nu-679	2013-xx-xx
+nu-680	blues clues	sister, sister	tia & tamera	family guy	melissa and joey	are you afraid of the dark?	the all-new mickey mouse	true colors	smart guy	strong medicine	the super hero squad show	the real	access hollywood live	how i loved a macho boy	detention	the adventures of hyperman	christmas angel	things we do for love	flesh'n blood	all that	roommates	chrisjayify
+nu-681	3
+nu-682	16
+nu-683	1
+nu-684	3
+nu-685	100 krooni
+nu-686	4
+nu-687	4
+nu-688	10.0	35.0
+nu-689	
+nu-690	3
+nu-691	1
+nu-692	1998-xx-xx	1996-xx-xx	2002-xx-xx	2004-xx-xx	1992-xx-xx
+nu-693	niall english
+nu-694	2013-xx-xx
+nu-695	2
+nu-696	1910-xx-xx
+nu-697	38
+nu-698	4
+nu-699	ellis johnson	john zernhelt
+nu-700	31
+nu-701	brian mulroney
+nu-702	3
+nu-703	at dallas cowboys
+nu-704	4
+nu-705	1
+nu-706	179.0
+nu-707	el mabrouk	el naka field
+nu-708	293.0
+nu-709	12
+nu-710	19
+nu-711	1
+nu-712	culina	griffiths	colosimo	skoko	cahill	zdrilic	elrich
+nu-713	6
+nu-714	largest value is 9.99...×10emax
+nu-715	ariel behar
+nu-716	4.60 m
+nu-717	5.0
+nu-718	acadia
+nu-719	antonio freeman	preston dennard	charley taylor	bob hayes	sammy white	tony hill	jerry rice	michael irvin
+nu-720	7
+nu-721	carrots
+nu-722	budapest honved
+nu-723	7
+nu-724	toru taniguchi
+nu-725	bob tullius
+nu-726	national basketball league
+nu-727	jackie stewart
+nu-728	2
+nu-729	4
+nu-730	cammell laird
+nu-731	0
+nu-732	1
+nu-733	11
+nu-734	25.0
+nu-735	4.0
+nu-736	xenon
+nu-737	
+nu-738	2012	2011	2007	2005
+nu-739	1
+nu-740	world junior championships
+nu-741	2
+nu-742	salem al-yami
+nu-743	hotsilog: the asap hotdog compilation
+nu-744	total size
+nu-745	4
+nu-746	stade sebastien charlety
+nu-747	world youth championships
+nu-748	1
+nu-749	4220.0
+nu-750	2050 spaces
+nu-751	7
+nu-752	13
+nu-753	democratic
+nu-754	35
+nu-755	1
+nu-756	nsw
+nu-757	rosie casals\n wendy turnbull
+nu-758	262	269	228	242	244
+nu-759	osmanabad	mumbai suburban	gondia	parbhani	jalna	nashik	yavatmal	latur	satara	beed	solapur	washim	thane	wardha	dhule	buldhana	jalgaon	mumbai city	chandrapur	amravati	aurangabad	raigad	hingoli	ratnagiri	sindhudurg	pune	nandurbar	gadchiroli	nagpur	ahmednagar	sangli	nanded	kolhapur	bhandara	akola
+nu-760	19
+nu-761	7
+nu-762	keflavik	leiftur
+nu-763	lincoln financial field	giants stadium	veterans stadium
+nu-764	asian championships
+nu-765	8
+nu-766	volkswagen polo 1.4 tdi bluemotion
+nu-767	ismaily	zamalek- tersana	petrojet	ghazl el-mehalla	al itthad al sakandary - el-olympi - haras el hodood	al masry	petrol asyout	al-ahly - al mokawloon - enppi - el-jaish - el-shorta - itesalat
+nu-768	new york giants
+nu-769	9
+nu-770	sylvain geboers
+nu-771	3
+nu-772	5
+nu-773	levanger
+nu-774	marcellino lucchi
+nu-775	4
+nu-776	fm, dvb-s
+nu-777	pacifier
+nu-778	barnstaple, united kingdom
+nu-779	china
+nu-780	2.0
+nu-781	3
+nu-782	10
+nu-783	9
+nu-784	2
+nu-785	9
+nu-786	1
+nu-787	4
+nu-788	1
+nu-789	13
+nu-790	7
+nu-791	7
+nu-792	2008-xx-xx
+nu-793	2
+nu-794	canada	hungary
+nu-795	diana degette
+nu-796	carolina panthers
+nu-797	netherlands
+nu-798	himalayas, punjab, uttar pradesh	central india and southern india
+nu-799	francisco bravo medical magnet high school
+nu-800	k. j. choi
+nu-801	dennis f. carter
+nu-802	javier castellano
+nu-803	anderlecht
+nu-804	norway
+nu-805	westwood	portland
+nu-806	lightship
+nu-807	rollin hard	lake of fire
+nu-808	2
+nu-809	sarir field	el zahra	el hamada	echirax concession	field 103	wadi borjuj	west desert	el mabrouk	soc fields	manzala field	different fields	el naka field
+nu-810	1
+nu-811	3
+nu-812	trinidad and tobago	italy
+nu-813	elie wiesel
+nu-814	1
+nu-815	aleksandar krajisnik\n19, majur, near sabac
+nu-816	6
+nu-817	6
+nu-818	john briggs
+nu-819	rasul kudayev
+nu-820	canada
+nu-821	1
+nu-822	2007-07-25
+nu-823	leo penn
+nu-824	34
+nu-825	hog
+nu-826	2
+nu-827	aleksandar boskovic\n28, belgrade
+nu-828	real zaragoza
+nu-829	1000.0
+nu-830	terry furlow
+nu-831	3
+nu-832	17
+nu-833	2
+nu-834	2
+nu-835	2
+nu-836	6.0
+nu-837	3
+nu-838	49
+nu-839	5
+nu-840	landon donovan
+nu-841	aston villa
+nu-842	17
+nu-843	patrice ferri
+nu-844	danica patrick
+nu-845	japan
+nu-846	16.0
+nu-847	16.0	22.0	23.0	24.0	28.0	10.0	12.0
+nu-848	12000.0	10012.0	9951.0
+nu-849	aloisi
+nu-850	dikshsabhoomi exp
+nu-851	myg
+nu-852	2008-xx-xx
+nu-853	13
+nu-854	route 9 between worcester and boston is mostly a divided full-access highway with traffic light-controlled intersections which serves as one of the main alternatives to the massachusetts turnpike. many shopping centers, car dealers, full-service restaurants and businesses line the roadway on this stretch, especially in framingham, such as barnes & noble, marshalls, t.g.i. fridays, kohl's, toys "r" us, best buy, olive garden and walmart. this stretch of the roadway is also encompassed in the golden triangle district of massachusetts
+nu-855	neymar
+nu-856	2007-xx-xx
+nu-857	26
+nu-858	1986-xx-xx
+nu-859	18
+nu-860	4998.0
+nu-861	12
+nu-862	kushi
+nu-863	sold 29 august 1938
+nu-864	lord high steward
+nu-865	xxxx-09-18
+nu-866	5
+nu-867	pittsburgh steelers
+nu-868	1
+nu-869	4
+nu-870	prime consulting ltd
+nu-871	pe-56
+nu-872	pittsburgh steelers
+nu-873	ronald reagan
+nu-874	charlton athletic
+nu-875	0.0
+nu-876	32.0
+nu-877	kaijo access co
+nu-878	1	2
+nu-879	1930-xx-xx
+nu-880	2
+nu-881	1
+nu-882	5
+nu-883	zinc oxide
+nu-884	pittsburgh penguins
+nu-885	2006-xx-xx	2003-xx-xx	2002-xx-xx
+nu-886	billyken kid
+nu-887	1-1
+nu-888	13
+nu-889	20
+nu-890	middle east
+nu-891	southeastern
+nu-892	740i	730d	740d	735i	740il	750i-il	735il
+nu-893	0.0
+nu-894	aboomoslem
+nu-895	10
+nu-896	63.50 m
+nu-897	2007-xx-xx
+nu-898	the deadly director
+nu-899	world half marathon championships
+nu-900	peter hedblom
+nu-901	chardon, ohio	chester township, ohio	bainbridge township, ohio	gates mills, ohio	huntsburg township, ohio	newbury, ohio
+nu-902	venice, italy
+nu-903	16
+nu-904	1
+nu-905	125cc
+nu-906	5
+nu-907	1
+nu-908	2.0
+nu-909	cologne
+nu-910	2010-05-16
+nu-911	1979-xx-xx
+nu-912	0.727272727273
+nu-913	oromia
+nu-914	2010-06-14
+nu-915	16
+nu-916	switzerland
+nu-917	1
+nu-918	3
+nu-919	military road-crosstown line	glover park-dupont circle line	mayfair-marshall heights line	16th street line	stanton road line	maryland avenue line	minnesota avenue-anacostia line	martin luther king jr ave metroextra line	p street-ledroit park line	mount pleasant line	massachusetts avenue line	takoma-petworth line	takoma-fort totten line	chevy chase line	benning road line	ivy city-franklin square line	fairfax village line	shipley terrace-fort drum line	pennsylvania avenue line	16th street metroextra line	georgia avenue metro extra line	hospital center line	nebraska avenue line	connecticut avenue line	naylor rd line	park road-brookland line	sheriff road-river terrace line	anacostia-congress heights line	brookland-potomac park line	u street-garfield line	fort totten-petworth line	benning road-h street metro extra line	glover park-federal triangle line	macarthur boulevard-georgetown line	16th street-potomac park line	fairfax village-l'enfant plaza line	pennsylvania avenue metro extra line	wisconsin avenue line	wisconsin avenue metro extra line	fort lincoln shuttle line	rhode island avenue line
+nu-920	10
+nu-921	8
+nu-922	los angeles
+nu-923	1
+nu-924	2003-xx-xx
+nu-925	12
+nu-926	reggie johnson
+nu-927	3a
+nu-928	1
+nu-929	6
+nu-930	12.0
+nu-931	45.0
+nu-932	klaus jurgen schneider
+nu-933	3
+nu-934	melissa and joey
+nu-935	republican
+nu-936	democratic
+nu-937	10
+nu-938	13
+nu-939	bruno junqueira
+nu-940	world junior championships
+nu-941	8
+nu-942	adam kszczot
+nu-943	fm
+nu-944	alfa romeo
+nu-945	27.0
+nu-946	36.0
+nu-947	jhonny arteaga
+nu-948	2006.
+nu-949	reggie johnson
+nu-950	antonia maria hausmair	isabelle raisa	melisa popanicic	natasa maric	teodora-madalina andreica	yemisi rieger	gina zeneb adamu
+nu-951	3
+nu-952	9
+nu-953	1998-09-20
+nu-954	3
+nu-955	scot bennett
+nu-956	5
+nu-957	soekmekaar
+nu-958	somalia
+nu-959	special fx-ation
+nu-960	open
+nu-961	whistler, bc, canada
+nu-962	1
+nu-963	california\n38°00′n 123°00′w﻿ / ﻿38.00°n 123.00°w	massachusetts\n41°57′n 70°00′w﻿ / ﻿41.95°n 70.00°w	north carolina\n35°18′n 75°31′w﻿ / ﻿35.30°n 75.51°w	north carolina\n34°37′n 76°32′w﻿ / ﻿34.61°n 76.54°w	new york\n40°42′n 72°59′w﻿ / ﻿40.70°n 72.98°w
+nu-964	30
+nu-965	21
+nu-966	35.0
+nu-967	sayonara
+nu-968	50 remote desktop services connections
+nu-969	0.0
+nu-970	1
+nu-971	cat cora
+nu-972	2
+nu-973	4
+nu-974	3.0
+nu-975	1999-11-06
+nu-976	4
+nu-977	asyut	gharbia	suez	giza
+nu-978	nagmamahal, kapamilya: songs for global pinoys
+nu-979	2009	2006	2007	2004	2005	2014	2008	total	2011	2010	2013	2012
+nu-980	troy corser
+nu-981	argentina f8
+nu-982	1985-xx-xx
+nu-983	0.0
+nu-984	32.0
+nu-985	102.0
+nu-986	8
+nu-987	doriano romboni
+nu-988	13
+nu-989	1986-present
+nu-990	10
+nu-991	13.0
+nu-992	gabriela szabo
+nu-993	3
+nu-994	li wei
+nu-995	1970-xx-xx
+nu-996	9
+nu-997	honduras	el salvador	panama	costa rica	guatemala	belize	nicaragua
+nu-998	2003-xx-xx
+nu-999	diams
+nu-1000	patrick carpentier
+nu-1001	14
+nu-1002	oak
+nu-1003	stadium of light
+nu-1004	1856.0	1930.0	1860.0	0.1983	1942.0
+nu-1005	1514069.0
+nu-1006	own goals	total
+nu-1007	4
+nu-1008	1.0
+nu-1009	2
+nu-1010	1992-11-21	1993-02-13	1993-04-17	1993-05-02	1992-08-29	1993-04-10
+nu-1011	8
+nu-1012	super-g	downhill
+nu-1013	president
+nu-1014	111
+nu-1015	318.65
+nu-1016	9
+nu-1017	baltimore bullets
+nu-1018	1
+nu-1019	2002-xx-xx
+nu-1020	sister, sister
+nu-1021	ryan briscoe
+nu-1022	ksv roeselare
+nu-1023	br 18 201
+nu-1024	13
+nu-1025	13
+nu-1026	semifinals-1
+nu-1027	joe wolfinger
+nu-1028	85.0
+nu-1029	254
+nu-1030	1
+nu-1031	2.5
+nu-1032	yevgeny lalenkov
+nu-1033	16.0
+nu-1034	3
+nu-1035	17
+nu-1036	ivar kalnynsh\n54.the actor	kris kelmi\n47.the singer	aleksandr byalko\n50.the physicist	yelena kondulaynen\n44.the actress	marina aleksandrova\n20.the actress	tatyana dogileva\n45.the actress	vera glagoleva\n46.the actress	aleksandr lykov\n41.the actor	yelena proklova\n49.the tv presenter	larisa verbitskaya\n43.the tv presenter	dana borisova\n26.the tv presenter	viktor gusev\n47.the sport commentator	aleksandr pashutin\n60.the actor
+nu-1037	1
+nu-1038	ukraine
+nu-1039	8
+nu-1040	42
+nu-1041	sidney smith
+nu-1042	8
+nu-1043	jack brabham
+nu-1044	2009-xx-xx
+nu-1045	750i-il
+nu-1046	2
+nu-1047	everything you've done wrong
+nu-1048	3
+nu-1049	athens airport
+nu-1050	1
+nu-1051	dick murdoch
+nu-1052	27.88
+nu-1053	2.0
+nu-1054	mudh mudh ke na dekh
+nu-1055	horace a. jones
+nu-1056	david oyelowo
+nu-1057	7
+nu-1058	3
+nu-1059	8
+nu-1060	christopher harrison
+nu-1061	2009-xx-xx
+nu-1062	9
+nu-1063	1
+nu-1064	johan mellstrom
+nu-1065	17
+nu-1066	1903-04-xx
+nu-1067	2.0
+nu-1068	voce decide
+nu-1069	-7.6\n(18.3)
+nu-1070	13
+nu-1071	henrik jensen
+nu-1072	so long, patrick henry
+nu-1073	11
+nu-1074	25
+nu-1075	alex song
+nu-1076	2
+nu-1077	18
+nu-1078	1
+nu-1079	4
+nu-1080	brian urlacher
+nu-1081	13
+nu-1082	2
+nu-1083	hobart	ulverstone	derby	queenstown
+nu-1084	3
+nu-1085	9.0
+nu-1086	8.0
+nu-1087	47900.0
+nu-1088	vijay merchant
+nu-1089	umbro	henson
+nu-1090	mikhail youzhny
+nu-1091	western
+nu-1092	jack brabham	mike parkes
+nu-1093	45.0
+nu-1094	1
+nu-1095	chevrolet
+nu-1096	1188-xx-xx
+nu-1097	3
+nu-1098	1906-xx-xx
+nu-1099	
+nu-1100	osaka, japan	algiers, algeria
+nu-1101	canada	australia	italy	france	united states	great britain	germany	greece
+nu-1102	nadine trinker
+nu-1103	69.0
+nu-1104	1
+nu-1105	2
+nu-1106	thin line	say it again
+nu-1107	brabham-repco
+nu-1108	mg william a. mann
+nu-1109	john sauer
+nu-1110	2297000.0
+nu-1111	clay
+nu-1112	7
+nu-1113	greg pickett
+nu-1114	7.3
+nu-1115	m60b40 v8	m62b44 v8	m62tub44 v8
+nu-1116	2009-11-01
+nu-1117	honda
+nu-1118	jeremy mcwilliams
+nu-1119	4
+nu-1120	1
+nu-1121	alan c. kohn
+nu-1122	derek fisher	kyrylo fesenko	derrick favors	jim farmer	todd fuller	greg foster	terry furlow	bernie fryer
+nu-1123	galles-kraco racing
+nu-1124	6.0
+nu-1125	6
+nu-1126	summergirls
+nu-1127	rasul kudayev
+nu-1128	jhonny arteaga
+nu-1129	2
+nu-1130	3
+nu-1131	08.17
+nu-1132	2011-08-08
+nu-1133	beijing, china
+nu-1134	5
+nu-1135	2000-xx-xx	1996-xx-xx	2007-xx-xx	1995-xx-xx	1975-xx-xx	2002-xx-xx	2005-xx-xx	2006-xx-xx	1987-xx-xx	1981-xx-xx	1989-xx-xx	1979-xx-xx	1974-xx-xx	1992-xx-xx	2003-xx-xx	2012-xx-xx	2011-xx-xx	1976-xx-xx	1999-xx-xx	1994-xx-xx	2001-xx-xx	1978-xx-xx	1991-xx-xx	1986-xx-xx	1983-xx-xx
+nu-1136	1.0
+nu-1137	42
+nu-1138	soviet union
+nu-1139	9
+nu-1140	venango county	wayne county	allegheny county	carbon county	susquehanna county	dauphin county	snyder county	fulton county	lackawanna county	mifflin county	fayette county	huntingdon county	delaware county	cambria county	berks county	franklin county	bucks county	butler county	indiana county	luzerne county	westmoreland county	blair county	beaver county	erie county	tioga county	lancaster county	schuylkill county	york county	columbia county	elk county	pike county	perry county	lawrence county	warren county	philadelphia county	clinton county	centre county	wyoming county	adams county	northumberland county	northampton county	cumberland county	potter county	jefferson county	bedford county	montgomery county	mercer county	sullivan county	forest county	somerset county	greene county	monroe county	clearfield county	clarion county	cameron county	washington county	lehigh county	lycoming county	lebanon county	juniata county	bradford county	armstrong county	mckean county	crawford county	chester county
+nu-1141	2011-xx-xx
+nu-1142	w 48-14
+nu-1143	1
+nu-1144	ask a biologist
+nu-1145	3
+nu-1146	e. william crotty	jeanette w. hyde	james a. daley	earl norfleet phillips	dennis f. carter
+nu-1147	at denver broncos
+nu-1148	5
+nu-1149	16
+nu-1150	all american racing
+nu-1151	pe-60
+nu-1152	9
+nu-1153	sock-bot	eraser-bot	rollin' road-bot
+nu-1154	2
+nu-1155	34
+nu-1156	5
+nu-1157	tba, hawaii
+nu-1158	ed perlmutter
+nu-1159	1
+nu-1160	9
+nu-1161	6
+nu-1162	1
+nu-1163	25.0
+nu-1164	michael miley
+nu-1165	texas stadium
+nu-1166	59
+nu-1167	president
+nu-1168	1
+nu-1169	alexis sanchez
+nu-1170	#6 ucla
+nu-1171	summertime
+nu-1172	27
+nu-1173	2013-10-28
+nu-1174	12
+nu-1175	super-g	giant slalom
+nu-1176	ron drzewiecki	kurt burris	dave middleton	dickey moegle
+nu-1177	angel like	it ain't a thang	out here	they pray with snakes	red mist	lady in the jaguar	seven	the harvest	sippin	digging	lake of fire	rollin hard
+nu-1178	china
+nu-1179	2
+nu-1180	2.0
+nu-1181	44
+nu-1182	krenek motorsport	angola racing team	champ motorsports	carlin
+nu-1183	1
+nu-1184	yevgeny lalenkov
+nu-1185	x9
+nu-1186	2010
+nu-1187	196 000
+nu-1188	croatia
+nu-1189	12
+nu-1190	21
+nu-1191	li yihua
+nu-1192	2
+nu-1193	south-east asia	asia
+nu-1194	17
+nu-1195	1.0
+nu-1196	4
+nu-1197	2000-xx-xx	1996-xx-xx	2007-xx-xx	1995-xx-xx	1975-xx-xx	2002-xx-xx	2005-xx-xx	2006-xx-xx	1987-xx-xx	1981-xx-xx	1989-xx-xx	1979-xx-xx	1974-xx-xx	1992-xx-xx	2003-xx-xx	2012-xx-xx	2011-xx-xx	1976-xx-xx	1999-xx-xx	1994-xx-xx	2001-xx-xx	1978-xx-xx	1991-xx-xx	1986-xx-xx	1983-xx-xx
+nu-1198	9
+nu-1199	van nuys
+nu-1200	2nd
+nu-1201	2.0
+nu-1202	9
+nu-1203	75287.0
+nu-1204	team player's
+nu-1205	5
+nu-1206	3783069.0
+nu-1207	17
+nu-1208	1
+nu-1209	31.0
+nu-1210	kung fu: the legend continues
+nu-1211	ryan dalziel
+nu-1212	total
+nu-1213	12
+nu-1214	elizabeth tilberis
+nu-1215	1957
+nu-1216	sebastien bourdais
+nu-1217	1
+nu-1218	queensland
+nu-1219	*itsukushima\n厳島\nitsukushima
+nu-1220	dario franchitti
+nu-1221	1960-08-20
+nu-1222	7
+nu-1223	1
+nu-1224	canada
+nu-1225	tel aviv
+nu-1226	7
+nu-1227	aalborg
+nu-1228	18
+nu-1229	1
+nu-1230	4
+nu-1231	2000-xx-xx	1978-xx-xx	1982-xx-xx	1996-xx-xx	2006-xx-xx	1987-xx-xx	1989-xx-xx	1980-xx-xx	1997-xx-xx	1985-xx-xx	2003-xx-xx	2009-xx-xx	1998-xx-xx	1984-xx-xx	1983-xx-xx	2001-xx-xx	1991-xx-xx	2010-xx-xx	1981-xx-xx	2007-xx-xx	2013-xx-xx	1995-xx-xx	2002-xx-xx	2005-xx-xx	1990-xx-xx	2008-xx-xx	1979-xx-xx	1992-xx-xx	2012-xx-xx	2004-xx-xx	1993-xx-xx	1999-xx-xx	1994-xx-xx	1988-xx-xx	1986-xx-xx
+nu-1232	125
+nu-1233	27
+nu-1234	jo siffert
+nu-1235	notre dame
+nu-1236	john 'tune' kristiansen
+nu-1237	15
+nu-1238	king	taro	maize	chicken with chicks
+nu-1239	camelopardalis b
+nu-1240	1
+nu-1241	200.0
+nu-1242	australian football league
+nu-1243	1.0	2.0	3.0
+nu-1244	1
+nu-1245	6
+nu-1246	23809.0	28164.0	12203.0	35108.0	6693.0	26054.0	14315.0	21164.0	67181.0	7950.0	16975.0	12757.0	12004.0	9563.0	11093.0
+nu-1247	troy bayliss
+nu-1248	clint dempsey
+nu-1249	17
+nu-1250	career
+nu-1251	60
+nu-1252	20.0
+nu-1253	4
+nu-1254	diesel
+nu-1255	jackie stewart
+nu-1256	4th
+nu-1257	9
+nu-1258	10
+nu-1259	shrink
+nu-1260	2011-02-13
+nu-1261	united states
+nu-1262	nul
+nu-1263	19
+nu-1264	peace memorial park\n平和記念公園\nheiwa kinen koen
+nu-1265	10
+nu-1266	5.0
+nu-1267	vs. #13 ohio state
+nu-1268	7
+nu-1269	2.0
+nu-1270	2
+nu-1271	peria thirumadal	siriya thirumadal	thiruvezhukkurrirukkai
+nu-1272	10
+nu-1273	1
+nu-1274	34
+nu-1275	103
+nu-1276	the practical joke war
+nu-1277	san marino
+nu-1278	35
+nu-1279	16
+nu-1280	asian classic
+nu-1281	1
+nu-1282	5
+nu-1283	91997.0
+nu-1284	2.0
+nu-1285	13129.0	15788.0
+nu-1286	xxxx-04-04	xxxx-02-11	xxxx-03-09	xxxx-02-16	xxxx-02-28	xxxx-03-03	xxxx-06-15	xxxx-07-08	xxxx-10-19	xxxx-06-24	xxxx-11-07	xxxx-10-24	xxxx-07-01	xxxx-07-13	xxxx-10-14	xxxx-09-29
+nu-1287	0
+nu-1288	2
+nu-1289	2001-11-17
+nu-1290	14
+nu-1291	15
+nu-1292	kr
+nu-1293	9
+nu-1294	16
+nu-1295	the harvest
+nu-1296	527.46
+nu-1297	24
+nu-1298	operational
+nu-1299	7
+nu-1300	chicago blackhawks
+nu-1301	3.0
+nu-1302	2009-12-24
+nu-1303	the five obstructions
+nu-1304	7
+nu-1305	rangers	raith rovers
+nu-1306	2008 1
+nu-1307	9
+nu-1308	need you	loving you has changed my life
+nu-1309	portugal
+nu-1310	16
+nu-1311	1
+nu-1312	1:46:02.236
+nu-1313	5
+nu-1314	2000-xx-xx	1996-xx-xx	2013-xx-xx	2003-xx-xx	2009-xx-xx	2011-xx-xx	1998-xx-xx	2005-xx-xx	2006-xx-xx	1987-xx-xx	1991-xx-xx
+nu-1315	2
+nu-1316	jean alesi	riccardo patrese	martin donnelly	alessandro nannini	stefano modena	satoru nakajima	yannick dalmas	ivan capelli	thierry boutsen	gregor foitek	emanuele pirro	bertrand gachot	gerhard berger	nigel mansell	nicola larini	andrea de cesaris	aguri suzuki	mauricio gugelmin	michele alboreto	david brabham	alex caffi	pierluigi martini	gabriele tarquini	olivier grouillard	ayrton senna	nelson piquet	paolo barilla	roberto moreno	alain prost	jj lehto	derek warwick	claudio langes	bruno giacomelli	eric bernard	philippe alliot
+nu-1317	united states
+nu-1318	7
+nu-1319	asian games
+nu-1320	united states
+nu-1321	invader i
+nu-1322	cheddar
+nu-1323	ugca 105
+nu-1324	phoenix
+nu-1325	february 15, 1953	august 13, 1951
+nu-1326	fred capossela
+nu-1327	northern sotho
+nu-1328	4
+nu-1329	major general ahmed bilal
+nu-1330	denali
+nu-1331	el salvador	oman	honduras	chile	kosovo
+nu-1332	10
+nu-1333	8
+nu-1334	1998-2001
+nu-1335	6
+nu-1336	sally shelton-colby
+nu-1337	1174.0
+nu-1338	ray norton	andy stanfield
+nu-1339	10
+nu-1340	14.0
+nu-1341	jim farmer
+nu-1342	4
+nu-1343	3
+nu-1344	194.6
+nu-1345	4
+nu-1346	7
+nu-1347	2008.
+nu-1348	11
+nu-1349	6
+nu-1350	9
+nu-1351	thomas johansson
+nu-1352	men's 50 km walk
+nu-1353	pas hamedan
+nu-1354	13
+nu-1355	two and a half men
+nu-1356	myriam asfry
+nu-1357	new durham meetinghouse and pound	wiswall falls mills site	smith chapel	thompson hall	gen. john sullivan house	free will baptist church	durham historic district	new durham town hall
+nu-1358	24
+nu-1359	2
+nu-1360	1
+nu-1361	2050 spaces
+nu-1362	seattle international film festival
+nu-1363	7.0
+nu-1364	drop bears
+nu-1365	petrol	diesel
+nu-1366	15
+nu-1367	13.0
+nu-1368	dean uthoff
+nu-1369	10
+nu-1370	chicago bears	at los angeles rams	at san diego chargers	at st. louis cardinals	at new york giants	at philadelphia eagles	at detroit lions
+nu-1371	5.0
+nu-1372	1
+nu-1373	hong kong
+nu-1374	2007-xx-xx
+nu-1375	panama
+nu-1376	australia
+nu-1377	0603	0864	092.1	1080
+nu-1378	9
+nu-1379	15
+nu-1380	jonathon webb
+nu-1381	loris capirossi
+nu-1382	spot
+nu-1383	3
+nu-1384	4
+nu-1385	at las vegas legends
+nu-1386	graham rahal	dario franchitti	rubens barrichello	ryan briscoe	will power
+nu-1387	1966-04-27
+nu-1388	bryan field
+nu-1389	1
+nu-1390	2
+nu-1391	united states
+nu-1392	77.0
+nu-1393	1
+nu-1394	at georgia tech	georgia
+nu-1395	3
+nu-1396	justin wilson
+nu-1397	time out
+nu-1398	south korea
+nu-1399	garmisch, germany	beaver creek, usa	bansko, bulgaria
+nu-1400	united states	south korea	england	sweden	south africa
+nu-1401	best actress
+nu-1402	hick 35
+nu-1403	dunc gray
+nu-1404	1
+nu-1405	adam kszczot
+nu-1406	1
+nu-1407	asian formula renault challenge
+nu-1408	kurt burris
+nu-1409	1998-xx-xx	1996-xx-xx	1992-xx-xx
+nu-1410	germany
+nu-1411	5
+nu-1412	2
+nu-1413	summertime
+nu-1414	1
+nu-1415	7.0
+nu-1416	jakub janda
+nu-1417	2
+nu-1418	shaul ladani
+nu-1419	simon j. sharkey
+nu-1420	watford
+nu-1421	3.0
+nu-1422	1
+nu-1423	brazil	italy	south korea	china	japan
+nu-1424	2001-09-23
+nu-1425	united states
+nu-1426	2
+nu-1427	norway
+nu-1428	3
+nu-1429	elijah cummings
+nu-1430	9
+nu-1431	10
+nu-1432	chip ganassi racing
+nu-1433	ron starr
+nu-1434	3
+nu-1435	588865.0
+nu-1436	at new orleans saints
+nu-1437	tamera campbell
+nu-1438	15
+nu-1439	malayalam	oriya
+nu-1440	385330.0
+nu-1441	mr b. owen- jones
+nu-1442	10
+nu-1443	13.0
+nu-1444	16.0
+nu-1445	wayne gilchrest
+nu-1446	connecticut	new york
+nu-1447	3
+nu-1448	u+007e
+nu-1449	2057-12-26
+nu-1450	1112.0
+nu-1451	9
+nu-1452	2002/03
+nu-1453	25
+nu-1454	1
+nu-1455	6
+nu-1456	2011-xx-xx	2010-xx-xx	2009-xx-xx
+nu-1457	netherlands
+nu-1458	earl marshal
+nu-1459	stade sebastien charlety
+nu-1460	landon donovan
+nu-1461	131.6 km/h	96.6 km/h	185.07 km/h	8 km/h
+nu-1462	63.0
+nu-1463	18
+nu-1464	wilfred mugeyi	tinashe nengomasha	benjani mwaruwari
+nu-1465	16
+nu-1466	5
+nu-1467	2
+nu-1468	timmy hansen	maciej bernacik
+nu-1469	frank varrichione
+nu-1470	66 000
+nu-1471	1
+nu-1472	2001
+nu-1473	42
+nu-1474	1
+nu-1475	1	3	2	5	4	7	6
+nu-1476	1
+nu-1477	12
+nu-1478	12
+nu-1479	grace christian school
+nu-1480	new creation
+nu-1481	george t. poole iii	vester r. wright	melvin calvert	carl nafzger	lou rondinello	hubert hine	daniel perlsweig	todd pletcher	james bartlett	homer pitt	mesh tenney	leroy jolley	james t. ryerson	patrick b. byrne	horace a. jones	thomas j. kelly	john c. kimmel	kenneth mcpeek	richard e. dutrow	noble threewitt	lucien laurin	dominic imprescia	arnold fink	michael matz	jerry m. fanning	warren a. croll, jr	woody stephens	reggie cornell	robert frankel	jack a. price	d. wayne lukas	hugh l. fontaine	preston m. burch	todd a. pletcher	james a. jerkens	gary capuano	scotty schulhofer	melvin f. stute	paul l. kelley	jim fitzsimmons	bud delp	claude mcgaughey iii	horatio luro	nick zito	henry forrest	john t. ward, jr	harold rose	eugene jacobs	john m. veitch	frank j. mcmanus	howard m. tesher	ray metcalf
+nu-1482	9
+nu-1483	8
+nu-1484	netherlands	united states	sweden	west germany	norway	soviet union
+nu-1485	rick allain
+nu-1486	8
+nu-1487	the remixes
+nu-1488	goodbye city...hello country
+nu-1489	asian classic
+nu-1490	11
+nu-1491	1
+nu-1492	andres espinosa
+nu-1493	24
+nu-1494	never tell	father's day	fbi guy	and the truth will (sometimes) set you free
+nu-1495	honda prelude chevrolet
+nu-1496	2
+nu-1497	3
+nu-1498	7
+nu-1499	total
+nu-1500	
+nu-1501	2009-xx-xx
+nu-1502	alco
+nu-1503	excelsior mouscron
+nu-1504	4
+nu-1505	5
+nu-1506	1-3
+nu-1507	transcription factors
+nu-1508	1795-02-xx
+nu-1509	lanny poffo
+nu-1510	16
+nu-1511	cooper-maserati
+nu-1512	18
+nu-1513	4
+nu-1514	massachusetts turnpike
+nu-1515	1
+nu-1516	12
+nu-1517	at toronto argonauts	at hamilton tiger-cats	at montreal alouettes	vs. montreal alouettes
+nu-1518	jiangsu sainty
+nu-1519	1
+nu-1520	22
+nu-1521	1987-xx-xx
+nu-1522	jacques stoquart and yvan delporte
+nu-1523	3
+nu-1524	1936-1962	1986-1996	1986-2004	1935-1962	1988-2007	1974-1987	1974-1992	1974-1993	1983-2009	1983-1999	1974-2009	1938-1951	1961-1974	1974-2002	1974-2001
+nu-1525	2006-xx-xx	2005-xx-xx
+nu-1526	6
+nu-1527	2
+nu-1528	8
+nu-1529	3
+nu-1530	pulled up
+nu-1531	0.08
+nu-1532	2
+nu-1533	paris saint-germain fc
+nu-1534	provident stadium	dw stadium	stade gilbert brutus	rapid solicitors stadium	kingston communications stadium	salford city stadium	twickenham stoop	langtree park	headingley carnegie stadium	john smith's stadium	the wish communications stadium	the select security stadium	halliwell jones stadium
+nu-1535	8
+nu-1536	everton
+nu-1537	metropolitan stadium
+nu-1538	16
+nu-1539	running
+nu-1540	2006	2007	2004	2005	2008	2009	2011	2010	2013	2012
+nu-1541	east side story	spring training	one on one	fame is where you find it	the gentle art of listening	isn't it romantic?
+nu-1542	6
+nu-1543	50 km/h
+nu-1544	1
+nu-1545	4
+nu-1546	2
+nu-1547	sean mcloughlin
+nu-1548	mr j.morris	mr s.steenberg	mr j.campbell	mr r.champion	mr a.zaretsky	mr j.e.bigwood	mr k.turner	mr e.murton	mr a.ruffels	mr t.r.ziervogel	mr g.j.malan	mr b.owen- jones	mr g. constable	mr b. owen- jones	mr j.johnston	mr b.melman	mr j.stanbury	mr j.cook
+nu-1549	13
+nu-1550	9
+nu-1551	beijing, china
+nu-1552	1
+nu-1553	2
+nu-1554	stade de france	stade velodrome
+nu-1555	george hepplewhite
+nu-1556	2.0
+nu-1557	9
+nu-1558	59-50
+nu-1559	saracens
+nu-1560	7
+nu-1561	the devil is a woman	let's try to remember	you're amazing	houston blue	you've still got me	you and me alone	you touched my heart	forbidden fruit	all heaven breaks loose	so much in love with you	whispers and grins	i just can't help believin'	i'll be there	do you hear my heart beat	i wake up in heaven	i'd be your fool again	dearly beloved	hold me	the lady and the baby	i'm in love with my wife	when a woman cries	a world called you	crown prince of the barroom	goodbye	it takes a whole lot of livin' in a house	mahogany bridge	you are my rainbow
+nu-1562	37.903
+nu-1563	jenny kurth
+nu-1564	alicia fernandez de la cruz
+nu-1565	steve schall
+nu-1566	5
+nu-1567	bromine
+nu-1568	1
+nu-1569	milton stapp
+nu-1570	1996/97
+nu-1571	1
+nu-1572	csd municipal	real c.d. espana	c.d. motagua
+nu-1573	queenstown
+nu-1574	united states
+nu-1575	3
+nu-1576	gl-a-1	quarterfinals-1	semifinals-1
+nu-1577	menace of the mole men
+nu-1578	504,000
+nu-1579	duke university hospital
+nu-1580	toronto rock
+nu-1581	2003-xx-xx
+nu-1582	gabriela szabo
+nu-1583	swiss open, switzerland
+nu-1584	17
+nu-1585	portugal
+nu-1586	4
+nu-1587	chris barnes
+nu-1588	3
+nu-1589	1
+nu-1590	1
+nu-1591	13
+nu-1592	christ lutheran school
+nu-1593	5
+nu-1594	jaipur-sec exp	visakapatnam-nizamuddin
+nu-1595	growth factors, or mitogens
+nu-1596	wrangell -st. elias
+nu-1597	newbury, ohio
+nu-1598	andrew j. higgins
+nu-1599	dnipro dnipropetrovsk
+nu-1600	brazil
+nu-1601	1
+nu-1602	2007-xx-xx	2013-xx-xx	2003-xx-xx	2012-xx-xx	2004-xx-xx	2009-xx-xx	2011-xx-xx	2005-xx-xx	2006-xx-xx	2008-xx-xx	2010-xx-xx
+nu-1603	1
+nu-1604	1
+nu-1605	leo burke
+nu-1606	5
+nu-1607	7:07.33
+nu-1608	3
+nu-1609	kelly mccormick
+nu-1610	5
+nu-1611	2
+nu-1612	anastasia pozdniakova
+nu-1613	23
+nu-1614	united kingdom	bahama's
+nu-1615	london heathrow
+nu-1616	12
+nu-1617	35
+nu-1618	2
+nu-1619	bainbridge
+nu-1620	11
+nu-1621	destroyed	damaged
+nu-1622	gentle
+nu-1623	canada	jamaica	qatar	albania	mexico	south africa	united kingdom	bahama's	vietnam	venezuela	barbados	netherlands antilles & aruba
+nu-1624	franklin county
+nu-1625	hungary
+nu-1626	168.0
+nu-1627	sizerville
+nu-1628	toney penna	ed dudley
+nu-1629	desmond haynes	gautam gambhir	sachin tendulkar	paul stirling
+nu-1630	1
+nu-1631	14
+nu-1632	7.0
+nu-1633	iaaf grand prix final
+nu-1634	h
+nu-1635	nme
+nu-1636	1985
+nu-1637	geoff ogilvy
+nu-1638	3.0
+nu-1639	1
+nu-1640	1987-08-30
+nu-1641	10
+nu-1642	alkupitja
+nu-1643	matti hautamaki
+nu-1644	1
+nu-1645	6272571.0
+nu-1646	4
+nu-1647	brazil
+nu-1648	2057-12-26
+nu-1649	8
+nu-1650	14
+nu-1651	northwest of dover on county farm rd.\n43°13′14′′n 70°56′38′′w﻿ / ﻿43.220556°n 70.943889°w
+nu-1652	1
+nu-1653	the far reaching effects of broadband
+nu-1654	3
+nu-1655	1981-10-18
+nu-1656	henry carr
+nu-1657	sekgosese
+nu-1658	4
+nu-1659	cytoplasmic tyrosine kinases
+nu-1660	5
+nu-1661	corey pavin
+nu-1662	19
+nu-1663	4
+nu-1664	maputo, mozambique
+nu-1665	republican
+nu-1666	9
+nu-1667	chris joel
+nu-1668	42
+nu-1669	7
+nu-1670	loris capirossi
+nu-1671	yocemento	rome	smoky hill city
+nu-1672	13.0
+nu-1673	1
+nu-1674	14
+nu-1675	hainault the lowe to ilford hainault street
+nu-1676	2011-02-27
+nu-1677	masaharu morimoto
+nu-1678	2001-xx-xx
+nu-1679	15
+nu-1680	panama
+nu-1681	42
+nu-1682	rasul kudayev
+nu-1683	2
+nu-1684	carlos cardus
+nu-1685	1:49.00
+nu-1686	bydgoszcz, poland
+nu-1687	20 miles northwest of berlin, germany	20 miles northeast of paris, france	20 miles northeast of magdeburg, germany	20 miles south of stuttgart, germany
+nu-1688	charles s. price
+nu-1689	14
+nu-1690	13
+nu-1691	2
+nu-1692	4x100 m
+nu-1693	zakspeed
+nu-1694	frank w. smith
+nu-1695	0.13
+nu-1696	10
+nu-1697	dallas cowboys
+nu-1698	2013-xx-xx
+nu-1699	9-0
+nu-1700	17
+nu-1701	the little mermaid
+nu-1702	11 may 1917 @ 1950 hours
+nu-1703	milwaukee road class f6 #6402	boston and maine railroad antelope	empire state express no. 999	milwaukee road class a #2
+nu-1704	6
+nu-1705	northeast of bapaume, france	douai, france	sailly, france
+nu-1706	egypt	tunisia
+nu-1707	u+2666
+nu-1708	dick phillips	roy hartsfield	tommy sandt	doug rader
+nu-1709	1975-xx-xx
+nu-1710	2
+nu-1711	14500.0
+nu-1712	single only
+nu-1713	1995-xx-xx	1998-xx-xx	1999-xx-xx	1994-xx-xx
+nu-1714	9.0
+nu-1715	philadelphia eagles
+nu-1716	stade sebastien charlety
+nu-1717	16
+nu-1718	saffc
+nu-1719	2001-02
+nu-1720	brian urlacher
+nu-1721	2005-xx-xx
+nu-1722	turnout
+nu-1723	34.0
+nu-1724	27
+nu-1725	mr e.murton
+nu-1726	ninas mal
+nu-1727	4
+nu-1728	10
+nu-1729	3
+nu-1730	6
+nu-1731	cessna 421c golden eagle
+nu-1732	der kobold
+nu-1733	southampton
+nu-1734		kannada	urdu	mundari	khasi	telugu	maithili	oriya	khandeshi	gujarati	tulu	hindi	konkani	sindhi	kashmiri	dogri	bhili/bhilodi	santali	ho	bodo	sinhalese	assamese	tamil	nepali	gondi	meitei	punjabi	kurukh	marathi	malayalam	bengali
+nu-1735	backer
+nu-1736	2
+nu-1737	12
+nu-1738	3
+nu-1739	21
+nu-1740	2
+nu-1741	~
+nu-1742	france
+nu-1743	14
+nu-1744	anderlecht
+nu-1745	2006-04-14
+nu-1746	hog
+nu-1747	2
+nu-1748	3.0	11.0	13.0
+nu-1749	igor' livanov\n49.the actor
+nu-1750	irr
+nu-1751	2
+nu-1752	venezuela
+nu-1753	rizawan abdullah	hafez mawasi	mohd noor ali	fajar sarib	sahairi ramri
+nu-1754	the mysterious molecule man
+nu-1755	william c. canby, jr
+nu-1756	6
+nu-1757	zueitina
+nu-1758	survey usa
+nu-1759	2
+nu-1760	cheng lim
+nu-1761	total
+nu-1762	wismut aue
+nu-1763	8
+nu-1764	mljet
+nu-1765	588
+nu-1766	rfk stadium
+nu-1767	ronald reagan
+nu-1768	0011 0100
+nu-1769	sylvie bernier
+nu-1770	3
+nu-1771	im
+nu-1772	nadine trinker
+nu-1773	15
+nu-1774	vic metcalfe
+nu-1775	european junior championships	world student games
+nu-1776	1
+nu-1777	mariela joselin rosario jimenez
+nu-1778	158.0
+nu-1779	ari lahteenmaki
+nu-1780	1
+nu-1781	dzejlana "lana" baltic	melisa popanicic
+nu-1782	
+nu-1783	11
+nu-1784	randy savage	lanny poffo
+nu-1785	analysis publications
+nu-1786	1990-1991 season	1989-1990 season
+nu-1787	2
+nu-1788	1
+nu-1789	1989.0
+nu-1790	5
+nu-1791	2002-10-31	1986-09-27	1994-09-03	2006-10-12	1995-09-16	1984-09-29	2008-11-08	1998-09-17	2000-11-11	1996-11-02	2004-11-20	1981-10-03	1992-10-17	2010-10-09	1990-09-01	1982-10-16	2012-09-29
+nu-1792	ebbe sand
+nu-1793	indonesia
+nu-1794	1
+nu-1795	8
+nu-1796	3
+nu-1797	8
+nu-1798	1
+nu-1799	29
+nu-1800	10727.0
+nu-1801	jeff king
+nu-1802	5
+nu-1803	half tree hollow
+nu-1804	2013-
+nu-1805	2
+nu-1806	tauro f.c
+nu-1807	0.0
+nu-1808	1
+nu-1809	1
+nu-1810	12
+nu-1811	15
+nu-1812	5009	4708
+nu-1813	1
+nu-1814	canada
+nu-1815	0
+nu-1816	world indoor championships
+nu-1817	6
+nu-1818	east boston expressway
+nu-1819	4
+nu-1820	france
+nu-1821	1
+nu-1822	100 m
+nu-1823	george shaw
+nu-1824	adam to noah 5:1 - 32	noah to shem, ham, and japeth 6:9 - 10	descendants of shem, ham, and japeth 10:1 - 32	descendants of esau 36:2 - 5	abraham to isaac 25:19	creation of universe 1:1	heavens and earth 2:4	terah to abraham 11:27	no genealogy
+nu-1825	stade felix bollaert
+nu-1826	3
+nu-1827	aero commander 500
+nu-1828	8.10
+nu-1829	guatemala
+nu-1830	.900 silver
+nu-1831	netherlands
+nu-1832	andrea gamiz
+nu-1833		alkupitja	maranoa murris	katherine	darwin	alice springs
+nu-1834	8
+nu-1835	e♭	d♯	d♭	c♯	b♭	a♭	a♯	g♯	g♭	f♯	a	c	b	e	d	g	f
+nu-1836	sydney\n(ex-phaeton)	achilles	orion	leander
+nu-1837	7
+nu-1838	2
+nu-1839	17
+nu-1840	lake louise, canada
+nu-1841	major general raza hussain
+nu-1842	1
+nu-1843	84.0
+nu-1844	diamond sculls	dido queen
+nu-1845	re-establishment of krooni currency
+nu-1846	7
+nu-1847	27
+nu-1848	4
+nu-1849	1
+nu-1850	regional structure and telecommunications demand: a case study of kenya
+nu-1851	5
+nu-1852	garmisch, germany	beaver creek, usa
+nu-1853	halfback
+nu-1854	2
+nu-1855	32.0
+nu-1856	1
+nu-1857	philip morris k.k. championship	token homemate cup
+nu-1858	5
+nu-1859	weight of the world
+nu-1860	8th voted out\nday 28
+nu-1861	24/7
+nu-1862	jim farmer
+nu-1863	mljet
+nu-1864	2
+nu-1865	bhusaval-narkhed pass
+nu-1866	canada/united states
+nu-1867	28
+nu-1868	14
+nu-1869	12
+nu-1870	four
+nu-1871	team player's
+nu-1872	4
+nu-1873	1
+nu-1874	6
+nu-1875	princess dacil
+nu-1876	2
+nu-1877	charles a. kading
+nu-1878	japan
+nu-1879	12
+nu-1880	9
+nu-1881	sopot, poland
+nu-1882	51656.0	47900.0
+nu-1883	2
+nu-1884	tommie smith	donald quarrie
+nu-1885	7
+nu-1886	1999-xx-xx
+nu-1887	9
+nu-1888	real zaragoza
+nu-1889	4
+nu-1890	1
+nu-1891	12
+nu-1892	8.10
+nu-1893	11
+nu-1894	2
+nu-1895	2.0
+nu-1896	rollin hard	lake of fire
+nu-1897	6
+nu-1898	7
+nu-1899	2
+nu-1900	kenji ogiwara
+nu-1901	2290.0
+nu-1902	alejandro valverde
+nu-1903	new zealand
+nu-1904	poland
+nu-1905	60.0
+nu-1906	lasmo
+nu-1907	home again
+nu-1908	3
+nu-1909	19
+nu-1910	
+nu-1911	1
+nu-1912	7
+nu-1913	cyprus
+nu-1914	zoe costello
+nu-1915	newcomer award	best actress
+nu-1916	1140.0
+nu-1917	4:24:38.6\n(also entered for 20 km walk, but did not start)
+nu-1918	atarque
+nu-1919	every day i learn a little more about love
+nu-1920	10
+nu-1921	1
+nu-1922	15
+nu-1923	23
+nu-1924	28 july 1917 @ 1735 hours
+nu-1925	46.0
+nu-1926	9
+nu-1927	815600.0
+nu-1928	2.0
+nu-1929	cliftonville
+nu-1930	7
+nu-1931	1
+nu-1932	1
+nu-1933	10
+nu-1934	9
+nu-1935	170 cm
+nu-1936	3
+nu-1937	2
+nu-1938	18.0
+nu-1939	-
+nu-1940	german
+nu-1941	adam to noah 5:1 - 32
+nu-1942	1964-02-29	1964-02-28	1964-01-25	1964-01-24	1964-02-15	1964-03-13	1964-03-12	1964-02-14	1964-03-07	1964-03-06
+nu-1943	venice, italy
+nu-1944	indonesia
+nu-1945	diesel
+nu-1946	13659.0
+nu-1947	plumas
+nu-1948	20.7
+nu-1949	skoda roomster
+nu-1950	0
+nu-1951	2007-03-13
+nu-1952	13
+nu-1953	1999-01-18
+nu-1954	carolina, puerto rico	ponce, puerto rico
+nu-1955	1
+nu-1956	16.0
+nu-1957	38
+nu-1958	xxxx-11-10
+nu-1959	canada masters
+nu-1960	1.0
+nu-1961	angel cordero, jr	jose a. santos	pat day
+nu-1962	5
+nu-1963	unknown
+nu-1964	united states
+nu-1965	elijah cummings
+nu-1966	gabriela szabo
+nu-1967	the wish communications stadium
+nu-1968	china masters super series
+nu-1969	1
+nu-1970	poland
+nu-1971	1.15
+nu-1972	16
+nu-1973	6
+nu-1974	home
+nu-1975	41260.0
+nu-1976	0.0
+nu-1977	7
+nu-1978	2001-xx-xx
+nu-1979	madrid
+nu-1980	pacwest racing group
+nu-1981	domenic beninca
+nu-1982	mr e.murton
+nu-1983	concepcion, chile
+nu-1984	olave jeevana lekkachaara
+nu-1985	titanic
+nu-1986	7
+nu-1987	canada
+nu-1988	rai
+nu-1989	d7
+nu-1990	7.0
+nu-1991	canal de las estrellas
+nu-1992	9
+nu-1993	1
+nu-1994	14
+nu-1995	community
+nu-1996	2.0
+nu-1997	7
+nu-1998	1.0
+nu-1999	no genealogy
+nu-2000	5
+nu-2001	boondox\nicp
+nu-2002	ralph guldahl
+nu-2003	rab
+nu-2004	10
+nu-2005	3776.0
+nu-2006	
+nu-2007	1
+nu-2008	ajax cape town
+nu-2009	ray norton
+nu-2010	8
+nu-2011	5.0
+nu-2012	the remixes
+nu-2013	ngc 1569
+nu-2014	south korea
+nu-2015	russia
+nu-2016	p2 p3
+nu-2017	4
+nu-2018	raf simons for christian dior
+nu-2019	22
+nu-2020	36.0
+nu-2021	chrysler building
+nu-2022	hot dog
+nu-2023	16
+nu-2024	clint dempsey
+nu-2025	1
+nu-2026	6
+nu-2027	orion	ajax
+nu-2028	13
+nu-2029	2
+nu-2030	winston yap	kazuki yoshino	syed karim	laakkad abdelhadi	sahairi ramri	sazali salleh	mohd noor ali	guntur djafril	rizawan abdullah	hafez mawasi	rachid lajane
+nu-2031	3
+nu-2032	11
+nu-2033	benjamin isherwood
+nu-2034	1
+nu-2035	ben ford
+nu-2036	
+nu-2037	10.0
+nu-2038	wilfred mugeyi
+nu-2039	france
+nu-2040	+68° 05′ 46′′
+nu-2041	13
+nu-2042	49
+nu-2043	2005-03-13	2001-02-14	2006-11-30	2003-11-09	2006-09-30	2006-02-26	2009-04-19	2007-05-20	2000-02-13	2007-03-18	2007-05-17	2005-09-11	2008-04-13	2008-10-26	2002-01-19	2004-05-01	2004-10-02	2002-03-31	2000-09-10	2001-10-21	2002-08-11	2006-12-03	2007-10-28	2009-10-25
+nu-2044	roman fricke
+nu-2045	john taylor
+nu-2046	6
+nu-2047	1883425.0
+nu-2048	rbmk-1000
+nu-2049	10
+nu-2050	australia
+nu-2051	10
+nu-2052	vs. #12 washington
+nu-2053	1997-xx-xx
+nu-2054	andre bachand
+nu-2055	421.65
+nu-2056	5
+nu-2057	12
+nu-2058	2013-xx-xx
+nu-2059	1987-88
+nu-2060	5
+nu-2061	1
+nu-2062	16
+nu-2063	1993-04-07	1992-08-15	1993-04-13	1992-08-19
+nu-2064	6
+nu-2065	4
+nu-2066	4
+nu-2067	2
+nu-2068	alemari
+nu-2069	1
+nu-2070	stade de france
+nu-2071	kikkawa motoharu fortified residence gardens\n吉川元春館跡庭園\nkikkawa motoharu yakata ato teien
+nu-2072	46
+nu-2073	jordan
+nu-2074	w 54-0
+nu-2075	3
+nu-2076	7370.0
+nu-2077	team penske
+nu-2078	1979-07-21	1981-xx-xx	1984-01-01	1978-05-10
+nu-2079	sergio galdos
+nu-2080	clay regazzoni
+nu-2081	11
+nu-2082	carmen jenockova
+nu-2083	10
+nu-2084	8
+nu-2085	maze by gordon ramsay
+nu-2086	4
+nu-2087	alco
+nu-2088	second round
+nu-2089	1
+nu-2090	2013-05-16	2013-04-25	2013-05-23	2013-05-09	2013-05-02
+nu-2091	xxxx-06-20	xxxx-08-01	xxxx-07-05	xxxx-06-03
+nu-2092	1381.0
+nu-2093	24/7
+nu-2094	5.5
+nu-2095	win-loss
+nu-2096	118
+nu-2097	1.0
+nu-2098	18
+nu-2099	1
+nu-2100	georgia avenue-7th street line
+nu-2101	6
+nu-2102	members of the fashion writers' association
+nu-2103	col erasmus m. weaver, jr
+nu-2104	tat'yana ovsiyenko\n36.the singer
+nu-2105	summertime
+nu-2106	4
+nu-2107	culina
+nu-2108	2.0
+nu-2109	5
+nu-2110	joe wolfinger
+nu-2111	8.0
+nu-2112	1908-09-xx	1909-10-xx	1910-11-xx	1911-12-xx
+nu-2113	30
+nu-2114	alina charlin espinal luna
+nu-2115	-
+nu-2116	pg7
+nu-2117	19.0
+nu-2118	20
+nu-2119	5
+nu-2120	1.0
+nu-2121	4
+nu-2122	1
+nu-2123	bethany lutheran school
+nu-2124	1988-xx-xx
+nu-2125	3
+nu-2126	13	12	15	14	9	2	5	4
+nu-2127	4
+nu-2128	4
+nu-2129	2
+nu-2130	1
+nu-2131	42.0
+nu-2132	15
+nu-2133	big bash league
+nu-2134	1
+nu-2135	brabham-bmw	williams-honda	mclaren-tag	arrows-bmw	minardi-motori moderni	osella-alfa romeo	tyrrell-renault	lotus-renault	ferrari	lola-ford	benetton-bmw	ligier-renault	zakspeed
+nu-2136	2004-02-27
+nu-2137	dallara
+nu-2138	6th
+nu-2139	thin line
+nu-2140	27
+nu-2141	team kool green	forsythe racing
+nu-2142	8
+nu-2143	jun hoong cheong
+nu-2144	1996-xx-xx
+nu-2145	9
+nu-2146	2010-09-06
+nu-2147	the dam
+nu-2148	22046.0
+nu-2149	ben cardin (d) 65.72%\nscott conwell (r) 34.18%	chris van hollen (d) 51.71%\nconnie morella (r) 47.49%\nstephen bassett (un) 0.73%
+nu-2150	r
+nu-2151	e♭
+nu-2152	world junior championships
+nu-2153	0
+nu-2154	132.0
+nu-2155	atlanta, ga
+nu-2156	4
+nu-2157	2014-xx-xx
+nu-2158	1
+nu-2159	justin wilson
+nu-2160	17073.0	17980.0
+nu-2161	1
+nu-2162	adam kszczot
+nu-2163	pan arab games
+nu-2164	honduras	el salvador	panama	costa rica	guatemala	belize	nicaragua
+nu-2165	ho
+nu-2166	12
+nu-2167	13.0
+nu-2168	wilbert montgomery	brian westbrook
+nu-2169	emerald wing
+nu-2170	gen frank j. grass
+nu-2171	5
+nu-2172	4
+nu-2173	1992.0
+nu-2174	1
+nu-2175	summergirls
+nu-2176	7
+nu-2177	2
+nu-2178	e. william crotty	jeanette w. hyde	james a. daley	ollie p. anderson, jr	dennis f. carter
+nu-2179	3
+nu-2180	2
+nu-2181	poland
+nu-2182	la carretera es blanca y llana	me mueves 1° temporada	cuentos de pelos	perros patinadores	bizbirije	infinito	quinceanera	la zona	la vida inmune	ninas mal	yo te estare cuidando	soy tu fan	el divan de valentina
+nu-2183	total
+nu-2184	553.0
+nu-2185	9
+nu-2186	ivan tukhtachev	robin schembera
+nu-2187	ipswich, queensland	bathurst, new south wales
+nu-2188	20
+nu-2189	sydney, new south wales
+nu-2190	hsu shi-han
+nu-2191	cebolla - 1	solano - 3 (with cebolla,cuchillo
+nu-2192	6
+nu-2193	fm
+nu-2194	dick phillips	roy hartsfield	tommy sandt	doug rader
+nu-2195	2
+nu-2196	bulgaria
+nu-2197	mg creed c. hammond
+nu-2198	6
+nu-2199	0
+nu-2200	leiftur
+nu-2201	1938-1951
+nu-2202	justin holiday
+nu-2203	37
+nu-2204	santa barbara international film festival
+nu-2205	1
+nu-2206	european championships
+nu-2207	new orleans saints	san diego chargers	new york giants	at dallas cowboys	philadelphia eagles	at philadelphia eagles	washington redskins	at detroit lions	at st. louis rams	at kansas city chiefs	chicago bears	at seattle seahawks	at new york giants	oakland raiders	at washington redskins	dallas cowboys
+nu-2208	honda prelude chevrolet
+nu-2209	11
+nu-2210	italy
+nu-2211	trey martinez fischer
+nu-2212	yellowstone
+nu-2213	8.0
+nu-2214	oceania
+nu-2215	whistler, bc, canada
+nu-2216	1
+nu-2217	705 000
+nu-2218	2011-xx-xx	2007-xx-xx	2013-xx-xx	2008-xx-xx	2012-xx-xx	2010-xx-xx	2009-xx-xx
+nu-2219	diams
+nu-2220	11
+nu-2221	succeeded by\njohn william maxwell aitken	succeeded by\nsir andrew duncan	succeeded by\noliver lyttelton\nas minister of production	succeeded by\njohn moore-brabazon	succeeded by\narthur greenwood	succeeded by\nthe lord downham
+nu-2222	port said
+nu-2223	kazuki yoshino
+nu-2224	0.0
+nu-2225	9
+nu-2226	16.4	62.7	5.1
+nu-2227	429.0
+nu-2228	alamance regional medical center
+nu-2229	5
+nu-2230	m62b35 v8	m60b40 v8	m62tub35 v8	m62tub44 v8	m60b30 v8	m52b28 i6	m62b44 v8
+nu-2231	202.6 km/h
+nu-2232	7
+nu-2233	3
+nu-2234	12
+nu-2235	fiat 500 1.2 pop
+nu-2236	19
+nu-2237	2004-xx-xx
+nu-2238	730d
+nu-2239	ask a biologist
+nu-2240	going up!
+nu-2241	aboomoslem
+nu-2242	5 strokes
+nu-2243	1883425.0
+nu-2244	8
+nu-2245	673.0	218.0
+nu-2246	1
+nu-2247	nicola redmond	tom ward	richard huw	jaye griffiths
+nu-2248	£2,221,631
+nu-2249	15
+nu-2250	4
+nu-2251	chevrolet	honda	toyota	oldsmobile
+nu-2252	asia-pacific panasonic open\n(co-sanctioned by the asian tour)	golf nippon series jt cup	sun chlorella classic
+nu-2253	8
+nu-2254	betsy markey	hank eng	jared polis	john salazar	diana degette	ed perlmutter	hal bidlack
+nu-2255	kenya
+nu-2256	2011-xx-xx	2010-xx-xx
+nu-2257	1
+nu-2258	#9 (fcs) northern iowa
+nu-2259	7
+nu-2260	paul tracy
+nu-2261	15.0
+nu-2262	blues clues	sister, sister	tia & tamera	family guy	melissa and joey	are you afraid of the dark?	the all-new mickey mouse	true colors	smart guy	strong medicine	the super hero squad show	the real	access hollywood live	how i loved a macho boy	detention	the adventures of hyperman	christmas angel	things we do for love	flesh'n blood	all that	roommates	chrisjayify
+nu-2263	loris capirossi
+nu-2264	washington redskins	los angeles rams	minnesota vikings	dallas cowboys
+nu-2265	10
+nu-2266	justin wilson
+nu-2267	newcomer award	best actress
+nu-2268	jordan
+nu-2269	1
+nu-2270	giza
+nu-2271	cairo	giza
+nu-2272	1981.0
+nu-2273	5
+nu-2274	zakarpattia
+nu-2275	14
+nu-2276	home again
+nu-2277	thompson	emerton	viduka
+nu-2278	xxxx-08-08
+nu-2279	hungary
+nu-2280	w12
+nu-2281	scot bennett
+nu-2282	exponent continuation field
+nu-2283	1
+nu-2284	clipsal 500
+nu-2285	4 december 1916 @ 1100 hours
+nu-2286	chatsworth
+nu-2287	19
+nu-2288	0
+nu-2289	burj khalifa
+nu-2290	reggie johnson
+nu-2291	2
+nu-2292	florence prag kahn
+nu-2293	3
+nu-2294	10
+nu-2295	25.5
+nu-2296	1
+nu-2297	mobiline
+nu-2298	2013-07-11
+nu-2299	3
+nu-2300	andorra	macedonia
+nu-2301	20
+nu-2302	26
+nu-2303	12
+nu-2304	i like it
+nu-2305	1
+nu-2306	vickers armstrong
+nu-2307	thiruppavai
+nu-2308	olena fedorova
+nu-2309	3
+nu-2310	denmark	thailand
+nu-2311	pfc cska sofia
+nu-2312	downtown
+nu-2313	sri lanka	pakistan	england	south africa
+nu-2314	41.4 ha
+nu-2315	2007 mtv student voice awards
+nu-2316	alain prost
+nu-2317	1.0
+nu-2318	11
+nu-2319	0
+nu-2320	young guns
+nu-2321	tim kaine	angus king	tammy baldwin	heidi heitkamp	joe donnelly	deb fischer	dean heller	elizabeth warren	chris murphy	ted cruz	martin heinrich	jeff flake	mazie hirono
+nu-2322	0
+nu-2323	8210635.54
+nu-2324	belgium
+nu-2325	ninas mal
+nu-2326	indonesia
+nu-2327	los angeles, ca
+nu-2328	16
+nu-2329	255.0
+nu-2330	totals
+nu-2331	416	low-floor advantage
+nu-2332	nottingham forest	ipswich town
+nu-2333	maghreb
+nu-2334	2010-xx-xx
+nu-2335	air force
+nu-2336	osaka, japan	tokyo, japan
+nu-2337	men's 50 km walk
+nu-2338	thierry boutsen	alain prost	nelson piquet	ayrton senna	eric bernard
+nu-2339	3
+nu-2340	16
+nu-2341	12
+nu-2342	singles
+nu-2343	33
+nu-2344	troy douglas
+nu-2345	4
+nu-2346	chad hedrick
+nu-2347	24
+nu-2348	2297000.0
+nu-2349	farr ketch maxi
+nu-2350	89000.0
+nu-2351	3
+nu-2352	17
+nu-2353	25.0
+nu-2354	norwalk	mariposa	crenshaw	vermont/athens	harbor freeway	long beach boulevard	douglas	aviation/lax	lakewood boulevard	willowbrook	hawthorne/lennox	avalon	redondo beach
+nu-2355	20
+nu-2356	1
+nu-2357	el salvador	jamaica
+nu-2358	―
+nu-2359	9
+nu-2360	adam to noah 5:1 - 32
+nu-2361	130.5
+nu-2362	13.5	13.9	13.8
+nu-2363	21.0
+nu-2364	9
+nu-2365	1
+nu-2366	mark slavin	eliezer halfin	gad tsobari
+nu-2367	90.0	47.0
+nu-2368	10
+nu-2369	olympic games	european championships
+nu-2370	125cc
+nu-2371	11
+nu-2372	juan borja
+nu-2373	usa indoor championships	usa outdoor championships
+nu-2374	17
+nu-2375	4.0
+nu-2376	united states
+nu-2377	hilton - vancouver, wa
+nu-2378	8
+nu-2379	7
+nu-2380	2013-02-09
+nu-2381	2	6
+nu-2382	5.0
+nu-2383	2
+nu-2384	1957.0
+nu-2385	6
+nu-2386	1
+nu-2387	china
+nu-2388	liverpool city cup	ajc challenge stakes	warwick stakes
+nu-2389	the big bully
+nu-2390	rodolfo lavin
+nu-2391	timothy hodge show	sister, sister	jada	wal-bob's	summertime switch	love for sale	dysfunctional friends	he's mine not yours	smart guy	the jacksons: an american dream	drumline	the long walk home	brewster place	freedom song	thea	diary of a champion	the ladykillers	the kid who loved christmas	lottery ticket	the lion king	atl	the lebrons	note to self
+nu-2392	north cairns
+nu-2393	5
+nu-2394	eifelland racing	josef kaufmann racing
+nu-2395	2003-12-09
+nu-2396	2
+nu-2397	valladolid
+nu-2398	dr abdus salam
+nu-2399	rodolfo lavin
+nu-2400	15.0
+nu-2401	ostankino tower
+nu-2402	andrey tereshin
+nu-2403	1
+nu-2404	rome
+nu-2405	3
+nu-2406	loose cannon
+nu-2407	2006-xx-xx
+nu-2408	russia\nnatalia lobova\nanastasiya sergeeva\nnatalia proskurina\nsvetlana kudinova
+nu-2409	4
+nu-2410	1
+nu-2411	6
+nu-2412	13
+nu-2413	2008 beijing	2004 athens	total	2012 london
+nu-2414	4
+nu-2415	ernest henry
+nu-2416	4
+nu-2417	2
+nu-2418	14
+nu-2419	1997/98	1989/90
+nu-2420	deception
+nu-2421	o janewale
+nu-2422	13
+nu-2423	1
+nu-2424	strafford county farm
+nu-2425	6
+nu-2426	lyle larson
+nu-2427	26
+nu-2428	5
+nu-2429	charley taylor	drew pearson	john gilliam
+nu-2430	mark blackwell
+nu-2431	bryan field
+nu-2432	thomas jefferson high school
+nu-2433	1
+nu-2434	2
+nu-2435	1961-04-29
+nu-2436	3
+nu-2437	john george diefenbaker
+nu-2438	china pr	korea republic	chinese taipei	macau	korea dpr	guam	hong kong	mongolia
+nu-2439	78.0
+nu-2440	0.0	1.0
+nu-2441	2010-xx-xx
+nu-2442	1999-xx-xx
+nu-2443	white
+nu-2444	hog	call it what you want	like that	it's all bad	the shadiest one	cheddar	fuckin wit uh house party
+nu-2445	40
+nu-2446	elie wiesel
+nu-2447	anderlecht
+nu-2448	dams
+nu-2449	branka cudanov\n28, kikinda
+nu-2450	1996.0
+nu-2451	mitsui sumitomo visa taiheiyo masters
+nu-2452	1583.5
+nu-2453	mahler
+nu-2454	1
+nu-2455	1982-10-16
+nu-2456	super series finals
+nu-2457	tunisia	egypt
+nu-2458	4
+nu-2459	jack brabham
+nu-2460	3
+nu-2461	1994-12-11
+nu-2462	15
+nu-2463	england
+nu-2464	canal de las estrellas
+nu-2465	8
+nu-2466	patrick b. byrne	todd a. pletcher	nick zito	michael matz	richard e. dutrow	john t. ward, jr	todd pletcher	john c. kimmel	harold rose	claude mcgaughey iii	robert frankel	kenneth mcpeek
+nu-2467	7
+nu-2468	1
+nu-2469	2:18:44	2:14:15	2:17:45	2:15:58	2:10:01	2:17:27
+nu-2470	greg
+nu-2471	k-2 1000 m	k-1 4x200 m relay
+nu-2472	4
+nu-2473	2
+nu-2474	tore torgersen
+nu-2475	13
+nu-2476	2
+nu-2477	60.45
+nu-2478	42
+nu-2479	jonathon webb
+nu-2480	6
+nu-2481	sylvie bernier
+nu-2482	0011 1001
+nu-2483	1969-xx-xx
+nu-2484	spas delev
+nu-2485	steve schall
+nu-2486	6
+nu-2487	1	7
+nu-2488	1990-xx-xx
+nu-2489	buffalo bills
+nu-2490	drop bears
+nu-2491	ivan lendl
+nu-2492	1
+nu-2493	5
+nu-2494	210073.0
+nu-2495	1
+nu-2496	dave bickers	andy roberton
+nu-2497	a family affair
+nu-2498	camille mandrillon	takashi ono	nikolai andrianov	adolfo consolini	giuliana minuzzo	kenji ogiwara	eric heiden	victor boin	leo lacroix	pierre harvey	harry denis	torbjørn falkanger	zhang yining	luis doreste blanco	carol heiss	hur jae\nshon mi-na	bibi torriani	hans eidenbenz	ruslan zakharov	john landy (melbourne)\nhenri saint cyr	giorgio rocca	jack shea	sarah stevenson	pierre st.-jean	surya bonaly	willy bogner, sr	bojan krizaj	teresa edwards	vegard ulvang	geo andre	keiichi suzuki	edwin moses	heidi schuller	werner delle karth	paul aste	george calnan	donald finlay	hayley wickenheiser	pablo garrido	heikki savolainen	rechelle hawkes	zoi dimoschaki	jimmy shea	rudolf ismayr
+nu-2499	1st
+nu-2500	united states
+nu-2501	darcy martini
+nu-2502	china pr
+nu-2503	european league
+nu-2504	carl prause
+nu-2505	9
+nu-2506	independent
+nu-2507	1
+nu-2508	paul tracy
+nu-2509	7786640.0
+nu-2510	1947	1953
+nu-2511	120
+nu-2512	4
+nu-2513	121.7
+nu-2514	army of me
+nu-2515	germany	soviet union
+nu-2516	12
+nu-2517	issac m. scott
+nu-2518	19
+nu-2519	2007-xx-xx	2003-xx-xx	2012-xx-xx	2002-xx-xx	2004-xx-xx	2009-xx-xx	2011-xx-xx	2005-xx-xx	2001-xx-xx	2006-xx-xx	2008-xx-xx	2010-xx-xx
+nu-2520	736.0	802.0	1188.0	750.0	1072.0	984.0
+nu-2521	25.0
+nu-2522	7
+nu-2523	2
+nu-2524	3
+nu-2525	3
+nu-2526	3
+nu-2527	lydda jath
+nu-2528	provident stadium
+nu-2529	durham
+nu-2530	aeromexico connect, interjet, volaris
+nu-2531	teak	gambar	arjun
+nu-2532	16
+nu-2533	4x400 m relay
+nu-2534	world cup	grand prix
+nu-2535	davis racing
+nu-2536	1998-xx-xx	1996-xx-xx	2002-xx-xx	2004-xx-xx	1992-xx-xx
+nu-2537	2.05	4.12
+nu-2538	6
+nu-2539	team penske
+nu-2540	12
+nu-2541	1.0
+nu-2542	gl-a-2	gl-a-3	gl-a-1	gl-a-4	gl-a-5
+nu-2543	xxxx-10-18
+nu-2544	1964-xx-xx
+nu-2545	tiger woods	hunter mahan
+nu-2546	mel allen	phil sutterfield and win elliot
+nu-2547	benjani mwaruwari
+nu-2548	cataraqui town centre\nst. lawrence college
+nu-2549	10
+nu-2550	27
+nu-2551	philippe streiff
+nu-2552	non-party
+nu-2553	8
+nu-2554	10
+nu-2555	win-loss
+nu-2556	2
+nu-2557	bob tway
+nu-2558	14
+nu-2559	1-14 july
+nu-2560	1924-11-27
+nu-2561	1992-xx-xx
+nu-2562	seville
+nu-2563	jordan
+nu-2564	0.0
+nu-2565	st. marys	scattertown	sackett	shelvey	shawmut
+nu-2566	0
+nu-2567	paul stirling
+nu-2568	33
+nu-2569	18
+nu-2570	total
+nu-2571	3
+nu-2572	0
+nu-2573	1
+nu-2574	downhill
+nu-2575	major general raza hussain
+nu-2576	11.0
+nu-2577	gambar	toon, red cedar
+nu-2578	exponent range	largest value is 9.99...×10emax
+nu-2579	canada
+nu-2580	2009-xx-xx	2002-xx-xx	2001-xx-xx
+nu-2581	1911-xx-xx
+nu-2582	ed dudley
+nu-2583	17
+nu-2584	2012-xx-xx
+nu-2585	totals
+nu-2586	1
+nu-2587	riverside montien hotel
+nu-2588	2
+nu-2589	+ 39.092
+nu-2590	2
+nu-2591	3397.0
+nu-2592	10
+nu-2593	2.0
+nu-2594	4.0
+nu-2595	bernie fryer
+nu-2596	15
+nu-2597	25
+nu-2598	queen's
+nu-2599	£10.00
+nu-2600	republican
+nu-2601	george shaw
+nu-2602	total
+nu-2603	jiangsu sainty
+nu-2604	11
+nu-2605	2
+nu-2606	18
+nu-2607	tommy heath / bill werle
+nu-2608	images of liberation
+nu-2609	wilson medical center
+nu-2610	5
+nu-2611	albatros d.iii
+nu-2612	north hollywood
+nu-2613	provident stadium
+nu-2614	8
+nu-2615	-
+nu-2616	1
+nu-2617	the dam	kk93
+nu-2618	35.0
+nu-2619	carpathian biosphere reserve
+nu-2620	36.0
+nu-2621	12
+nu-2622	15
+nu-2623	11
+nu-2624	2004-xx-xx
+nu-2625	wr
+nu-2626	1987-09-27
+nu-2627	honda
+nu-2628	greg pickett
+nu-2629	san francisco 49ers	seattle seahawks
+nu-2630	diamond sculls
+nu-2631	xxxx-02-16
+nu-2632	hm dockyard, devonport
+nu-2633	cluj-napoca
+nu-2634	-
+nu-2635	peer f. hansen	john 'tune' kristiansen
+nu-2636	15
+nu-2637	colombia
+nu-2638	3
+nu-2639	1976.0
+nu-2640	3
+nu-2641	4
+nu-2642	6
+nu-2643	11.8
+nu-2644	1961-04-29
+nu-2645	1
+nu-2646	matti hautamaki
+nu-2647	10
+nu-2648	1795-02-xx
+nu-2649	w2-l8	w5-l5
+nu-2650	pitesti	faurei	baile olanesti
+nu-2651	11200.0	7504.0	18690.0	16228.0	15334.0	16523.0	14882.0	15471.0	12688.0	5010.0	12883.0	13492.0	8437.0	15156.0	7012.0	13659.0
+nu-2652	xxxx-08-28
+nu-2653	nul
+nu-2654	57
+nu-2655	church
+nu-2656	19.0
+nu-2657	anna il'ina
+nu-2658	25
+nu-2659	david moncoutie
+nu-2660	42
+nu-2661	pakistan
+nu-2662	ltg edward d. baca
+nu-2663	23
+nu-2664	210000.0
+nu-2665	jansher khan
+nu-2666	pg48
+nu-2667	1914-15
+nu-2668	6	16
+nu-2669	10.0
+nu-2670	dnipro dnipropetrovsk
+nu-2671	darnell gant	justin holiday	joe wolfinger	ryan appleby	quincy pondexter	venoy overton	jon brockman	matthew bryan-amaning	tim morris	joel smith	justin dentmon	artem wallace
+nu-2672	as country as apple pie
+nu-2673	california\n41°18′n 124°00′w﻿ / ﻿41.30°n 124.00°w
+nu-2674	11
+nu-2675	8
+nu-2676	spain
+nu-2677	5
+nu-2678	35.0
+nu-2679	shem to terah 11:10 - 26
+nu-2680	5
+nu-2681	tim hunter
+nu-2682	8
+nu-2683	16
+nu-2684	19
+nu-2685	1
+nu-2686	18
+nu-2687	10.0
+nu-2688	soviet union
+nu-2689	15.0
+nu-2690	dil ka haal sune dilwaala
+nu-2691	1
+nu-2692	netherlands	united states	australia
+nu-2693	4,954
+nu-2694	1
+nu-2695	randy savage	lanny poffo
+nu-2696	2007-xx-xx
+nu-2697	16
+nu-2698	united states
+nu-2699	evan bush
+nu-2700	nuevo leon, monterrey
+nu-2701	20.0
+nu-2702	26.0
+nu-2703	t
+nu-2704	8.0
+nu-2705	turnout
+nu-2706	40
+nu-2707	3.0	11.0	13.0
+nu-2708	3
+nu-2709	8
+nu-2710	4
+nu-2711	2
+nu-2712	best supporting actress
+nu-2713	2
+nu-2714	united states
+nu-2715	1
+nu-2716	1
+nu-2717	i'm a country song
+nu-2718	12
+nu-2719	carl fogarty	troy corser
+nu-2720	geylang united
+nu-2721	4.0
+nu-2722	7.0
+nu-2723	26
+nu-2724	45
+nu-2725	10
+nu-2726	1
+nu-2727	1998-xx-xx	2000-xx-xx	1996-xx-xx	1999-xx-xx	1994-xx-xx	2001-xx-xx	1995-xx-xx
+nu-2728	greg norman
+nu-2729	tau
+nu-2730	james a. garfield high school	oscar de la hoya animo charter high school	abraham lincoln high school	theodore roosevelt high school	woodrow wilson high school	santee education complex	thomas jefferson high school	francisco bravo medical magnet high school	marc and eva stern math and science school
+nu-2731	adriano
+nu-2732	2
+nu-2733	soviet union
+nu-2734	2
+nu-2735	grace christian school
+nu-2736	one on one
+nu-2737	brazil
+nu-2738	rondetto
+nu-2739	12
+nu-2740	georgia
+nu-2741	9
+nu-2742	republican	democratic
+nu-2743	1:17:26	1:17:25.6	38:24.0
+nu-2744	canada
+nu-2745	3
+nu-2746	say yes
+nu-2747	bubble-bot
+nu-2748	21.16
+nu-2749	44
+nu-2750	8
+nu-2751	hillary clinton
+nu-2752	world championships	african championships	lusophony games	all-africa games	commonwealth games
+nu-2753	at san francisco 49ers
+nu-2754	3
+nu-2755	good shepherd early childhood
+nu-2756	1
+nu-2757	sayonara
+nu-2758	
+nu-2759	neyland stadium • knoxville, tn
+nu-2760	a dream is a wish your heart makes
+nu-2761	victoria pendleton	jason kenny
+nu-2762	japan	germany	france
+nu-2763	total
+nu-2764	3
+nu-2765	pacific awareness
+nu-2766	mohd noor ali
+nu-2767	2
+nu-2768	18
+nu-2769	3
+nu-2770	2
+nu-2771	2001-xx-xx
+nu-2772	2008-xx-xx
+nu-2773	united states
+nu-2774	clay
+nu-2775	16
+nu-2776	toppy 2
+nu-2777	william armstrong
+nu-2778	7
+nu-2779	1
+nu-2780	1
+nu-2781	9
+nu-2782	2
+nu-2783	cologne
+nu-2784	9
+nu-2785	30
+nu-2786	4
+nu-2787	74th indianapolis 500
+nu-2788	2005-xx-xx
+nu-2789	2
+nu-2790	lord high steward
+nu-2791	20.0
+nu-2792	3
+nu-2793	12
+nu-2794	0
+nu-2795	6
+nu-2796	california\n38°00′n 123°00′w﻿ / ﻿38.00°n 123.00°w
+nu-2797	sackett
+nu-2798	0.0
+nu-2799	10
+nu-2800	1985-1990
+nu-2801	1918-07-11
+nu-2802	4.0
+nu-2803	1
+nu-2804	bulgaria
+nu-2805	2
+nu-2806	van hool
+nu-2807	93,505
+nu-2808	2009-xx-xx
+nu-2809	k-4 500 m	k-1 500 m	k-2 500 m
+nu-2810	19
+nu-2811	2.0
+nu-2812	4:43.64	4:57.24	4:48.31
+nu-2813	1
+nu-2814	35
+nu-2815	2003-02-05	2003-02-04	2003-01-25	2003-01-26
+nu-2816	e6
+nu-2817	1990-xx-xx
+nu-2818	2007-xx-xx
+nu-2819	sada wilkington
+nu-2820	9
+nu-2821	3
+nu-2822	chandu borde
+nu-2823	7uv
+nu-2824	jim courier
+nu-2825	13
+nu-2826	10
+nu-2827	portland international raceway
+nu-2828	0.6
+nu-2829	1990-1991 season	1984-1985 season	1983-1984 season	1988-1989 season
+nu-2830	brendan smith
+nu-2831	6
+nu-2832	norway
+nu-2833	john reardon
+nu-2834	1
+nu-2835	2
+nu-2836	
+nu-2837	rasul kudayev
+nu-2838	2
+nu-2839	2010-07-29	2011-04-29	2007-02-12	2013-05-19
+nu-2840	3
+nu-2841	0.2
+nu-2842	roger feutmba
+nu-2843	light transport aircraft	light transport
+nu-2844	4
+nu-2845	18
+nu-2846	2
+nu-2847	2013-xx-xx
+nu-2848	6
+nu-2849	world
+nu-2850	"you oughta know" a
+nu-2851	28
+nu-2852	deaths in prisons & camps
+nu-2853	o janewale
+nu-2854	cn tower
+nu-2855	416
+nu-2856	4
+nu-2857	9
+nu-2858	17
+nu-2859	8
+nu-2860	russian
+nu-2861	6
+nu-2862	2
+nu-2863	jamaica
+nu-2864	7.0
+nu-2865	czechoslovakia	australia	sweden	greece
+nu-2866	7
+nu-2867	14
+nu-2868	2nd
+nu-2869	at washington redskins
+nu-2870	duke university hospital
+nu-2871	14
+nu-2872	.625
+nu-2873	mike imrie
+nu-2874	17
+nu-2875	3
+nu-2876	stage with mountain(s)
+nu-2877	1
+nu-2878	7 may 1918
+nu-2879	15
+nu-2880	60
+nu-2881	63.5
+nu-2882	eilat
+nu-2883	24
+nu-2884	algeciras
+nu-2885	mera juta hai japani	dil ka haal sune dilwaala
+nu-2886	phil mickelson	ian poulter
+nu-2887	8.0
+nu-2888	14
+nu-2889	andretti green racing
+nu-2890	alma award outstanding actor in a television series	golden globe award for best actor - television series musical or comedy	sag award outstanding performance by a male actor in a comedy series	people's choice award favorite male tv star	emmy award for outstanding lead actor - comedy series
+nu-2891	0.0
+nu-2892	galles-kraco racing
+nu-2893	2
+nu-2894	1
+nu-2895	sign field
+nu-2896	7:13.33
+nu-2897	2011-xx-xx
+nu-2898	united states
+nu-2899	1
+nu-2900	freedom colony
+nu-2901	8:12-15
+nu-2902	10
+nu-2903	11045
+nu-2904	42
+nu-2905	lanny poffo	paul christy
+nu-2906	ikeya & zhang
+nu-2907	honduras	el salvador	panama	costa rica	guatemala	belize	nicaragua
+nu-2908	sidney smith
+nu-2909	3
+nu-2910	2
+nu-2911	7
+nu-2912	veba	lasmo	perenco oil co	waha	agiba-agip	zueitina	khalda/repsol	ipll	agoco	omv	ipc-dublin	fina	soc	total	marathon
+nu-2913	brazil
+nu-2914	ray norton
+nu-2915	64.0
+nu-2916	les sables d'olonne - bordeaux
+nu-2917	1094000.0
+nu-2918	1
+nu-2919	3,397
+nu-2920	6
+nu-2921	20
+nu-2922	5
+nu-2923	dan mcfall
+nu-2924	19
+nu-2925	west germany
+nu-2926	1:48:11.023
+nu-2927	the harvest
+nu-2928	5h 29' 10"
+nu-2929	12
+nu-2930	33
+nu-2931	florida panthers	phoenix coyotes	st. louis blues
+nu-2932	2.0
+nu-2933	south korea
+nu-2934	1
+nu-2935	thathanda cup
+nu-2936	6
+nu-2937	laramie
+nu-2938	francis forde
+nu-2939	italy
+nu-2940	25
+nu-2941	3
+nu-2942	8
+nu-2943	whistler, bc, canada
+nu-2944	19
+nu-2945	17
+nu-2946	united states
+nu-2947	dr abdus salam
+nu-2948	3
+nu-2949	2003-xx-xx
+nu-2950	paul flynn
+nu-2951	1972-xx-xx
+nu-2952	norway
+nu-2953	john galliano
+nu-2954	0011 1001
+nu-2955	2
+nu-2956	semifinals-2
+nu-2957	2
+nu-2958	australian open
+nu-2959	errea
+nu-2960	3
+nu-2961	jansher khan
+nu-2962	hard
+nu-2963	23
+nu-2964	1
+nu-2965	2
+nu-2966	0011-xx-xx
+nu-2967	1911-xx-xx
+nu-2968	5
+nu-2969	ic 342
+nu-2970	28.0
+nu-2971	9
+nu-2972	2006-2007
+nu-2973	20
+nu-2974	11
+nu-2975	no
+nu-2976	paolo bettini
+nu-2977	15
+nu-2978	13
+nu-2979	barcelona olympics
+nu-2980	georges-henri heon
+nu-2981	2007-xx-xx
+nu-2982	total
+nu-2983	360.0
+nu-2984	1
+nu-2985	mg jesse mci. carter
+nu-2986	1.0
+nu-2987	evan bush
+nu-2988	1
+nu-2989	1146000.0	473000.0
+nu-2990	remainder of the municipality
+nu-2991	2001-xx-xx
+nu-2992	2
+nu-2993	vs. montreal alouettes
+nu-2994	11
+nu-2995	addis ababa	snnpr	harari	tigray	oromia	amhara	somalia	gambella	afar	ben-gumuz	diredawa
+nu-2996	143.0
+nu-2997	alco
+nu-2998	candy sale
+nu-2999	2
+nu-3000	2
+nu-3001	13
+nu-3002	china
+nu-3003	"bad news" (b/w "guitar player(her and him)")	thou shalt not steal	that ain't all	blue train	callin' dr. casey	th' wife
+nu-3004	6
+nu-3005	jakub janda
+nu-3006	1
+nu-3007	18
+nu-3008	13129.0	15788.0
+nu-3009	the big bully
+nu-3010	11.0
+nu-3011	2
+nu-3012	1
+nu-3013	ghetto ass bitches	those who from heaven to earth came	the flying cat	rave to the grave	hot & cold	los angeles	the thirteenth skull	still smoking	dutchie
+nu-3014	best actress
+nu-3015	a world called you	she don't make me cry
+nu-3016	chile
+nu-3017	red hat linux
+nu-3018	9
+nu-3019	john reardon
+nu-3020	suzuki
+nu-3021	1
+nu-3022	japan
+nu-3023	ramon dominguez
+nu-3024	2nd
+nu-3025	jackie stewart
+nu-3026	11
+nu-3027	5
+nu-3028	intro
+nu-3029	1938/39	1936/37	1937/38
+nu-3030	say yes
+nu-3031	1
+nu-3032	2
+nu-3033	brazil	chile	peru	colombia	argentina	total	venezuela	ecuador
+nu-3034	austria
+nu-3035	563
+nu-3036	left-brace
+nu-3037	netherlands
+nu-3038	2
+nu-3039	hard	clay
+nu-3040	1
+nu-3041	9
+nu-3042	5
+nu-3043	1969-xx-xx
+nu-3044	e. william crotty
+nu-3045	interjet
+nu-3046	tsai meng-lin
+nu-3047	strafford county farm
+nu-3048	10
+nu-3049	loten 1
+nu-3050	matti hautamaki
+nu-3051	waterloo hawks	anderson packers	toronto huskies	sheboygan red skins	chicago stags	washington capitols	providence steamrollers	baa buffalo	indianapolis olympians	detroit falcons	baa indianapolis	indianapolis jets	baltimore bullets	pittsburgh ironmen	cleveland rebels	st. louis bombers	denver nuggets
+nu-3052	giuseppe aquaro
+nu-3053	nul
+nu-3054	team penske
+nu-3055	2.0
+nu-3056	mr b. owen- jones
+nu-3057	3
+nu-3058	annemari sandell
+nu-3059	2000-10-06
+nu-3060	2007-08-05
+nu-3061	argentina f8	manta	chile f8	chile f3	peru f1	ecuador f3	ecuador f2
+nu-3062	romania
+nu-3063	14.0	15.0
+nu-3064	zelig stroch	henry hershkowitz
+nu-3065	asian cougar / kuuga
+nu-3066	1
+nu-3067	15.0
+nu-3068	andreas kofler
+nu-3069	wahnopfer
+nu-3070	10
+nu-3071	lanny poffo
+nu-3072	4
+nu-3073	20
+nu-3074	surround stakes	warwick stakes
+nu-3075	62,202
+nu-3076	8
+nu-3077	bhusaval-narkhed pass
+nu-3078	young guns
+nu-3079	14
+nu-3080	guam
+nu-3081	3
+nu-3082	1
+nu-3083	7.2
+nu-3084	burj khalifa
+nu-3085	carlos villasenor garcia
+nu-3086	1986-xx-xx
+nu-3087	1
+nu-3088	16
+nu-3089	rossemely cruz logrono
+nu-3090	taro
+nu-3091	6
+nu-3092	59
+nu-3093	mr a.zaretsky	mr a.ruffels
+nu-3094	51
+nu-3095	14.0
+nu-3096	2000-xx-xx
+nu-3097	1
+nu-3098	6
+nu-3099	1
+nu-3100	gaston rahier
+nu-3101	5
+nu-3102	1
+nu-3103	7
+nu-3104	leo penn
+nu-3105	kyunghyun kim
+nu-3106	150.0
+nu-3107	xxxx-09-12
+nu-3108	16
+nu-3109	jack howe
+nu-3110	11
+nu-3111	1997-xx-xx
+nu-3112	3.0	100.0
+nu-3113	burn the fire
+nu-3114	ironic
+nu-3115	loise egiazarjan
+nu-3116	ukraine
+nu-3117	1999-xx-xx
+nu-3118	nicaragua
+nu-3119	252.6
+nu-3120	denver
+nu-3121	paul stirling
+nu-3122	austin, texas\n usa
+nu-3123	2007-xx-xx
+nu-3124	canal de las estrellas
+nu-3125	formula pilota china
+nu-3126	australia
+nu-3127	shani davis
+nu-3128	henry picard
+nu-3129	4
+nu-3130	4
+nu-3131	1994-11-01
+nu-3132	ajax	apollo	amphion
+nu-3133	5
+nu-3134	gustav ernst graf von stackelberg
+nu-3135	father's day
+nu-3136	245.1
+nu-3137	philadelphia eagles
+nu-3138	grant patterson
+nu-3139	6
+nu-3140	accepts applications prior to the start of each school year
+nu-3141	aegina
+nu-3142	galavision
+nu-3143	hainault the lowe to ilford hainault street
+nu-3144	australian football league
+nu-3145	salem al-yami
+nu-3146	2
+nu-3147	jahangir khan
+nu-3148	10.0
+nu-3149	11
+nu-3150	manunda hawks
+nu-3151	13199.0
+nu-3152	34
+nu-3153	levante
+nu-3154	2003-xx-xx
+nu-3155	diana degette
+nu-3156	total
+nu-3157	pacifier
+nu-3158	felix
+nu-3159	2
+nu-3160	8
+nu-3161	3
+nu-3162	223.0
+nu-3163	valladolid promesas
+nu-3164	total
+nu-3165	2
+nu-3166	european championships
+nu-3167	d
+nu-3168	1
+nu-3169	1
+nu-3170	2
+nu-3171	murdered in eastern regions	deaths other countries
+nu-3172	4
+nu-3173	52.3
+nu-3174	zelig stroch
+nu-3175	atlanta, united states
+nu-3176	2003-xx-xx	2002-xx-xx	2007-xx-xx
+nu-3177	france
+nu-3178	hotsilog: the asap hotdog compilation
+nu-3179	6th
+nu-3180	isn't it romantic?
+nu-3181	1
+nu-3182	3
+nu-3183	michael wendon
+nu-3184	2
+nu-3185	rbmk-1000
+nu-3186	adam kszczot
+nu-3187	der kobold
+nu-3188	4
+nu-3189	world indoor championships
+nu-3190	10
+nu-3191	grantham
+nu-3192	japan
+nu-3193	sandown raceway
+nu-3194	mauricio gugelmin
+nu-3195	diablo
+nu-3196	5.0
+nu-3197	rbmk-1500
+nu-3198	6
+nu-3199	lanny poffo
+nu-3200	l.d. alajuelense
+nu-3201	7
+nu-3202	32
+nu-3203	19
+nu-3204	23
+nu-3205	hotsilog: the asap hotdog compilation
+nu-3206	1
+nu-3207	2
+nu-3208	total
+nu-3209	lyle larson	roland gutierrez	trey martinez fischer	justin rodriguez	jose menendez	joe straus	mike villarreal	philip cortez	joe farias	ruth mcclendon
+nu-3210	yelena proklova\n49.the tv presenter
+nu-3211	0.0
+nu-3212	1952-01-25
+nu-3213	nul
+nu-3214	the charity
+nu-3215	2065-08-02
+nu-3216	4.0
+nu-3217	
+nu-3218	sylvain geboers
+nu-3219	0.0
+nu-3220	11
+nu-3221	2.0
+nu-3222	212.0
+nu-3223	jake gosling	liam sercombe	pat baldwin
+nu-3224	the wolf 104.1
+nu-3225	louis walsh
+nu-3226	clyde	raith rovers
+nu-3227	singles
+nu-3228	4
+nu-3229	dams
+nu-3230	jamie cureton
+nu-3231	wash u
+nu-3232	1
+nu-3233	2
+nu-3234	career
+nu-3235	daytona
+nu-3236	0
+nu-3237	2008-xx-xx
+nu-3238	3
+nu-3239	kenneth w. dam
+nu-3240	gl-b-3
+nu-3241	33
+nu-3242	1998-xx-xx
+nu-3243	single only
+nu-3244	4
+nu-3245	
+nu-3246	swedish theatre
+nu-3247	detroit lions
+nu-3248	3rd
+nu-3249	sue ellspermann
+nu-3250	air commodore k. m. ahmad
+nu-3251	12
+nu-3252	5
+nu-3253	geary city
+nu-3254	2012-xx-xx
+nu-3255	13
+nu-3256	15
+nu-3257	commonwealth games
+nu-3258	9
+nu-3259	italy
+nu-3260	64
+nu-3261	57563.0
+nu-3262	c
+nu-3263	11.0
+nu-3264	5:03.15
+nu-3265	azadi
+nu-3266	2
+nu-3267	9
+nu-3268	myg
+nu-3269	2006-xx-xx
+nu-3270	62.0
+nu-3271	12
+nu-3272	alan mcmanus
+nu-3273	5
+nu-3274	2
+nu-3275	2
+nu-3276	tamarind
+nu-3277	tora harris
+nu-3278	frankie hagen	"modest" bill smith	j.h. isbell
+nu-3279	2
+nu-3280	3
+nu-3281	34
+nu-3282	total
+nu-3283	team penske
+nu-3284	provident stadium
+nu-3285	jsu 29-17-2	jsu 17-10-1	jsu 11-10-1	jsu 23-14-2	jsu 29-22-2	jsu 22-14-2
+nu-3286	aldershot	torquay united
+nu-3287	lata mangeshkar, manna dey
+nu-3288	5
+nu-3289	3
+nu-3290	0
+nu-3291	great britain
+nu-3292	1944-03-08
+nu-3293	1
+nu-3294	craiova
+nu-3295	60
+nu-3296	newnownext awards	hito pop music awards	glamour woman of the year awards	the record of the year	swiss music awards	naacp image awards	new music weekly awards	nickelodeon uk kids choice awards	britain's best	vh1 video of the year	japan gold disc awards	billboard 2008 year end award	cosmopolitan awards	apra awards
+nu-3297	7
+nu-3298	330.0
+nu-3299	1
+nu-3300	1
+nu-3301	mauritz johansson	alfred swahn	gusztav szomjas	harald natvig	raymond coulter
+nu-3302	2010
+nu-3303	addis ababa	snnpr	harari	amhara	oromia	tigray	somalia	gambella	ben-gumuz	diredawa
+nu-3304	preston m. burch
+nu-3305	new flyer
+nu-3306	north korea
+nu-3307	5
+nu-3308	1
+nu-3309	11
+nu-3310	10
+nu-3311	graham hill
+nu-3312	52
+nu-3313	chaleunsouk oudomphanh
+nu-3314	7
+nu-3315	3
+nu-3316	2
+nu-3317	17
+nu-3318	jon brockman
+nu-3319	7
+nu-3320	zelig stroch
+nu-3321	1.0
+nu-3322	6
+nu-3323	3
+nu-3324	moldova
+nu-3325	-
+nu-3326	1899-01-22
+nu-3327	mlw
+nu-3328	democratic
+nu-3329	10
+nu-3330	hindi
+nu-3331	hsu shi-han
+nu-3332	14.11
+nu-3333	7
+nu-3334	k-1 200 m	k-1 500 m
+nu-3335	4
+nu-3336	4
+nu-3337	5
+nu-3338	7
+nu-3339	3
+nu-3340	1
+nu-3341	mumbai suburban
+nu-3342	3
+nu-3343	5.2
+nu-3344	20
+nu-3345	35
+nu-3346	52
+nu-3347	peter lamppu
+nu-3348	1:47.61
+nu-3349	caisse d'epargne
+nu-3350	2003-xx-xx
+nu-3351	tangentyere
+nu-3352	eric rollins
+nu-3353	stephane goubert
+nu-3354	baltimore bullets
+nu-3355	d. lawrence gunnels
+nu-3356	1
+nu-3357	celta
+nu-3358	republican
+nu-3359	725tds
+nu-3360	1
+nu-3361	18
+nu-3362	argentina f8	chile f8
+nu-3363	1
+nu-3364	2
+nu-3365	dmitry mikhailovich golitsyn
+nu-3366	1
+nu-3367	les sables d'olonne - bordeaux
+nu-3368	14
+nu-3369	26.0
+nu-3370	4
+nu-3371	19
+nu-3372	1
+nu-3373	1.2
+nu-3374	rbmk-1500
+nu-3375	commonwealth games
+nu-3376	+1:40.635
+nu-3377	2008-xx-xx
+nu-3378	6
+nu-3379	13
+nu-3380	international open
+nu-3381	2013-xx-xx
+nu-3382	1
+nu-3383	big east
+nu-3384	12
+nu-3385	4
+nu-3386	3
+nu-3387	chicago bears
+nu-3388	hotsilog: the asap hotdog compilation
+nu-3389	john mcglynn
+nu-3390	13
+nu-3391	pan arab games
+nu-3392	xxxx-02-01
+nu-3393	kenneth w. dam
+nu-3394	2.0
+nu-3395	31.0
+nu-3396	sainey touray	sallieu bundu	george davis iv	chris banks
+nu-3397	8
+nu-3398	2009-11-01
+nu-3399	italy
+nu-3400	mg jesse mci. carter
+nu-3401	12
+nu-3402	3345248.0	1772133.0	6931085.0
+nu-3403	2006.
+nu-3404	18
+nu-3405	gothenburg, sweden
+nu-3406	29
+nu-3407	ross-ade stadium • west lafayette, in
+nu-3408	3.0
+nu-3409	2013-01-01
+nu-3410	0
+nu-3411	2001-xx-xx
+nu-3412	7.0
+nu-3413	italy
+nu-3414	guyana
+nu-3415	martha portobanco
+nu-3416	real zaragoza
+nu-3417	marya pai
+nu-3418	london int. festival of science fiction film
+nu-3419	diams
+nu-3420	969.0
+nu-3421	demonstrators; emd 1,2,4 to cr 6840-6842; emd 3 leased to bnsf as replacement for emd 9041
+nu-3422	ngc 1569
+nu-3423	264.7
+nu-3424	plain stage
+nu-3425	harry yates	ian duthie
+nu-3426	2009-xx-xx
+nu-3427	22908.0
+nu-3428	2013-xx-xx
+nu-3429	1
+nu-3430	20
+nu-3431	april 30, 1789
+nu-3432	italy
+nu-3433	winston yap	kazuki yoshino	syed karim	laakkad abdelhadi	sahairi ramri	sazali salleh	mohd noor ali	guntur djafril	rizawan abdullah	hafez mawasi	rachid lajane
+nu-3434	holden barina 5dr hatch manual	volkswagen polo 1.4 6a	holden barina 3dr hatch manual
+nu-3435	switzerland	australia
+nu-3436	4.0
+nu-3437	4.0
+nu-3438	
+nu-3439	2008-xx-xx
+nu-3440	7
+nu-3441	world cup	masters	benson & hedges championship	german open	uk championship	charity challenge	irish masters	european league	international open	asian classic	world snooker championship	british open	pontins professional	malta grand prix	welsh open	thailand open	european open	grand prix	scottish masters
+nu-3442	1
+nu-3443	2
+nu-3444	jsu 32-29-2
+nu-3445	4.0
+nu-3446	1912-13
+nu-3447	118
+nu-3448	cologne
+nu-3449	indonesia
+nu-3450	15
+nu-3451	3
+nu-3452	hamish bowles
+nu-3453	alfred haemerlinck
+nu-3454	troy douglas
+nu-3455	3
+nu-3456	welcome to the club
+nu-3457	1.0
+nu-3458	isabelle raisa
+nu-3459	hard	clay
+nu-3460	6
+nu-3461	titanic
+nu-3462	2
+nu-3463	1
+nu-3464	12
+nu-3465	ajax
+nu-3466	1
+nu-3467	88.0
+nu-3468	1
+nu-3469	luke marsden
+nu-3470	2000-xx-xx	2007-xx-xx	2013-xx-xx	2003-xx-xx	2012-xx-xx	2002-xx-xx	2004-xx-xx	2009-xx-xx	2011-xx-xx	2005-xx-xx	2001-xx-xx	2006-xx-xx	2008-xx-xx	2010-xx-xx
+nu-3471	rond vidar
+nu-3472	jasmund
+nu-3473	17
+nu-3474	858209.0
+nu-3475	2014-xx-xx
+nu-3476	independent	canal de las estrellas	azteca 13	galavision	azteca 7	canal 5
+nu-3477	rarotonga, cook islands
+nu-3478	-
+nu-3479	denver broncos
+nu-3480	-ch3 or -ch2ch3	-ch3 or -ch2ch2oh	-ch3	-ch3 or -ch2ch(oh)ch3
+nu-3481	6
+nu-3482	denny hulme
+nu-3483	thailand	indonesia
+nu-3484	2
+nu-3485	8
+nu-3486	1.0
+nu-3487	darren ramsay
+nu-3488	333.0
+nu-3489	10
+nu-3490	1
+nu-3491	landon donovan
+nu-3492	46.0
+nu-3493	dr m. shafi ahmad
+nu-3494	5
+nu-3495	3
+nu-3496	5
+nu-3497	greg norman	phil mickelson
+nu-3498	arron davies
+nu-3499	loup durand
+nu-3500	galway
+nu-3501	2
+nu-3502	32.0
+nu-3503	chivas
+nu-3504	xxxx-10-23
+nu-3505	total
+nu-3506	11
+nu-3507	elie wiesel
+nu-3508	1
+nu-3509	addis ababa, ethiopia
+nu-3510	el salvador
+nu-3511	no
+nu-3512	1
+nu-3513	3
+nu-3514	6
+nu-3515	j. scatuorchio / m. tabor
+nu-3516	8.0
+nu-3517	11.0
+nu-3518	ruth mcclendon
+nu-3519	14
+nu-3520	monterrey flash	bay area rosal
+nu-3521	1
+nu-3522	phil mickelson	ian poulter
+nu-3523	3090.0
+nu-3524	atlanta olympics, 100th anniversary of modern olympiad
+nu-3525	francisco bravo medical magnet high school
+nu-3526	thessaloniki, greece
+nu-3527	afr midnight rambler
+nu-3528	creation of universe 1:1
+nu-3529	14000.0	20000.0
+nu-3530	cuba
+nu-3531	2006-xx-xx
+nu-3532	darnell gant	joel smith	artem wallace	tim morris	quincy pondexter	jon brockman	matthew bryan-amaning	justin holiday
+nu-3533	3
+nu-3534	1
+nu-3535	1985-xx-xx
+nu-3536	9
+nu-3537	3
+nu-3538	rbmk-1000
+nu-3539	joe straus
+nu-3540	1
+nu-3541	11
+nu-3542	manfred germar
+nu-3543	7
+nu-3544	corey pavin
+nu-3545	3
+nu-3546	8
+nu-3547	total size
+nu-3548	mr j.morris	mr g. constable
+nu-3549	2
+nu-3550	1
+nu-3551	3
+nu-3552	artem wallace
+nu-3553	pegasus	toppy 1
+nu-3554	7
+nu-3555	32
+nu-3556	dmitry mikhailovich golitsyn	gustav ernst graf von stackelberg	peter von meyendorff	pavel ivanovich medem	viktor petrovich balabin	pyotr alekseyevich kapnist	andrey kirillovich razumovsky	yevgeny petrovich novikov	lev pavlovich urusov	aleksandr mikhailovich gorchakov	nikolay alexeyevich orlov	dmitry pavlovich tatishchev	ernest gustavovich stackelberg	pavel petrovich ubri	aleksey borisovich lobanov-rostovsky	yury aleksandrovich golovkin
+nu-3557	august 1, 2008
+nu-3558	nasir jamshed	salman butt	kris srikkanth	virat kohli	desmond haynes	gautam gambhir	graeme smith	ryan ten doeschate	upul tharanga	sachin tendulkar	paul stirling	marcus trescothick
+nu-3559	simona de silvestro	mike conway	will power	e.j. viso	justin wilson	josef newgarden	takuma sato	sebastien bourdais	charlie kimball	katherine legge	scott dixon	alex tagliani	james jakes	james hinchcliffe	ryan hunter-reay	helio castroneves	dario franchitti	ed carpenter	graham rahal	rubens barrichello	sebastian saavedra	marco andretti	tony kanaan	j.r. hildebrand	simon pagenaud	oriol servia
+nu-3560	1990-xx-xx
+nu-3561	lauraceae, saj
+nu-3562	bob lemon	george case
+nu-3563	presov	zakarpattia
+nu-3564	60474.0	52732.0	44350.0	42671.0
+nu-3565	4
+nu-3566	cat tigers
+nu-3567	1470.0
+nu-3568	13
+nu-3569	2013-01-19
+nu-3570	23
+nu-3571	9
+nu-3572	won
+nu-3573	2
+nu-3574	bill dowd
+nu-3575	67.0
+nu-3576	charlotte, nc	denver, co	phoenix, az	atlanta, ga	san francisco, ca	newark, nj	las vegas, nv
+nu-3577	10
+nu-3578	35
+nu-3579	reggie austin
+nu-3580	2
+nu-3581	5.0
+nu-3582	jacques stoquart and yvan delporte
+nu-3583	r	d
+nu-3584	fort collins
+nu-3585	45.0
+nu-3586	8
+nu-3587	13
+nu-3588	1934/35
+nu-3589	1
+nu-3590	12
+nu-3591	robin schembera
+nu-3592	d
+nu-3593	donald quarrie
+nu-3594	newcastle united
+nu-3595	3:41.43
+nu-3596	hyperphysics
+nu-3597	8
+nu-3598	2011-xx-xx
+nu-3599	74871.0
+nu-3600	8
+nu-3601	14.0
+nu-3602	ryan hunter-reay
+nu-3603	3
+nu-3604	7.0
+nu-3605	1
+nu-3606	20
+nu-3607	0.0
+nu-3608	alain prost
+nu-3609	12
+nu-3610	canada
+nu-3611	2005-xx-xx
+nu-3612	34
+nu-3613	3
+nu-3614	3
+nu-3615	usa
+nu-3616	3
+nu-3617	10
+nu-3618	1
+nu-3619	1989-90	1990-91	1987-88	1999-00	1988-89
+nu-3620	7.0
+nu-3621	roommates
+nu-3622	7
+nu-3623	14
+nu-3624	77
+nu-3625	9.0
+nu-3626	8
+nu-3627	greece
+nu-3628	261.3
+nu-3629	bart bunting\nguide: nathan chivers\naustralia
+nu-3630	lner class a4 2509 silver link
+nu-3631	46300.0
+nu-3632	1
+nu-3633	1953/54
+nu-3634	anders theil
+nu-3635	lanny poffo
+nu-3636	united states
+nu-3637	7
+nu-3638	chrysler building
+nu-3639	alpine
+nu-3640	1146000.0	473000.0
+nu-3641	6
+nu-3642	7ho	7uv	7qt	7ht	7qn	7zl	7nt	7dy	7cae	7la	7ex
+nu-3643	gib hinz
+nu-3644	quintana roo, cancun
+nu-3645	francis forde
+nu-3646	yisney lina lagrange mendez
+nu-3647	annemari sandell
+nu-3648	coefficient size
+nu-3649	9 november 1818
+nu-3650	french open
+nu-3651	nikkan sports grand prix
+nu-3652	4.0
+nu-3653	11
+nu-3654	troy bayliss	carl fogarty	(colin edwards)	troy corser
+nu-3655	1957-xx-xx
+nu-3656	1988-xx-xx
+nu-3657	colonial	western athletic
+nu-3658	retief goosen
+nu-3659	mashhad
+nu-3660	a
+nu-3661	2006.
+nu-3662	acadia
+nu-3663	anna nolan
+nu-3664	7th, western
+nu-3665	the far reaching effects of broadband
+nu-3666	1
+nu-3667	brazil
+nu-3668	3
+nu-3669	3
+nu-3670	8
+nu-3671	4
+nu-3672	guam
+nu-3673	skoda felicia
+nu-3674	126.0
+nu-3675	1188.0
+nu-3676	nigeria	zimbabwe	cameroon	south africa
+nu-3677	16.0	12.0	13.0	22.0
+nu-3678	10
+nu-3679	diamond sculls
+nu-3680	3
+nu-3681	gina zeneb adamu
+nu-3682	at pittsburgh steelers
+nu-3683	b♭	b
+nu-3684	evresis
+nu-3685	17
+nu-3686	mr b. owen- jones
+nu-3687	4.0
+nu-3688	1
+nu-3689	johnny petersen
+nu-3690	1
+nu-3691	happy working song
+nu-3692	2003-xx-xx	2000-xx-xx	2002-xx-xx
+nu-3693	acadia
+nu-3694	calvin roberts
+nu-3695	2000-xx-xx
+nu-3696	ralph guldahl
+nu-3697	7
+nu-3698	happy working song
+nu-3699	84.0
+nu-3700	birmingham, great britain
+nu-3701	1
+nu-3702	1990.0
+nu-3703	0
+nu-3704	6
+nu-3705	18
+nu-3706	colmor	flax-test - 1	canna-umbrinus - 1	solano - 3 (with cebolla,cuchillo	rio blanco - 3
+nu-3707	asian classic
+nu-3708	l 10-11
+nu-3709	doubledip
+nu-3710	goodbye city...hello country
+nu-3711	1959-1977
+nu-3712	france
+nu-3713	2
+nu-3714	1998-xx-xx
+nu-3715	40.8%
+nu-3716	addis ababa	snnpr	harari	tigray	oromia	amhara	somalia	gambella	afar	ben-gumuz	diredawa
+nu-3717	2
+nu-3718	john george diefenbaker
+nu-3719	lord privy seal
+nu-3720	2
+nu-3721	2009-xx-xx
+nu-3722	1.0	2.0	3.0	4.0
+nu-3723	3.0
+nu-3724	nick matthew
+nu-3725	5
+nu-3726	townsville street circuit
+nu-3727	d. lawrence gunnels	patrick f. mccartan
+nu-3728	23
+nu-3729	21
+nu-3730	5.0
+nu-3731	6
+nu-3732	1
+nu-3733	204.0
+nu-3734	4
+nu-3735	14.0
+nu-3736	6
+nu-3737	4
+nu-3738	17
+nu-3739	2008-xx-xx
+nu-3740	7
+nu-3741	1
+nu-3742	madrid
+nu-3743	zakarpattia
+nu-3744	2
+nu-3745	1960-10-29
+nu-3746	3.3
+nu-3747	us open, new york city, usa
+nu-3748	1
+nu-3749	@ golden state
+nu-3750	13
+nu-3751	cassiopeia 1	ngc 1569	kk 35	camelopardalis b
+nu-3752	1985-xx-xx
+nu-3753	14
+nu-3754	5
+nu-3755	7
+nu-3756	7
+nu-3757	2
+nu-3758	
+nu-3759	ether
+nu-3760	pascal bresson
+nu-3761	13
+nu-3762	young forever
+nu-3763	matthew steer
+nu-3764	total number of pasurams
+nu-3765	denver broncos
+nu-3766	2009-04-11
+nu-3767	2
+nu-3768	2
+nu-3769	tamsin blanchard
+nu-3770	mg george e. leach
+nu-3771	eskender mustafaiev
+nu-3772	jean-michel bayle
+nu-3773	7
+nu-3774	salford city stadium
+nu-3775	2
+nu-3776	blues clues	sister, sister	tia & tamera	family guy	melissa and joey	are you afraid of the dark?	the all-new mickey mouse	true colors	smart guy	strong medicine	the super hero squad show	the real	access hollywood live	how i loved a macho boy	detention	the adventures of hyperman	christmas angel	things we do for love	flesh'n blood	all that	roommates	chrisjayify
+nu-3777	grand trunk(gt) exp
+nu-3778	d
+nu-3779	2008-06-04
+nu-3780	14.11
+nu-3781	13
+nu-3782	1.0	356.0
+nu-3783	7
+nu-3784	henry j. kaiser
+nu-3785	1982-06-13
+nu-3786	9-8
+nu-3787	norway
+nu-3788	valley glen
+nu-3789	mongolia
+nu-3790	7.0
+nu-3791	5
+nu-3792	nikolay davydenko	gaston gaudio
+nu-3793	errea
+nu-3794	swift 009.c	lola t98/00	penske pc27-98	reynard 98i	reynard 97i	reynard 98i\neagle 987
+nu-3795	super series finals
+nu-3796	5
+nu-3797	gates mills, ohio
+nu-3798	19
+nu-3799	german two-seater aircraft
+nu-3800	1938/39	1936/37	1937/38
+nu-3801	3
+nu-3802	17
+nu-3803	saracens
+nu-3804	1
+nu-3805	24/7	sunshine	romeo	i like it	gentle	never 2 much of u	summergirls	endlessly	ooh child
+nu-3806	united states
+nu-3807	michael campbell	mark hensby
+nu-3808	23
+nu-3809	2001-xx-xx
+nu-3810	1961-1974
+nu-3811	17
+nu-3812	11
+nu-3813	1
+nu-3814	greg
+nu-3815	calvin roberts
+nu-3816	3
+nu-3817	27
+nu-3818	jack brabham
+nu-3819	15
+nu-3820	national basketball league
+nu-3821	13
+nu-3822	me-110	me-109
+nu-3823	1982
+nu-3824	5.0
+nu-3825	11.63
+nu-3826	10
+nu-3827	3
+nu-3828	16
+nu-3829	chris grant	sean morley	pulgarcito
+nu-3830	ebbe skovdahl
+nu-3831	herman wouk
+nu-3832	archimedes-lab.org	hackmath.net	smartygames.com	watchknowlearn	le patron	ixl	nafham	hyperphysics	ask a biologist	geometry from the land of the incas	starfall.com	cut-the-knot	fact monster	brainpop	bitesize by the bbc	learnalberta.ca	awesome library
+nu-3833	usa
+nu-3834	7
+nu-3835	moldova
+nu-3836	paris
+nu-3837	6
+nu-3838	2006-03-04
+nu-3839	3
+nu-3840	1072-xx-xx
+nu-3841	kr
+nu-3842	102.0
+nu-3843	78.0
+nu-3844	francisco bravo medical magnet high school
+nu-3845	1956-11-27
+nu-3846	scott dixon
+nu-3847	7ho
+nu-3848	2.0
+nu-3849	500000.0
+nu-3850	juan borja
+nu-3851	11
+nu-3852	martina navratilova\n pam shriver
+nu-3853	3.0
+nu-3854	8
+nu-3855	50.0
+nu-3856	new york film critics circle, 1971	national society of film critics, 1972	bafta, 1972	kansas city film critics circle, 1972	golden globe awards, 1972	academy awards, 1972
+nu-3857	bruno brazil
+nu-3858	gl-b-1
+nu-3859	2
+nu-3860	2003-xx-xx
+nu-3861	13
+nu-3862	24
+nu-3863	2002-xx-xx
+nu-3864	georgi asparuhov
+nu-3865	lanny poffo
+nu-3866	southend united	northampton town
+nu-3867	1994
+nu-3868	2
+nu-3869	united states
+nu-3870	18
+nu-3871	levanger
+nu-3872	58.0
+nu-3873	£8.00	£9.60	£10.00	£7.00	£9.00	£8.40	£6.00	£5.00
+nu-3874	#76 malibu grand prix
+nu-3875	holy roman empire/austrian empire
+nu-3876	15.0
+nu-3877	6
+nu-3878	salem al-yami
+nu-3879	career
+nu-3880	103.0
+nu-3881	7
+nu-3882	wayne terwilliger	george case
+nu-3883	16
+nu-3884	4
+nu-3885	1
+nu-3886	halfback
+nu-3887	100.0
+nu-3888	united states
+nu-3889	4.0
+nu-3890	united states
+nu-3891	6
+nu-3892	gent
+nu-3893	yera allon
+nu-3894	oceania
+nu-3895	7
+nu-3896	1994-10-15
+nu-3897	7
+nu-3898	16
+nu-3899	gary king
+nu-3900	0
+nu-3901	rick mears
+nu-3902	5:11.58
+nu-3903	robby robot
+nu-3904	33
+nu-3905	ludwig wolf\ngermany
+nu-3906	2
+nu-3907	3
+nu-3908	2
+nu-3909	2
+nu-3910	3
+nu-3911	6
+nu-3912	carlos villasenor garcia
+nu-3913	survey usa
+nu-3914	1
+nu-3915	4
+nu-3916	alexandria	gharbia	port said	ismailia	giza	cairo	asyut	suez
+nu-3917	soviet union
+nu-3918	tbd
+nu-3919	4
+nu-3920	5
+nu-3921	at denver broncos	at los angeles rams	at san diego chargers	at st. louis cardinals	at new york giants	at philadelphia eagles	at washington redskins	at detroit lions
+nu-3922	win-loss
+nu-3923	1990-xx-xx	1989-xx-xx	1986-xx-xx	1985-xx-xx
+nu-3924	2007-xx-xx	2003-xx-xx	2002-xx-xx	2004-xx-xx	2009-xx-xx	2005-xx-xx	2001-xx-xx	2006-xx-xx	2008-xx-xx	2010-xx-xx
+nu-3925	1.0
+nu-3926	21
+nu-3927	at detroit lions
+nu-3928	63.0
+nu-3929	achilles
+nu-3930	walamund
+nu-3931	rondetto
+nu-3932	17.76
+nu-3933	bring me down	"not like them"\n(featuring styles p)	"clap"\n(featuring faith evans)	the greatest story never told	"best thing that i found"\n(featuring lecrae and corbett)
+nu-3934	1987-xx-xx
+nu-3935	roman catholic diocese of cleveland preschool - 8th grade; parishioners and non-parishioners
+nu-3936	0
+nu-3937	3
+nu-3938	12
+nu-3939	total number of pasurams
+nu-3940	never tell
+nu-3941	16
+nu-3942	9
+nu-3943	14
+nu-3944	07:43
+nu-3945	cincinnati, hamilton
+nu-3946	7
+nu-3947	k-1 200 m
+nu-3948	4
+nu-3949	fm
+nu-3950	1936-xx-xx	1940-xx-xx	1942-xx-xx	1971-xx-xx	1930-xx-xx	1939-xx-xx
+nu-3951	ohio state	at #20 nebraska	michigan state
+nu-3952	you learn
+nu-3953	rumen trifonov
+nu-3954	5
+nu-3955	goodbye city...hello country
+nu-3956	1
+nu-3957	3.0
+nu-3958	2
+nu-3959	3
+nu-3960	osku palermaa
+nu-3961	11
+nu-3962	0011 0000
+nu-3963	new york giants
+nu-3964	8
+nu-3965	119.0
+nu-3966	5.0
+nu-3967	5
+nu-3968	james moffat	jonathon webb
+nu-3969	total size
+nu-3970	1 seniti
+nu-3971	7
+nu-3972	5
+nu-3973	fortec motorsport
+nu-3974	19.5
+nu-3975	2
+nu-3976	5.0
+nu-3977	1
+nu-3978	1984-xx-xx	1988-xx-xx	1985-xx-xx	1987-xx-xx	1990-xx-xx	1989-xx-xx	1986-xx-xx	1991-xx-xx
+nu-3979	4
+nu-3980	1
+nu-3981	alicia fernandez de la cruz
+nu-3982	perry
+nu-3983	2007-xx-xx	2013-xx-xx	2003-xx-xx	2012-xx-xx	2002-xx-xx	2004-xx-xx	2009-xx-xx	2011-xx-xx	2005-xx-xx	2006-xx-xx	2008-xx-xx	2010-xx-xx
+nu-3984	38
+nu-3985	dan gurney
+nu-3986	11th
+nu-3987	66 000
+nu-3988	19
+nu-3989	1 standalone dfs root	50 remote desktop services connections	50 rras connections and 10 ias connections
+nu-3990	9.0
+nu-3991	1
+nu-3992	joshua humphreys	laramie	john lenthall	andrew j. higgins
+nu-3993	3
+nu-3994	20
+nu-3995	1998-xx-xx
+nu-3996	baron beaverbrook\n1917-1964
+nu-3997	115462.0
+nu-3998	australian football league
+nu-3999	29
+nu-4000	he's gonna take you home
+nu-4001	ugca 105
+nu-4002	1
+nu-4003	14
+nu-4004	devil is a lie
+nu-4005	1
+nu-4006	lokomotiv moscow	spartak nizhny novgorod	dnipro dnipropetrovsk
+nu-4007	ayumi hamasaki
+nu-4008	billyken kid
+nu-4009	3
+nu-4010	35
+nu-4011	1
+nu-4012	35
+nu-4013	45.0
+nu-4014	sears centre
+nu-4015	gary king
+nu-4016	8
+nu-4017	aleksandr byalko\n50.the physicist
+nu-4018	16
+nu-4019	2
+nu-4020	alco	mlw
+nu-4021	jupiler league	soproni liga	belgian second division	totaal
+nu-4022	sawblade ep	warriors
+nu-4023	5
+nu-4024	0
+nu-4025	2
+nu-4026	russia
+nu-4027	ravil shafeyavich gumarov	rustam akhmyarov	almasm rabilavich sharipov	ruslan anatoloivich odijev	timur ravilich ishmurat	aiat nasimovich vahitov	ravil mingazov	rasul kudayev
+nu-4028	3
+nu-4029	john briggs
+nu-4030	16
+nu-4031	20
+nu-4032	0
+nu-4033	languedoc-roussillon
+nu-4034	544.0
+nu-4035	van nuys
+nu-4036	13
+nu-4037	arkansas
+nu-4038	1
+nu-4039	turkey	morocco	tunisia
+nu-4040	9
+nu-4041	7.0
+nu-4042	6
+nu-4043	piper pa-31 navajo
+nu-4044	the deadly director
+nu-4045	3
+nu-4046	baltimore bullets
+nu-4047	svatoslav ton
+nu-4048	totaal
+nu-4049	frank w. smith	gerry poulson	douglas mackinnon	john reardon
+nu-4050	eskender mustafaiev
+nu-4051	japan
+nu-4052	shani davis
+nu-4053	6
+nu-4054	12
+nu-4055	brian urlacher
+nu-4056	benjamin isherwood
+nu-4057	athens airport
+nu-4058	1
+nu-4059	maxwell griffin
+nu-4060	boston
+nu-4061	1
+nu-4062	24.0
+nu-4063	east boston expressway
+nu-4064	2
+nu-4065	2003-xx-xx
+nu-4066	7
+nu-4067	united states
+nu-4068	wayne county	westmoreland county	allegheny county	wyoming county	columbia county	lawrence county	lackawanna county	beaver county
+nu-4069	mauro biello
+nu-4070	2007-xx-xx	2013-xx-xx	2003-xx-xx	2012-xx-xx	2004-xx-xx	2009-xx-xx	2011-xx-xx	2005-xx-xx	2010-xx-xx
+nu-4071	1
+nu-4072	1944-11-27
+nu-4073	michael green
+nu-4074	2
+nu-4075	at sacramento surge	san diego sockers
+nu-4076	2013-12-17
+nu-4077	3
+nu-4078	1
+nu-4079	2
+nu-4080	bengali
+nu-4081	excelsior mouscron	ksv roeselare
+nu-4082	10
+nu-4083	1
+nu-4084	.818
+nu-4085	darren ramsay
+nu-4086	3
+nu-4087	2
+nu-4088	4
+nu-4089	1
+nu-4090	#38 mandeville auto tech
+nu-4091	back river farm
+nu-4092	0
+nu-4093	5
+nu-4094	esther
+nu-4095	4
+nu-4096	3
+nu-4097	billyken kid
+nu-4098	alissa joanndova
+nu-4099	1986-12-14
+nu-4100	1957-xx-xx
+nu-4101	kirt niedrigh
+nu-4102	2011-11-06	2012-11-12	2012-09-17	2011-02-13	2012-01-30	2012-01-23	2011-11-20	2010-05-16	2011-08-07
+nu-4103	1924-11-27
+nu-4104	ynares center
+nu-4105	9.0
+nu-4106	philadelphia eagles
+nu-4107	2
+nu-4108	20
+nu-4109	tashkent
+nu-4110	26
+nu-4111	john briggs
+nu-4112	15
+nu-4113	2
+nu-4114	19
+nu-4115	4
+nu-4116	nobuatsu aoki
+nu-4117	jimmy glazzard
+nu-4118	giza
+nu-4119	0
+nu-4120	all-africa games
+nu-4121	8
+nu-4122	310.2
+nu-4123	caroline botelho
+nu-4124	tarzana
+nu-4125	(ununoctium)
+nu-4126	1992-12-12
+nu-4127	greg
+nu-4128	3
+nu-4129	1986-xx-xx
+nu-4130	2010-xx-xx
+nu-4131	14
+nu-4132	russia
+nu-4133	carry me back to old tsing-tao
+nu-4134	soldier field
+nu-4135	42
+nu-4136	9
+nu-4137	louis walsh
+nu-4138	sitges film festival	toronto after dark	les utopiales	aff	lund international fantastic film festival	london int. festival of science fiction film	santa barbara international film festival	seattle international film festival	indonesia fantastic film festival	icon tlv	athens international film festival	fantasia festival	fantastic fest
+nu-4139	monster magnet
+nu-4140	13
+nu-4141	mary martin ourisman
+nu-4142	1
+nu-4143	8.0
+nu-4144	10
+nu-4145	totaal
+nu-4146	7
+nu-4147	plymouth
+nu-4148	2
+nu-4149	7
+nu-4150	1
+nu-4151	12
+nu-4152	5
+nu-4153	1
+nu-4154	1
+nu-4155	trey martinez fischer
+nu-4156	tunisia
+nu-4157	8
+nu-4158	11
+nu-4159	6931085.0
+nu-4160	david russell
+nu-4161	10
+nu-4162	1988-89	1987-88
+nu-4163	china
+nu-4164	2
+nu-4165	zakarpattia
+nu-4166	ayrton senna
+nu-4167	hassoun camara
+nu-4168	chile f2
+nu-4169	13
+nu-4170	germany\nnicole reinhardt\nconny wassmuth\ntina dietze\ncarolin leonhardt
+nu-4171	whistler, bc, canada
+nu-4172	egypt	morocco	tunisia
+nu-4173	naomi cavaday	danica krstajic	edina gallovits-hall	margalita chakhnashvili	barbora zahlavova-strycova	maria-elena camerin	darya kustova	maria jose martinez sanchez	agnieszka radwanska	kristina mladenovic	diana enache	alize lim	estrella cabeza candela	laura thorpe	bettina pirker	masa zec peskiric	anastasia grymalska	andrea gamiz
+nu-4174	0.0
+nu-4175	indonesia super series
+nu-4176	john r. cravens	oliver p. morton
+nu-4177	new york giants
+nu-4178	aboomoslem	moghavemat
+nu-4179	korea open super series
+nu-4180	1910-xx-xx
+nu-4181	l'affaire dominici
+nu-4182	saint-hyacinthe\n(monteregie)
+nu-4183	146
+nu-4184	hot dog
+nu-4185	eva
+nu-4186	4
+nu-4187	joe clark\npeter mackay
+nu-4188	1.0
+nu-4189	1914-15
+nu-4190	50 remote desktop services connections
+nu-4191	10
+nu-4192	5
+nu-4193	7
+nu-4194	
+nu-4195	aeromexico connect, interjet, volaris
+nu-4196	ralph foster
+nu-4197	hungary
+nu-4198	5
+nu-4199	16
+nu-4200	0
+nu-4201	backer
+nu-4202	18
+nu-4203	at denver broncos	at miami dolphins	pittsburgh steelers	new york jets	san diego chargers	at chicago bears	at detroit lions	seattle seahawks	denver broncos	at san diego chargers	at los angeles raiders	at seattle seahawks	green bay packers	los angeles raiders	minnesota vikings	at cincinnati bengals
+nu-4204	national express
+nu-4205	16
+nu-4206	42
+nu-4207	canada	australia	italy	france	united states	great britain	germany	greece
+nu-4208	2008-xx-xx
+nu-4209	16.0	19.0	11.0	29.0
+nu-4210	norway
+nu-4211	green bay packers
+nu-4212	68187.0
+nu-4213	3a
+nu-4214	20
+nu-4215	elijah cummings
+nu-4216	cairns saints
+nu-4217	4
+nu-4218	1.0
+nu-4219	10
+nu-4220	3
+nu-4221	1
+nu-4222	yellowstone
+nu-4223	745800.0
+nu-4224	5
+nu-4225	linkou county
+nu-4226	sternengebot	der heidenkonig
+nu-4227	10
+nu-4228	aimee elaine melo hernandez
+nu-4229	2006-11-17
+nu-4230	2002-xx-xx
+nu-4231	6
+nu-4232	italy
+nu-4233	103
+nu-4234	jackie stewart
+nu-4235	13
+nu-4236	10
+nu-4237	thanks to you
+nu-4238	radio 105 network
+nu-4239	fukuyama
+nu-4240	a♯
+nu-4241	16
+nu-4242	5
+nu-4243	orion
+nu-4244	1919-03-01
+nu-4245	1.0
+nu-4246	3
+nu-4247	7
+nu-4248	stade sebastien charlety
+nu-4249	12
+nu-4250	7
+nu-4251	3:43.42
+nu-4252	clemente biondetti
+nu-4253	warriors
+nu-4254	jordi alba
+nu-4255	2012-12-02
+nu-4256	4.0
+nu-4257	burton township, ohio and troy township, ohio
+nu-4258	1.0
+nu-4259	5
+nu-4260	11
+nu-4261	dustin lyman
+nu-4262	
+nu-4263	andy suhy	paul krake	kevin wortman
+nu-4264	enchanted	the little mermaid
+nu-4265	total
+nu-4266	64
+nu-4267	6
+nu-4268	coral springs, florida, usa
+nu-4269	7
+nu-4270	egypt	croatia
+nu-4271	major general raza hussain
+nu-4272	d
+nu-4273	1998-02-22
+nu-4274	1
+nu-4275	ray norton
+nu-4276	lord high constable	lord high steward
+nu-4277	eskender mustafaiev
+nu-4278	1
+nu-4279	valley village
+nu-4280	brazil	australia	italy	india	france	united kingdom	germany	china	japan	world	south korea	russia	canada/united states
+nu-4281	£8.00
+nu-4282	8
+nu-4283	bordeaux
+nu-4284	denmark super series
+nu-4285	pg48
+nu-4286	196 000
+nu-4287	roy hartsfield
+nu-4288	nouvel catholic central high school
+nu-4289	xxxx-10-24
+nu-4290	7
+nu-4291	paul krake
+nu-4292	10
+nu-4293	5
+nu-4294	2009-xx-xx	2002-xx-xx	2001-xx-xx
+nu-4295	neymar
+nu-4296	2001-xx-xx
+nu-4297	david hillis
+nu-4298	2nd
+nu-4299	rick ross f/jay z	rick ross
+nu-4300	17
+nu-4301	1
+nu-4302	hanrapetakan stadium, yerevan, armenia
+nu-4303	1
+nu-4304	valley lutheran high school	nouvel catholic central high school	michigan lutheran seminary
+nu-4305	ramsay carelse
+nu-4306	your love is electric
+nu-4307	landon donovan
+nu-4308	rbmk-1000
+nu-4309	19
+nu-4310	kosovo
+nu-4311	26.0
+nu-4312	2
+nu-4313	ryan briscoe
+nu-4314	4
+nu-4315	24
+nu-4316	35.0
+nu-4317	chinese taipei
+nu-4318	tiree
+nu-4319	sopwith triplane s/n n5462
+nu-4320	at philadelphia eagles
+nu-4321	3
+nu-4322	49784.0	61214.0
+nu-4323	10
+nu-4324	2000-12-25
+nu-4325	european championships
+nu-4326	tamaulipas, tampico
+nu-4327	southeastern
+nu-4328	france
+nu-4329	2011-xx-xx
+nu-4330	brazil	malaga	madrid	barcelona	seville	valladolid	totana, murcia	langreo, asturias	valencia	elche, valencia
+nu-4331	1
+nu-4332	1
+nu-4333	16.0
+nu-4334	4
+nu-4335	14
+nu-4336	colosimo
+nu-4337	los angeles
+nu-4338	6.0
+nu-4339	736.0	802.0	1188.0	750.0	1072.0	984.0
+nu-4340	18
+nu-4341	greg norman	phil mickelson
+nu-4342	38.77
+nu-4343	sexiest vegetarian celebrity 2009	best international newcomer	best western song	new artist of the year	best female act	most played foreign work	outstanding new artist	ultimate music star
