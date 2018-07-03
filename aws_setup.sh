@@ -2,9 +2,9 @@ source activate tensorflow_p27
 pip install -r requirements.txt
 mkdir ~/projects/data/
 cd ~/projects/data/
-cp ~/projects/neural-symbolic-machines/table/wtq/wikitable.zip ~/projects/data/wikitable.zip
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1lwLH4-5FRZzM9JVicy3TH6Al11bRalyg' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1lwLH4-5FRZzM9JVicy3TH6Al11bRalyg" -O wikisql.zip && rm -rf /tmp/cookies.txt
 unzip wikitable.zip
-cp ~/projects/neural-symbolic-machines/table/wikisql/wikisql.zip ~/projects/data/wikisql.zip
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1lwLH4-5FRZzM9JVicy3TH6Al11bRalyg' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1lwLH4-5FRZzM9JVicy3TH6Al11bRalyg" -O wikisql.zip && rm -rf /tmp/cookies.txt
 unzip wikisql.zip
 cd ~/projects/neural-symbolic-machines/
 python setup.py develop
