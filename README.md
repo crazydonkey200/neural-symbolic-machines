@@ -55,7 +55,7 @@ source activate tensorflow_p27
 cd ~/projects/neural-symbolic-machines/table/wtq/
 ./run.sh mapo mapo
 ```
-The experiment trains the model for 30k steps. It takes about 3hrs to finish.
+The experiment trains the model for 30k steps. It takes about 2.5 hrs to finish.
 
 
 ### Start tensorboard to monitor WikiTable experiment
@@ -77,7 +77,7 @@ source activate tensorflow_p27
 cd ~/projects/neural-symbolic-machines/table/wikisql/
 ./run.sh mapo mapo
 ```
-The experiment trains the model for 15k steps. It takes about 8hrs to finish.
+The experiment trains the model for 15k steps. It takes about 6.5 hrs to finish.
 
 ### Start tensorboard to monitor WikiSQL experiment
 ```
