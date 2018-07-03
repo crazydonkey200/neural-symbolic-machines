@@ -1,0 +1,51 @@
+DATA_DIR=$HOME"/projects/data/wikisql/"
+INPUT_DIR=$DATA_DIR"processed_input/preprocess_2/"
+SPLIT_DIR=$INPUT_DIR
+python ../experiment.py \
+       --output_dir=$DATA_DIR"output" \
+       --experiment_name="mml" \
+       --n_actors=1 \
+       --dev_file=$SPLIT_DIR"train_split_shard_30-0.jsonl" \
+       --train_shard_dir=$SPLIT_DIR \
+       --train_shard_prefix="train_split_shard_30-" \
+       --shard_start=0 \
+       --shard_end=1 \
+       --load_saved_programs \
+       --saved_program_file=$DATA_DIR"processed_input/preprocess_2/all_train_saved_programs-1k.json" \
+       --embedding_file=$DATA_DIR"raw_input/wikisql_glove_embedding_mat.npy" \
+       --vocab_file=$DATA_DIR"raw_input/wikisql_glove_vocab.json" \
+       --table_file=$INPUT_DIR"tables.jsonl" \
+       --en_vocab_file=$INPUT_DIR"en_vocab_min_count_5.json" \
+       --save_every_n=10 \
+       --n_explore_samples=1 \
+       --use_cache \
+       --batch_size=25 \
+       --dropout=0.5 \
+       --hidden_size=50 \
+       --attn_size=50 \
+       --attn_vec_size=50 \
+       --en_embedding_size=50 \
+       --en_bidirectional \
+       --n_layers=1 \
+       --en_n_layers=1 \
+       --use_pretrained_embeddings \
+       --pretrained_embedding_size=300 \
+       --value_embedding_size=300 \
+       --lm_loss_coeff=0.0 \
+       --learning_rate=0.01 \
+       --n_policy_samples=1 \
+       --n_replay_samples=1 \
+       --use_replay_samples_in_train \
+       --use_nonreplay_samples_in_train \
+       --fixed_replay_weight=1.0 \
+       --min_prob=0.0 \
+       --train_use_gpu \
+       --train_gpu_id=0 \
+       --eval_use_gpu \
+       --eval_gpu_id=1 \
+       --max_n_mem=100 \
+       --max_n_valid_indices=100 \
+       --max_n_exp=4 \
+       --log_samples_every_n_epoch=2 \
+       --executor='wikisql' \
+       --alsologtostdout
