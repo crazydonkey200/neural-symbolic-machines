@@ -132,9 +132,11 @@ def run_random_exploration(shard_id):
   if FLAGS.executor == 'wtq':
     score_fn = utils.wtq_score
     process_answer_fn = lambda x: x
+    executor_fn = executor_factory.WikiTableExecutor
   elif FLAGS.executor == 'wikisql':
     score_fn = utils.wikisql_score
     process_answer_fn = utils.wikisql_process_answer
+    executor_fn = executor_factory.WikiSQLExecutor
   else:
     raise ValueError('Unknown executor {}'.format(FLAGS.executor))
   
@@ -144,7 +146,7 @@ def run_random_exploration(shard_id):
       if i % 100 == 0:
         tf.logging.info('creating environment #{}'.format(i))
       kg_info = table_dict[example['context']]
-      executor = executor_factory.WikiSQLExecutor(kg_info)
+      executor = executor_fn(kg_info)
       api = executor.get_api()
       type_hierarchy = api['type_hierarchy']
       func_dict = api['func_dict']
