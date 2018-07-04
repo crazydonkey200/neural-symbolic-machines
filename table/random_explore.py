@@ -216,11 +216,30 @@ def run_random_exploration(shard_id):
       avg_cache_size))
 
 
+def collect_programs():
+  saved_programs = {}
+  for i in xrange(FLAGS.id_start, FLAGS.id_end):
+    with open(os.path.join(
+        get_experiment_dir(),
+        'program_shard_{}-{}.json'.format(i, FLAGS.n_epoch)), 'r') as f:
+      program_shard = json.load(f)
+      saved_programs.update(program_shard)
+  saved_program_path = os.path.join(get_experiment_dir(), 'saved_programs.json')
+  with open(saved_program_path, 'w') as f:
+    json.dump(saved_programs, f)
+  print 'saved programs are aggregated in {}'.format(saved_program_path)
+
+
 def main(unused_argv):
+  ps = []
   for idx in xrange(FLAGS.id_start, FLAGS.id_end):
     p = multiprocessing.Process(target=run_random_exploration, args=(idx,))
     p.start()
-    
+    ps.append(p)
+  for p in ps:
+    p.join()
+  collect_programs()
+
 
 if __name__ == '__main__':  
   tf.app.run()
