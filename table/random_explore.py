@@ -190,7 +190,7 @@ def run_random_exploration(shard_id):
                                  in program_dict.iteritems()])
         json.dump(program_str_dict, f, sort_keys=True, indent=2)
 
-      cache_dict = dict([(env.name, list(env.cache._set)) for env in all_envs])
+      # cache_dict = dict([(env.name, list(env.cache._set)) for env in all_envs])
       t2 = time.time()
       tf.logging.info(
         '{} sec used saving programs and cache in iteration {}'.format(
@@ -211,9 +211,9 @@ def run_random_exploration(shard_id):
                            if program_dict[env.name]])
     tf.logging.info('macro average program length: {}'.format(
       mean_length))
-    avg_cache_size = sum([len(env.cache._set) for env in all_envs]) * 1.0 / len(all_envs)
-    tf.logging.info('average cache size: {}'.format(
-      avg_cache_size))
+    # avg_cache_size = sum([len(env.cache._set) for env in all_envs]) * 1.0 / len(all_envs)
+    # tf.logging.info('average cache size: {}'.format(
+    #  avg_cache_size))
 
 
 def collect_programs():

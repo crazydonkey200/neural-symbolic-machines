@@ -1,24 +1,31 @@
 # Introduction
 
-## Neural Symbolic Machines
-<img src="https://github.com/crazydonkey200/neural-symbolic-machines/blob/master/images/nsm.png" width="100%">
+## Neural Symbolic Machines (NSM)
 
-Neural Symbolic Machines (NSM) is a framework to integrate neural networks and symbolic representaions using reinforcement learning. 
+Neural Symbolic Machines is a framework to integrate neural networks and symbolic representaions using reinforcement learning. 
+
+<div align="middle"><img src="https://github.com/crazydonkey200/neural-symbolic-machines/blob/master/images/nsm.png" width="80%" ></div>
+
 
 ## Applications
-<img src="https://github.com/crazydonkey200/neural-symbolic-machines/blob/master/images/ap.png" width="100%">
 
 The framework can be used to learn semantic parsing and program synthesis from weak supervision (e.g., question-answer pairs), which is easier to collect and more flexible than full supervision (e.g., question-program pairs). Applications include virtual assistant, natural language interface to database, human-robot interaction, etc. It has been used to <a href="https://arxiv.org/abs/1611.00020">learn semantic parsers on Freebase<a> and <a href="MAPO">natural language interfaces to database tables<a>. 
 
-## Memory Augmented Policy Optimization
-<img src="https://github.com/crazydonkey200/neural-symbolic-machines/blob/master/images/mapo.png" width="100%">
+<div align="middle"><img src="https://github.com/crazydonkey200/neural-symbolic-machines/blob/master/images/ap.png" width="80%"></div>
+
+
+## Memory Augmented Policy Optimization (MAPO)
 
 We use <a href="MAPO link">Memory Augmented Policy Optimization (MAPO)</a> to train NSM. It is a novel policy optimization formulation that incorporates a memory buffer of promising trajectories to reduce the variance of policy gradient estimates for deterministic environments with discrete actions. We also apply systematic exploration to improve exploration and marginal likelihood constraint to accelerate and stabilize training. 
 
+<div align="middle"><img src="https://github.com/crazydonkey200/neural-symbolic-machines/blob/master/images/mapo.png" width="80%"></div>
+
 ## Distributed Actor-Learner Architecture
-<img src="https://github.com/crazydonkey200/neural-symbolic-machines/blob/master/images/al.png" width="100%">
 
 Our implementation uses a distributed actor-learner architecture that utilizes multiple CPUs and GPUs for scalable training, similar to the one introduced in <a href="https://arxiv.org/abs/1802.01561">the IMPALA paper from DeepMind</a>. 
+
+<div align="middle"><img src="https://github.com/crazydonkey200/neural-symbolic-machines/blob/master/images/al.png" width="80%"></div>
+
 
 # Dependencies
 
@@ -55,7 +62,7 @@ source activate tensorflow_p27
 cd ~/projects/neural-symbolic-machines/table/wtq/
 ./run.sh mapo mapo
 ```
-The experiment trains the model for 30k steps. It takes about 3hrs to finish.
+The experiment trains the model for 30k steps. It takes about 2.5 hrs to finish.
 
 
 ### Start tensorboard to monitor WikiTable experiment
@@ -77,7 +84,7 @@ source activate tensorflow_p27
 cd ~/projects/neural-symbolic-machines/table/wikisql/
 ./run.sh mapo mapo
 ```
-The experiment trains the model for 15k steps. It takes about 8hrs to finish.
+The experiment trains the model for 15k steps. It takes about 6.5 hrs to finish.
 
 ### Start tensorboard to monitor WikiSQL experiment
 ```
