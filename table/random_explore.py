@@ -168,6 +168,7 @@ def run_random_exploration(shard_id):
         interpreter=interpreter,
         constant_value_embedding_fn=lambda x: None,
         score_fn=score_fn,
+        max_cache_size=FLAGS.n_explore_samples * FLAGS.n_epoch * 10,
         name=example['id'])
       all_envs.append(env)
 

@@ -46,6 +46,7 @@ class QAProgrammingEnv(Environment):
                score_fn, interpreter, constants=None,
                punish_extra_work=True,
                init_interp=True, trigger_words_dict=None,
+               max_cache_size=1e4,
                name='qa_programming'):
     self.name=name
     self.en_vocab = en_vocab
@@ -114,7 +115,7 @@ class QAProgrammingEnv(Environment):
             val in prop_features):
           self.id_feature_dict[id] = prop_features[val]
       
-    self.cache = SearchCache(name=name)
+    self.cache = SearchCache(name=name, max_elements=max_cache_size)
     self.use_cache = False
     self.reset()
     
