@@ -59,8 +59,6 @@ tf.app.flags.DEFINE_integer('id_end', 0, '.')
 
 tf.app.flags.DEFINE_string(
   'trigger_word_file', '', '.')
-tf.app.flags.DEFINE_bool(
-  'use_trigger_word_filter', False, '.')
 
 tf.app.flags.DEFINE_integer('n_process', -1, '.')
 
@@ -109,11 +107,13 @@ def run_random_exploration(shard_id):
   if not tf.gfile.Exists(experiment_dir):
     tf.gfile.MkDir(experiment_dir)
 
-  if FLAGS.use_trigger_word_filter:
+  if FLAGS.trigger_word_file:
     with open(FLAGS.trigger_word_file, 'r') as f:
       trigger_dict = json.load(f)
+      print 'use trigger words in {}'.format(FLAGS.trigger_word_file)
   else:
     trigger_dict = None
+
   # Load dataset.
   train_set = []
   with open(FLAGS.train_file_tmpl.format(shard_id), 'r') as f:

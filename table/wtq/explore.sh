@@ -3,6 +3,7 @@ DATA_DIR=$ROOT"data/wikitable/"
 python ../random_explore.py \
        --train_file_tmpl=$DATA_DIR"processed_input/preprocess_14/data_split_1/train_split_shard_90-{}.jsonl" \
        --table_file=$DATA_DIR"processed_input/preprocess_14/tables.jsonl" \
+       --use_trigger_word_filter \
        --trigger_word_file=$DATA_DIR"raw_input/trigger_word_all.json" \
        --output_dir=$DATA_DIR"output" \
        --experiment_name="random_explore" \
