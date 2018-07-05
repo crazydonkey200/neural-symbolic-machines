@@ -10,5 +10,5 @@ python ../random_explore.py \
        --save_every_n=5 \
        --n_epoch=200 \
        --id_start=0 \
-       --id_end=1 \
+       --id_end=90 \
        --alsologtostderr
