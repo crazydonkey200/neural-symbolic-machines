@@ -9,14 +9,14 @@ Neural Symbolic Machines is a framework to integrate neural networks and symboli
 
 ## Applications
 
-The framework can be used to learn semantic parsing and program synthesis from weak supervision (e.g., question-answer pairs), which is easier to collect and more flexible than full supervision (e.g., question-program pairs). Applications include virtual assistant, natural language interface to database, human-robot interaction, etc. It has been used to <a href="https://arxiv.org/abs/1611.00020">learn semantic parsers on Freebase<a> and <a href="MAPO">natural language interfaces to database tables<a>. 
+The framework can be used to learn semantic parsing and program synthesis from weak supervision (e.g., question-answer pairs), which is easier to collect and more flexible than full supervision (e.g., question-program pairs). Applications include virtual assistant, natural language interface to database, human-robot interaction, etc. It has been used to <a href="https://arxiv.org/abs/1611.00020">learn semantic parsers on Freebase<a> and <a href="https://arxiv.org/abs/1807.02322">natural language interfaces to database tables<a>. 
 
 <div align="middle"><img src="https://github.com/crazydonkey200/neural-symbolic-machines/blob/master/images/ap.png" width="80%"></div>
 
 
 ## Memory Augmented Policy Optimization (MAPO)
 
-We use <a href="MAPO link">Memory Augmented Policy Optimization (MAPO)</a> to train NSM. It is a novel policy optimization formulation that incorporates a memory buffer of promising trajectories to reduce the variance of policy gradient estimates for deterministic environments with discrete actions. We also apply systematic exploration to improve exploration and marginal likelihood constraint to accelerate and stabilize training. 
+We use <a href="https://arxiv.org/abs/1807.02322">Memory Augmented Policy Optimization (MAPO)</a> to train NSM. It is a novel policy optimization formulation that incorporates a memory buffer of promising trajectories to reduce the variance of policy gradient estimates for deterministic environments with discrete actions. We also apply systematic exploration to improve exploration and marginal likelihood constraint to accelerate and stabilize training. 
 
 <div align="middle"><img src="https://github.com/crazydonkey200/neural-symbolic-machines/blob/master/images/mapo.png" width="80%"></div>
 
