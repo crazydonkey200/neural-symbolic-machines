@@ -60,10 +60,16 @@ cd ~/projects/neural-symbolic-machines/
 screen -S wtq
 source activate tensorflow_p27
 cd ~/projects/neural-symbolic-machines/table/wtq/
-./run.sh mapo mapo
+./run.sh mapo your_experiment_name
 ```
-The experiment trains the model for 30k steps. It takes about 2.5 hrs to finish.
+This script trains the model for 30k steps and evaluates the checkpoint with the highest dev accuracy on the test set. It takes about 2.5 hrs to finish.
 
+All the data about this experiment will be saved in `~/projects/neural-symbolic-machines/table/wikitable/output/your_experiment_name`, and the evaluation result would be saved in `~/projects/neural-symbolic-machines/table/wikitable/output/eval_your_experiment_name`.
+
+You could also evaluate a trained model using 
+```
+./eval.sh your_experiment_name
+```
 
 ### Start tensorboard to monitor WikiTable experiment
 ```
@@ -82,9 +88,16 @@ To see the tensorboard, in the browser, go to
 screen -S ws
 source activate tensorflow_p27
 cd ~/projects/neural-symbolic-machines/table/wikisql/
-./run.sh mapo mapo
+./run.sh mapo your_experiment_name
 ```
-The experiment trains the model for 15k steps. It takes about 6.5 hrs to finish.
+This script trains the model for 15k steps and evaluates the checkpoint with the highest dev accuracy on the test set. It takes about 6.5 hrs to finish. 
+
+All the data about this experiment will be saved in `~/projects/neural-symbolic-machines/table/wikisql/output/your_experiment_name`, and the evaluation result would be saved in `~/projects/neural-symbolic-machines/table/wikisql/output/eval_your_experiment_name`.
+
+You could also evaluate a trained model using 
+```
+./eval.sh your_experiment_name
+```
 
 ### Start tensorboard to monitor WikiSQL experiment
 ```
