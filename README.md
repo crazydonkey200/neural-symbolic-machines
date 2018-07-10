@@ -66,9 +66,11 @@ This script trains the model for 30k steps and evaluates the checkpoint with the
 
 All the data about this experiment will be saved in `~/projects/data/wikitable/output/your_experiment_name`, and the evaluation result would be saved in `~/projects/data/wikitable/output/eval_your_experiment_name`.
 
-You could also evaluate a trained model using 
+You could also evaluate a trained model on the dev set or test set using
 ```
-./eval.sh your_experiment_name
+./eval.sh your_experiment_name dev
+
+./eval.sh your_experiment_name test
 ```
 
 ### Start tensorboard to monitor WikiTable experiment
@@ -94,9 +96,11 @@ This script trains the model for 15k steps and evaluates the checkpoint with the
 
 All the data about this experiment will be saved in `~/projects/data/wikisql/output/your_experiment_name`, and the evaluation result would be saved in `~/projects/data/wikisql/output/eval_your_experiment_name`.
 
-You could also evaluate a trained model using 
+You could also evaluate a trained model on the dev set or test set using
 ```
-./eval.sh your_experiment_name
+./eval.sh your_experiment_name dev
+
+./eval.sh your_experiment_name test
 ```
 
 ### Start tensorboard to monitor WikiSQL experiment
