@@ -2,7 +2,7 @@
 
 ## Neural Symbolic Machines (NSM)
 
-Neural Symbolic Machines is a framework to integrate neural networks and symbolic representaions using reinforcement learning. 
+Neural Symbolic Machines is a framework to integrate neural networks and symbolic representations using reinforcement learning. 
 
 <div align="middle"><img src="https://github.com/crazydonkey200/neural-symbolic-machines/blob/master/images/nsm.png" width="80%" ></div>
 
