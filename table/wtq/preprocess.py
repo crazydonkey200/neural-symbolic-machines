@@ -16,8 +16,7 @@ import nsm
 from nsm import word_embeddings
 from nsm import data_utils
 
-import wtq_evaluator
-import wtq_utils
+import evaluator
 
 import tensorflow as tf
 
@@ -81,8 +80,8 @@ def normalize_date_nervalue(val_string):
         string = val_string + '-XX'
     else:
         string = val_string
-    val = wtq_evaluator.to_value(string)
-    if isinstance(val, wtq_evaluator.DateValue):
+    val = evaluator.to_value(string)
+    if isinstance(val, evaluator.DateValue):
         return val.normalized
     else:
         return None
@@ -94,8 +93,8 @@ def normalize_number_nervalue(val_string):
     if m is None:
         return None
     string = m.group()
-    val = wtq_evaluator.to_value(string)
-    if isinstance(val, wtq_evaluator.NumberValue):
+    val = evaluator.to_value(string)
+    if isinstance(val, evaluator.NumberValue):
         return val.amount
     else:
         return None
@@ -744,7 +743,7 @@ def main(unused_argv):
         for e in examples:
           for tk in e['tokens']:
             # Token must be in glove and also appears more than min_count.
-            if wtq_utils.find_tk_in_model(tk, embedding_model):
+            if find_tk_in_model(tk, embedding_model):
               try:
                 token_count[tk] += 1
               except KeyError:
@@ -761,7 +760,33 @@ def main(unused_argv):
         with open(vocab_file, 'w') as f:
           json.dump(en_vocab.vocab, f, sort_keys=True, indent=2)
         print 'min_tk_count: {}, vocab size: {}'.format(i, len(en_vocab.vocab))    
-    
+
+
+# Copied from utils to avoid relative import.
+# [TODO] Use a cleaner solution.
+def find_tk_in_model(tk, model):
+    special_tk_dict = {'-lrb-': '(', '-rrb-': ')'}
+    if tk in model:
+        return [tk]
+    elif tk in special_tk_dict:
+        return [special_tk_dict[tk]]
+    elif tk.upper() in model:
+        return [tk.upper()]
+    elif tk[:1].upper() + tk[1:] in model:
+        return [tk[:1].upper() + tk[1:]]
+    elif re.search('\\/', tk):
+        tks = tk.split('\\\\/')
+        if len(tks) == 1:
+          return []
+        valid_tks = []
+        for tk in tks:
+            valid_tk = find_tk_in_model(tk, model)
+            if valid_tk:
+                valid_tks += valid_tk
+        return valid_tks
+    else:
+        return []
+        
 
 if __name__ == '__main__':  
     tf.app.run()
