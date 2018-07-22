@@ -35,7 +35,7 @@ def scale_rewards(samples, scale):
   "Weight each samples with the weight. Reflected on rewards."
   scaled_rewards = [list(scale * np.array(s.rewards)) for s in samples]
   new_samples = []
-  for s, p in zip(samples, scaled_probs):
+  for s, p in zip(samples, scaled_rewards):
     new_samples.append(sample._replace(traj=traj._replace(rewards=scaled_rewards)))
   return new_samples
   
