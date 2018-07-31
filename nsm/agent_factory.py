@@ -82,7 +82,8 @@ class PGAgent(object):
 
     self.monitor_graph = graph_factory.MonitorGraph()
     for name in ['avg_return', 'min_return', 'max_return', 'std_return',
-                 'avg_len', 'min_len', 'max_len', 'std_len']:
+                 'avg_len', 'min_len', 'max_len', 'std_len',
+                 'clip_frac']:
       self.monitor_graph.add_scalar_monitor(name, dtype=tf.float32)
 
     self.monitor_graph.launch()
@@ -240,7 +241,8 @@ class PGAgent(object):
     logprobs = self.model.compute_step_logprobs(obs, actions, context=context)
     return logprobs
     
-  def evaluate(self, samples, n_samples=1, verbose=0, writer=None, true_n=None):
+  def evaluate(self, samples, n_samples=1, verbose=0, writer=None, true_n=None,
+               clip_frac=0.0):
     "Evaluate the agent on the envs."
 
     trajs = [s.traj for s in samples]
@@ -277,11 +279,18 @@ class PGAgent(object):
         avg_return=avg_return, max_return=max_return,
         min_return=min_return, std_return=std_return,
         avg_len=avg_len, max_len=max_len,
-        min_len=min_len, std_len=std_len)
-      summary = self.monitor_graph.generate_summary(feed_dict)
-      writer.add_summary(summary, self.model.get_global_step())
-      writer.flush()
+        min_len=min_len, std_len=std_len,
+        clip_frac=clip_frac)
+      self.write_to_monitor(feed_dict, writer)
+      # summary = self.monitor_graph.generate_summary(feed_dict)
+      # writer.add_summary(summary, self.model.get_global_step())
+      # writer.flush()
     return avg_return, avg_len
+
+  def write_to_monitor(self, feed_dict, writer):
+    summary = self.monitor_graph.generate_summary(feed_dict)
+    writer.add_summary(summary, self.model.get_global_step())
+    writer.flush()
 
 
 def compute_weighted_stats(array, weight):

@@ -888,7 +888,7 @@ class Actor(multiprocessing.Process):
             new_samples = agent_factory.scale_probs(
               samples, 1 - FLAGS.fixed_replay_weight)
           return new_samples
-        
+
         train_samples = []
         if FLAGS.use_replay_samples_in_train:
           if FLAGS.use_trainer_prob:
@@ -911,7 +911,18 @@ class Actor(multiprocessing.Process):
         else:
           step_logprobs = None
 
-        self.train_queue.put((train_samples, step_logprobs))
+        if FLAGS.use_replay_prob_as_weight:
+          n_clip = 0
+          for env in batch_envs:
+            name = env.name
+            if (name in replay_buffer.prob_sum_dict and
+                replay_buffer.prob_sum_dict[name] < FLAGS.min_replay_weight):
+              n_clip += 1
+          clip_frac = float(n_clip) / len(batch_envs)
+        else:
+          clip_frac = 0.0
+  
+        self.train_queue.put((train_samples, step_logprobs, clip_frac))
         t2 = time.time()
         tf.logging.info(
           ('{} sec used preparing and enqueuing samples, {}'
@@ -1139,7 +1150,7 @@ class Learner(multiprocessing.Process):
     while True:
       tf.logging.info('Start train step {}'.format(i))
       t1 = time.time()
-      train_samples, behaviour_logprobs  = self.train_queue.get()
+      train_samples, behaviour_logprobs, clip_frac  = self.train_queue.get()
       eval_samples, eval_true_n = self.eval_queue.get()
       replay_samples, replay_true_n = self.replay_queue.get()
       t2 = time.time()
@@ -1173,7 +1184,8 @@ class Learner(multiprocessing.Process):
             debug=FLAGS.debug)
 
       avg_return, avg_len = agent.evaluate(
-        eval_samples, writer=train_writer, true_n=eval_true_n)
+        eval_samples, writer=train_writer, true_n=eval_true_n,
+        clip_frac=clip_frac)
       tf.logging.info('train: avg return: {}, avg length: {}.'.format(
         avg_return, avg_len))
       avg_return, avg_len = agent.evaluate(
