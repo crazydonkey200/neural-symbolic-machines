@@ -509,7 +509,7 @@ class Seq2seqGraph(Graph):
            embeddings=en_embeddings, output_proj_size=en_hidden_size)
 
       if use_attn:
-        attn_inputs = en_seq_outputs
+        attn_inputs = en_seq_outputs.tensor
       else:
         attn_inputs = None
 
