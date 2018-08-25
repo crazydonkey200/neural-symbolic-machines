@@ -1055,7 +1055,7 @@ def create_softmax(
 def create_softmax_from_logits(logits):
   "Create nodes for softmax computation from logits."
   temperature = tf.placeholder_with_default(
-    1.0, shape=None, name='temperature')
+    1.0, shape=(), name='temperature')
   logits = logits / temperature
 
   logits_shape = tf.shape(logits)
