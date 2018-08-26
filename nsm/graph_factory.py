@@ -344,16 +344,17 @@ class Graph(object):
 
       clipped_entropy = p0 * (tf.log(z0) - a0)
       
-      seq_entropy = (
+      seq_entropy = SeqTensor(
         tf.reduce_sum(clipped_entropy, axis=-1) *
         tf.sequence_mask(
-          sequence_length, dtype=tf.float32))
+          sequence_length, dtype=tf.float32),
+        sequence_length)
 
       policy_entropy = tf.reduce_sum(
         tf.reduce_sum(clipped_entropy, axis=-1) *
         tf.sequence_mask(
           sequence_length, dtype=tf.float32))
-      
+
       # Compute sequence cross entropy loss.
       seq_logits, seq_probs, seq_predictions, seq_samples = [
         SeqTensor(x, sequence_length)
