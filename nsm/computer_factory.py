@@ -316,8 +316,8 @@ class LispInterpreter(object):
     mem_tokens = []
     for i in range(self.max_mem):
       mem_tokens.append('v{}'.format(i))
-      vocab = data_utils.Vocab(
-        self.namespace.get_all_names() + SPECIAL_TKS + mem_tokens)
+    vocab = data_utils.Vocab(
+      self.namespace.get_all_names() + SPECIAL_TKS + mem_tokens)
     return vocab
 
 
