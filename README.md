@@ -125,7 +125,7 @@ If you use the code in your research, please cite:
 
     @misc{1807.02322,
     Author = {Chen Liang and Mohammad Norouzi and Jonathan Berant and Quoc Le and Ni Lao},
-    Title = {Memory Augmented Policy Optimization for Program Synthesis with Generalization},
+    Title = {Memory Augmented Policy Optimization for Program Synthesis and Semantic Parsing},
     Year = {2018},
     Eprint = {arXiv:1807.02322},
     }
