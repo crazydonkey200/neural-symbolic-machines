@@ -180,16 +180,15 @@ class RNNSeqModel(SeqModel):
     feed_dict = dict(
       initial_state=initial_state, inputs=inputs, targets=targets,
       weights=weights, context=context)
-    ba = data_utils.BatchAggregator(tuple_keys=['sequence_loss'])
+    ba = data_utils.BatchAggregator(tuple_keys=['sequence_probs'])
     t1 = time.time()
-    fetch_list = ['sequence_loss']
+    fetch_list = ['sequence_probs']
     result_dict = self.run_epoch(
       fetch_list, feed_dict,
       self._train_bc, ba,
       parameters=parameters)
     t2 = time.time()
-    seq_losses = result_dict.get('sequence_loss', [])
-    probs = [np.exp(-l[0]) for l in seq_losses]
+    probs = [l[0] for l in result_dict.get('sequence_probs', [])]
     return probs
 
   def compute_step_logprobs(self, inputs, targets, context=None,
@@ -198,16 +197,15 @@ class RNNSeqModel(SeqModel):
     feed_dict = dict(
       initial_state=initial_state, inputs=inputs, targets=targets,
       weights=weights, context=context)
-    ba = data_utils.BatchAggregator(seq_keys=['step_loss'])
+    ba = data_utils.BatchAggregator(seq_keys=['step_logprobs'])
     t1 = time.time()
-    fetch_list = ['step_loss']
+    fetch_list = ['step_logprobs']
     result_dict = self.run_epoch(
       fetch_list, feed_dict,
       self._train_bc, ba,
       parameters=parameters)
     t2 = time.time()
-    step_losses = result_dict.get('step_loss', [])
-    logprobs = [map(lambda x: -x, seq) for seq in step_losses]
+    logprobs = result_dict.get('step_logprobs', [])
     return logprobs
     
   def evaluate(self, inputs, targets, weights=None, context=None,
