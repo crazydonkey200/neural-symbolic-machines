@@ -666,7 +666,7 @@ class MemorySeq2seqGraph(Graph):
       [None, n_mem, value_embedding_size])
     builtin_de_embeddings_shape=tf.TensorShape([n_builtin, hidden_size])
 
-    with tf.variable_scope('Constant_encoder'):
+    with tf.variable_scope('ConstantInput'):
       # constant_span_embedding encodes the information
       # from the span where the constant is referred to,
       # for example the span "obama" in "who is the wife
@@ -812,7 +812,7 @@ class MemorySeq2seqGraph(Graph):
         attn_inputs = None
         attn_masks = None
 
-      with tf.variable_scope('Constant_encoder'):
+      with tf.variable_scope('ConstantEncoder'):
         batch_ind = tf.range(batch_size)
 
         # batch_ind: (B, 1, 1, 1)
