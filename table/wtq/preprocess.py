@@ -35,8 +35,6 @@ tf.flags.DEFINE_integer('en_min_tk_count', 10, '.')
 tf.flags.DEFINE_bool('use_prop_match_count_feature', False, '.')
 tf.flags.DEFINE_bool('anonymize_in_table_tokens', False, '.')
 tf.flags.DEFINE_bool('anonymize_datetime_and_number_entities', False, '.')
-tf.flags.DEFINE_bool('anonymize_entities_in_title', False, '.')
-tf.flags.DEFINE_bool('remove_entities_in_title', False, '.')
 tf.flags.DEFINE_bool('merge_entities', False, '.')
 tf.flags.DEFINE_bool('process_conjunction', False, '.')
 tf.flags.DEFINE_bool('expand_entities', False, '.')
@@ -299,7 +297,7 @@ def prop_in_question_score(prop, example, stop_words, binary=True):
     return n_in_question
 
 
-def collect_examples_from_df(df, kg_dict, stop_words): #, table_title_dict):
+def collect_examples_from_df(df, kg_dict, stop_words):
     examples = []
     for index, row in df.iterrows():
         #print row['utterance'], row['tokens'], index
