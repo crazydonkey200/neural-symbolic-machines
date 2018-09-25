@@ -299,7 +299,7 @@ def prop_in_question_score(prop, example, stop_words, binary=True):
     return n_in_question
 
 
-def collect_examples_from_df(df, kg_dict, stop_words, table_title_dict):
+def collect_examples_from_df(df, kg_dict, stop_words): #, table_title_dict):
     examples = []
     for index, row in df.iterrows():
         #print row['utterance'], row['tokens'], index
@@ -377,42 +377,6 @@ def collect_examples_from_df(df, kg_dict, stop_words, table_title_dict):
                 elif ent['type'] == 'num_list':
                   for t in xrange(ent['token_start'], ent['token_end']):
                     e['tmp_tokens'][t] = '<START>'
-
-    if FLAGS.anonymize_entities_in_title:
-        for e in examples:
-            title = normalize(table_title_dict[e['context']])
-            for ent in e['entities']:
-                number_string = False
-                if ent['type'] == 'string_list':
-                    string = ent['value'][0]
-                    try:
-                        float(string)
-                        number_string = True
-                    except ValueError:
-                        pass
-                    if not number_string and string in title:
-                        for t in xrange(ent['token_start'], ent['token_end']):
-                          # An zero embedding will be used for this token.
-                          e['tmp_tokens'][t] = '<END>'
-
-    if FLAGS.remove_entities_in_title:
-        for e in examples:
-            title = normalize(table_title_dict[e['context']])
-            new_ents = []
-            for ent in e['entities']:
-                number_string = False
-                if ent['type'] == 'string_list':
-                    string = ent['value'][0]
-                    try:
-                        float(string)
-                        number_string = True
-                    except ValueError:
-                        pass
-                    if number_string or not (string in title):
-                        new_ents.append(ent)
-                else:
-                    new_ents.append(ent)
-            e['entities'] = new_ents
       
     # if FLAGS.merge_entities:
     #   merge_entities(examples, kg_dict)
@@ -600,7 +564,6 @@ def main(unused_argv):
     table_file = os.path.join(FLAGS.processed_input_dir, 'tables.jsonl')
     test_table_file = os.path.join(FLAGS.processed_input_dir, 'test_table.json')
     stop_words_file = os.path.join(FLAGS.raw_input_dir, 'stop_words.json')
-    table_title_file = os.path.join(FLAGS.raw_input_dir, 'table_title.json')
     train_file = os.path.join(FLAGS.processed_input_dir, 'train_examples.jsonl')
 
     train_tagged = os.path.join(
@@ -655,15 +618,10 @@ def main(unused_argv):
     with open(stop_words_file, 'r') as f:
         stop_words_list = json.load(f)
     stop_words = set(stop_words_list)
-
-    with open(table_title_file, 'r') as f:
-        table_title_dict = json.load(f)
-    for k in table_title_dict.keys():
-        table_title_dict[k] = normalize(table_title_dict[k])
     
     t1 = time.time()    
     examples = collect_examples_from_df(
-        df, table_dict, stop_words, table_title_dict)
+        df, table_dict, stop_words)
     t2 = time.time()
     print '{} sec used collecting train examples.'.format(t2 - t1)
     
@@ -724,7 +682,7 @@ def main(unused_argv):
     test_df = create_df_from_wtq_questions(test_tagged)
     t1 = time.time()    
     test_examples = collect_examples_from_df(
-        test_df, table_dict, stop_words, table_title_dict)
+        test_df, table_dict, stop_words)
     t2 = time.time()
     print '{} sec used collecting test examples.'.format(t2 - t1)
     
