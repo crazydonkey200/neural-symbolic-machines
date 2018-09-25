@@ -79,10 +79,7 @@ def random_explore(env, use_cache=True, trigger_dict=None):
   invalid_functions = []
   if trigger_dict is not None:
     for function, trigger_words in trigger_dict.iteritems():
-      for w in trigger_words:
-        if w in question_tokens:
-          break
-      else:
+      if not set(trigger_words) & set(question_tokens):
         invalid_functions.append(function)
   ob = env.start_ob
   while not env.done:
