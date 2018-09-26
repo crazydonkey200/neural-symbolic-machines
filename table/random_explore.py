@@ -74,7 +74,7 @@ def random_explore(env, use_cache=True, trigger_dict=None):
   env = env.clone()
   env.use_cache = use_cache
   question_tokens = env.question_annotation['tokens']
-  if 'pos_tag' in env.question_annotation:
+  if 'pos_tags' in env.question_annotation:
     question_tokens += env.question_annotation['pos_tags']
   invalid_functions = []
   if trigger_dict is not None:
