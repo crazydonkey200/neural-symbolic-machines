@@ -74,15 +74,15 @@ def random_explore(env, use_cache=True, trigger_dict=None):
   env = env.clone()
   env.use_cache = use_cache
   question_tokens = env.question_annotation['tokens']
-  if 'pos_tag' in env.question_annotation:
-    question_tokens += env.question_annotation['pos_tags']
+  if 'pos_tags' in env.question_annotation:
+    pos_tags = env.question_annotation['pos_tags']
+    tokens = question_tokens + pos_tags
+  else:
+    tokens = question_tokens
   invalid_functions = []
   if trigger_dict is not None:
     for function, trigger_words in trigger_dict.iteritems():
-      for w in trigger_words:
-        if w in question_tokens:
-          break
-      else:
+      if not set(trigger_words) & set(tokens):
         invalid_functions.append(function)
   ob = env.start_ob
   while not env.done:

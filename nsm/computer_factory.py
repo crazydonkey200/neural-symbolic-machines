@@ -1,5 +1,6 @@
 """Computers can read in tokens, parse them into a program, and execute it."""
 
+from collections import OrderedDict
 import re
 import copy
 import sys
@@ -316,12 +317,12 @@ class LispInterpreter(object):
     mem_tokens = []
     for i in range(self.max_mem):
       mem_tokens.append('v{}'.format(i))
-      vocab = data_utils.Vocab(
-        self.namespace.get_all_names() + SPECIAL_TKS + mem_tokens)
+    vocab = data_utils.Vocab(
+      self.namespace.get_all_names() + SPECIAL_TKS + mem_tokens)
     return vocab
 
 
-class Namespace(dict):
+class Namespace(OrderedDict):
   """Namespace is a mapping from names to values.
 
   Namespace maintains the mapping from names to their
@@ -331,12 +332,10 @@ class Namespace(dict):
   example, find all the functions or find all the entity
   lists).
   """
-  def __init__(self, name_value_dict=None):
+  def __init__(self, *args, **kwargs):
     """Initialize the namespace with a list of functions."""
     # params = dict(zip(names, objs))
-    if name_value_dict == None:
-      name_value_dict = {}
-    dict.__init__(self, **name_value_dict)
+    super(Namespace, self).__init__(*args, **kwargs)
     self.n_var = 0
     self.last_var = None
 

@@ -8,8 +8,8 @@ python ../random_explore.py \
        --output_dir=$DATA_DIR"output" \
        --experiment_name="random_explore" \
        --n_explore_samples=50 \
-       --save_every_n=5 \
-       --n_epoch=200 \
+       --save_every_n=50 \
+       --n_epoch=1000 \
        --id_start=0 \
        --id_end=90 \
        --alsologtostderr

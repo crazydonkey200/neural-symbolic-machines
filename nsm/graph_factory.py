@@ -359,7 +359,7 @@ class Graph(object):
       seq_logits, seq_probs, seq_predictions, seq_samples = [
         SeqTensor(x, sequence_length)
         for x in (logits, probs, predictions, samples)]
-      xent_loss, sequence_loss, step_loss = create_seq_xent_loss(
+      xent_loss, sequence_loss, step_loss, sequence_probs, step_logprobs = create_seq_xent_loss(
         seq_logits.tensor,
         seq_targets.tensor,
         seq_weights.tensor,
@@ -377,6 +377,8 @@ class Graph(object):
       ent_reg=policy_entropy,
       seq_entropy=seq_entropy,
       probs=seq_probs,
+      sequence_probs=sequence_probs,
+      step_logprobs=step_logprobs,
       samples=seq_samples,
       predictions=seq_predictions, logits=seq_logits)
 
@@ -664,7 +666,7 @@ class MemorySeq2seqGraph(Graph):
       [None, n_mem, value_embedding_size])
     builtin_de_embeddings_shape=tf.TensorShape([n_builtin, hidden_size])
 
-    with tf.variable_scope('Constant_encoder'):
+    with tf.variable_scope('ConstantInput'):
       # constant_span_embedding encodes the information
       # from the span where the constant is referred to,
       # for example the span "obama" in "who is the wife
@@ -810,7 +812,7 @@ class MemorySeq2seqGraph(Graph):
         attn_inputs = None
         attn_masks = None
 
-      with tf.variable_scope('Constant_encoder'):
+      with tf.variable_scope('ConstantEncoder'):
         batch_ind = tf.range(batch_size)
 
         # batch_ind: (B, 1, 1, 1)
@@ -1025,11 +1027,14 @@ def create_seq_xent_loss(logits, targets, weights, sequence_length):
   mask = tf.sequence_mask(
     sequence_length, maxlen=tf.reduce_max(sequence_length),
     dtype=tf.float32)
-  step_loss = tf.nn.sparse_softmax_cross_entropy_with_logits(
-    labels=targets, logits=logits) * weights * mask
+  step_neg_logprobs = tf.nn.sparse_softmax_cross_entropy_with_logits(
+    labels=targets, logits=logits) * mask
+  step_logprobs = -1 * step_neg_logprobs
+  sequence_probs = tf.exp(tf.reduce_sum(step_logprobs, axis=1))
+  step_loss =  step_neg_logprobs * weights
   sequence_loss = tf.reduce_sum(step_loss, axis=1)
   xent_loss = tf.reduce_sum(sequence_loss)
-  return xent_loss, sequence_loss, step_loss
+  return xent_loss, sequence_loss, step_loss, sequence_probs, step_logprobs
 
 
 def create_softmax(
