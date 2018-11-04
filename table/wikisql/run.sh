@@ -43,7 +43,7 @@ case $CONFIG in
         exit 1
         ;;
 esac
-DATA_DIR="/home/ubuntu/projects/data/wikisql/"
+DATA_DIR="$HOME/projects/data/wikisql/"
 INPUT_DIR=$DATA_DIR"processed_input/preprocess_2/"
 SPLIT_DIR=$INPUT_DIR
 python ../experiment.py \
@@ -97,7 +97,8 @@ python ../experiment.py \
        --max_n_exp=4 \
        --eval_beam_size=5 \
        --executor="wikisql" \
-       --n_steps=$N_STEPS
+       --n_steps=$N_STEPS \
+       --show_log
 python ../experiment.py \
        --eval_only \
        --eval_use_gpu \

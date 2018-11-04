@@ -87,7 +87,8 @@ python ../experiment.py \
        --max_n_mem=60 \
        --max_n_valid_indices=60 \
        --entropy_reg_coeff=0.01 \
-       --n_steps=$N_STEPS
+       --n_steps=$N_STEPS \
+       --show_log
 python ../experiment.py \
        --eval_only \
        --eval_use_gpu \

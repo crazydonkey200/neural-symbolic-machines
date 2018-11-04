@@ -11,6 +11,7 @@ import pprint
 import codecs
 import multiprocessing
 
+import copy
 import numpy as np
 import tensorflow as tf
 
@@ -161,6 +162,10 @@ tf.app.flags.DEFINE_integer(
 tf.app.flags.DEFINE_integer(
   'save_every_n', -1,
   'Save model to a ckpt every n train steps, -1 means save every epoch.')
+tf.app.flags.DEFINE_bool(
+  'save_replay_buffer_at_end', True,
+  'Whether to save the full replay buffer for each actor at the '
+  'end of training or not')
 tf.app.flags.DEFINE_integer(
   'log_samples_every_n_epoch', 0,
   'Log samples every n epochs.')
@@ -722,6 +727,10 @@ class Actor(multiprocessing.Process):
       load_programs(
         envs, replay_buffer, FLAGS.saved_program_file)
 
+    if FLAGS.save_replay_buffer_at_end:
+      replay_buffer_copy = agent_factory.AllGoodReplayBuffer(de_vocab=envs[0].de_vocab)
+      replay_buffer_copy.program_prob_dict = copy.deepcopy(replay_buffer.program_prob_dict)
+
     i = 0
     while True:
       # Create the logging files. 
@@ -963,6 +972,14 @@ class Actor(multiprocessing.Process):
         f_train.close()
 
       if agent.model.get_global_step() >= FLAGS.n_steps:
+	if FLAGS.save_replay_buffer_at_end:
+	  all_replay = os.path.join(get_experiment_dir(),
+				    'all_replay_samples_{}.txt'.format(self.name))
+	with codecs.open(all_replay, 'w', encoding='utf-8') as f:
+	 samples = replay_buffer.all_samples(envs, agent=None)
+	 samples = [s for s in samples if not replay_buffer_copy.contain(s.traj)]
+	 f.write(show_samples(samples, envs[0].de_vocab, None))
+
         tf.logging.info('{} finished'.format(self.name))
         return
       i += 1

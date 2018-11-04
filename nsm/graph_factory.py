@@ -75,6 +75,8 @@ class Graph(object):
       allow_soft_placement=False,
       log_device_placement=False,
     )
+    if n_gpu:
+      session_config.gpu_options.allow_growth = True
     tf.logging.info('number of gpu used {}'.format(n_gpu))
 
     self.session = tf.Session(

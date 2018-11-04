@@ -417,7 +417,25 @@ class AllGoodReplayBuffer(ReplayBuffer):
           self._buffer[name].append(t)
         else:
           self._buffer[name] = [t]
-    
+
+  def all_samples(self, envs, agent=None):
+    select_env_names = set([e.name for e in envs])
+    trajs = []
+    # Collect all the trajs for the selected envs.
+    for name in select_env_names:
+      if name in self._buffer:
+        trajs += self._buffer[name]
+    if agent is None:
+      # All traj has the same probability, since it will be
+      # normalized later, we just assign them all as 1.0.
+      probs = [1.0] * len(trajs)
+    else:
+      # Otherwise use the agent to compute the prob for each
+      # traj.
+      probs = agent.compute_probs(trajs)
+    samples = [Sample(traj=t, prob=p) for t, p in zip(trajs, probs)]
+    return samples
+
   def replay(self, envs, n_samples=1, use_top_k=False, agent=None, truncate_at_n=0):
     select_env_names = set([e.name for e in envs])
     trajs = []
