@@ -81,8 +81,7 @@ class Graph(object):
 
     self.session = tf.Session(
       graph=self._graph, config=session_config)
-    self.saver = tf.train.Saver(tf.global_variables())
-    self.best_saver = tf.train.Saver(tf.global_variables(), max_to_keep=5)
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=1)
     if init_model_path:
       self._graph.finalize()
       self.saver.restore(self.session, init_model_path)
@@ -96,10 +95,7 @@ class Graph(object):
     self.saver.restore(self.session, model_path)
 
   def save(self, model_path, global_step, is_best=False):
-    if is_best:
-      return self.best_saver.save(self.session, model_path, global_step)
-    else:
-      return self.saver.save(self.session, model_path, global_step)
+    return self.saver.save(self.session, model_path, global_step)
     
   def run(self, fetch_list, feed_dict, writer=None):
     """Main interface to interact with the tensorflow graph.
