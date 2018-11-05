@@ -6,11 +6,11 @@ SPLIT_DIR=$INPUT_DIR"data_split_1/"
 case $CONFIG in
     dev)
         echo "Evaluate on dev set."
-        $EVAL_FILE=$SPLIT_DIR"dev_split.jsonl"
+        EVAL_FILE=$SPLIT_DIR"dev_split.jsonl"
         ;;
     test)
         echo "Evaluate on test set!"
-        $EVAL_FILE=$INPUT_DIR"test_split.jsonl"
+        EVAL_FILE=$INPUT_DIR"test_split.jsonl"
         ;;
     *)
         echo "Usage: $0 experiment_name (dev|test)"
