@@ -16,7 +16,7 @@ The framework can be used to learn semantic parsing and program synthesis from w
 
 ## Memory Augmented Policy Optimization (MAPO)
 
-We use <a href="https://arxiv.org/abs/1807.02322">Memory Augmented Policy Optimization (MAPO)</a> to train NSM. It is a novel policy optimization formulation that incorporates a memory buffer of promising trajectories to reduce the variance of policy gradient estimates for deterministic environments with discrete actions. We also apply systematic exploration to improve exploration and marginal likelihood constraint to accelerate and stabilize training. 
+We use <a href="https://arxiv.org/abs/1807.02322">Memory Augmented Policy Optimization (MAPO)</a> to train NSM. It is a new policy optimization method that incorporates a memory buffer of promising trajectories to reduce the variance of policy gradient estimates for deterministic environments with discrete actions, for example, structured prediction and combinatorial optimization. 
 
 <div align="middle"><img src="https://github.com/crazydonkey200/neural-symbolic-machines/blob/master/images/mapo.png" width="80%"></div>
 
