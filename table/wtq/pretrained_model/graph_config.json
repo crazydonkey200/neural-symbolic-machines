@@ -1,0 +1,45 @@
+{
+  "core_config": {
+    "add_lm_loss": false, 
+    "attn_size": 200, 
+    "attn_vec_size": 200, 
+    "en_attn_on_constants": false, 
+    "en_bidirectional": true, 
+    "en_embedding_size": 200, 
+    "en_hidden_size": 200, 
+    "en_input_vocab_size": 2045, 
+    "en_n_layers": 2, 
+    "en_pretrained_embedding_size": 300, 
+    "en_pretrained_vocab_size": 2041, 
+    "en_use_embeddings": true, 
+    "hidden_size": 200, 
+    "input_vocab_size": 91, 
+    "max_n_valid_indices": 60, 
+    "n_builtin": 31, 
+    "n_layers": 2, 
+    "n_mem": 60, 
+    "use_attn": true, 
+    "value_embedding_size": 300
+  }, 
+  "gpu_id": "0", 
+  "output_config": {
+    "output_vocab_size": 91, 
+    "use_logits": true
+  }, 
+  "output_type": "softmax", 
+  "train_config": {
+    "adam_beta1": 0.9, 
+    "aux_loss_list": [
+      [
+        "ent_reg", 
+        0.01
+      ]
+    ], 
+    "avg_loss_by_n": false, 
+    "l2_coeff": 0.0, 
+    "learning_rate": 0.001, 
+    "max_grad_norm": 5.0, 
+    "optimizer": "adam"
+  }, 
+  "use_gpu": true
+}

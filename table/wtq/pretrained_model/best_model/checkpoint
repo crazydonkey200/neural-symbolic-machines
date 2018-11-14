@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/ubuntu/projects/data/wikitable/output/eval_mapo_72ac0c_N3_1_3/best_model/model-19840"
+all_model_checkpoint_paths: "/home/ubuntu/projects/data/wikitable/output/eval_mapo_72ac0c_N3_1_3/best_model/model-19840"

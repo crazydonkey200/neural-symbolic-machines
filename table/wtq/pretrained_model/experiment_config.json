@@ -1,0 +1,1 @@
+{"vocab_file": "~/projects/data/wikitable/raw_input/wikitable_glove_vocab.json", "en_vocab_file": "~/projects/data/wikitable/processed_input/preprocess_14/en_vocab_min_count_5.json", "embedding_file": "~/projects/data/wikitable/raw_input/wikitable_glove_embedding_mat.npy", "table_file": "~/projects/data/wikitable/processed_input/preprocess_14/tables.jsonl"}
