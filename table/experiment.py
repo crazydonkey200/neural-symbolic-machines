@@ -298,7 +298,8 @@ def get_init_model_path():
         FLAGS.experiment_to_eval,
         'best_model_info.json'), 'r') as f:
       best_model_info = json.load(f)
-      best_model_path = best_model_info['best_model_path']
+      best_model_path = os.path.expanduser(
+        best_model_info['best_model_path'])
       return best_model_path
   else:
     return ''
@@ -616,28 +617,44 @@ def init_experiment(fns, use_gpu=False, gpu_id='0'):
   return agent, envs
 
 
+def compress_home_path(path):
+  home_folder = os.path.expanduser('~')
+  n = len(home_folder)
+  if path[:n] == home_folder:
+    return '~' + path[n:]
+  else:
+    return path
+
+
+def create_experiment_config():
+  experiment_config = get_saved_experiment_config()
+  if experiment_config:
+    FLAGS.embedding_file = os.path.expanduser(experiment_config['embedding_file'])
+    FLAGS.vocab_file = os.path.expanduser(experiment_config['vocab_file'])
+    FLAGS.en_vocab_file = os.path.expanduser(experiment_config['en_vocab_file'])
+    FLAGS.table_file = os.path.expanduser(experiment_config['table_file'])
+
+  experiment_config = {
+    'embedding_file': compress_home_path(FLAGS.embedding_file),
+    'vocab_file': compress_home_path(FLAGS.vocab_file),
+    'en_vocab_file': compress_home_path(FLAGS.en_vocab_file),
+    'table_file': compress_home_path(FLAGS.table_file)}
+
+  return experiment_config
+
+
 def run_experiment():
   print('=' * 100)
   if FLAGS.show_log:
     tf.logging.set_verbosity(tf.logging.INFO)
+
   experiment_dir = get_experiment_dir()
   if tf.gfile.Exists(experiment_dir):
     tf.gfile.DeleteRecursively(experiment_dir)
   tf.gfile.MkDir(experiment_dir)
 
-  experiment_config = get_saved_experiment_config()
-  if experiment_config:
-    FLAGS.embedding_file = experiment_config['embedding_file']
-    FLAGS.vocab_file = experiment_config['vocab_file']
-    FLAGS.en_vocab_file = experiment_config['en_vocab_file']
-    FLAGS.table_file = experiment_config['table_file']
+  experiment_config = create_experiment_config()
   
-  experiment_config = {
-    'embedding_file': FLAGS.embedding_file,
-    'vocab_file': FLAGS.vocab_file,
-    'en_vocab_file': FLAGS.en_vocab_file,
-    'table_file': FLAGS.table_file}
-
   with open(os.path.join(
       get_experiment_dir(), 'experiment_config.json'), 'w') as f:
     json.dump(experiment_config, f)
@@ -985,21 +1002,58 @@ class Actor(multiprocessing.Process):
       i += 1
 
 
+def select_top(samples):
+  top_dict = {}
+  for sample in samples:
+    name = sample.traj.env_name
+    prob = sample.prob
+    if name not in top_dict or prob > top_dict[name].prob:
+      top_dict[name] = sample    
+  return agent_factory.normalize_probs(top_dict.values())
+
+
+def beam_search_eval(agent, envs, writer=None):
+    env_batch_size = FLAGS.eval_batch_size
+    env_iterator = data_utils.BatchIterator(
+      dict(envs=envs), shuffle=False,
+      batch_size=env_batch_size)
+    dev_samples = []
+    dev_samples_in_beam = []
+    for j, batch_dict in enumerate(env_iterator):
+      t1 = time.time()
+      batch_envs = batch_dict['envs']
+      tf.logging.info('=' * 50)
+      tf.logging.info('eval, batch {}: {} envs'.format(j, len(batch_envs)))
+      new_samples_in_beam = agent.beam_search(
+        batch_envs, beam_size=FLAGS.eval_beam_size)
+      dev_samples_in_beam += new_samples_in_beam
+      tf.logging.info('{} samples in beam, batch {}.'.format(
+        len(new_samples_in_beam), j))
+      t2 = time.time()
+      tf.logging.info('{} sec used in evaluator batch {}.'.format(t2 - t1, j))
+
+    # Account for beam search where the beam doesn't
+    # contain any examples without error, which will make
+    # len(dev_samples) smaller than len(envs).
+    dev_samples = select_top(dev_samples_in_beam)
+    dev_avg_return, dev_avg_len = agent.evaluate(
+      dev_samples, writer=writer, true_n=len(envs))
+    tf.logging.info('{} samples in non-empty beam.'.format(len(dev_samples)))
+    tf.logging.info('true n is {}'.format(len(envs)))
+    tf.logging.info('{} questions in dev set.'.format(len(envs)))
+    tf.logging.info('{} dev avg return.'.format(dev_avg_return))
+    tf.logging.info('dev: avg return: {}, avg length: {}.'.format(
+      dev_avg_return, dev_avg_len))
+
+    return dev_avg_return, dev_samples, dev_samples_in_beam
+
+
 class Evaluator(multiprocessing.Process):
     
   def __init__(self, name, fns):
     multiprocessing.Process.__init__(self)
     self.name = name
     self.fns = fns
-
-  def select_top(self, samples):
-    top_dict = {}
-    for sample in samples:
-      name = sample.traj.env_name
-      prob = sample.prob
-      if name not in top_dict or prob > top_dict[name].prob:
-        top_dict[name] = sample    
-    return agent_factory.normalize_probs(top_dict.values())
 
   def run(self):
     agent, envs = init_experiment(self.fns, FLAGS.eval_use_gpu, gpu_id=str(FLAGS.eval_gpu_id))
@@ -1019,39 +1073,10 @@ class Evaluator(multiprocessing.Process):
     while True:
       t1 = time.time()
       tf.logging.info('dev: iteration {}, evaluating {}.'.format(i, current_ckpt))
-      env_batch_size = FLAGS.eval_batch_size
-      env_iterator = data_utils.BatchIterator(
-        dict(envs=envs), shuffle=False,
-        batch_size=env_batch_size)
-      dev_samples = []
-      dev_samples_in_beam = []
-      for j, batch_dict in enumerate(env_iterator):
-        t3 = time.time()
-        batch_envs = batch_dict['envs']
-        tf.logging.info('=' * 50)
-        tf.logging.info('{} iteration {}, batch {}: {} envs'.format(
-          self.name, i, j, len(batch_envs)))
-        new_samples_in_beam = agent.beam_search(
-          batch_envs, beam_size=FLAGS.eval_beam_size)
-        dev_samples_in_beam += new_samples_in_beam
-        tf.logging.info('{} samples in beam, batch {}.'.format(
-          len(new_samples_in_beam), j))
-        t4 = time.time()
-        tf.logging.info('{} sec used in evaluator batch {}.'.format(t4 - t3, j))
 
-      # Account for beam search where the beam doesn't
-      # contain any examples without error, which will make
-      # len(dev_samples) smaller than len(envs).
-      dev_samples = self.select_top(dev_samples_in_beam)
-      dev_avg_return, dev_avg_len = agent.evaluate(
-        dev_samples, writer=dev_writer, true_n=len(envs))
-      tf.logging.info('{} samples in non-empty beam.'.format(len(dev_samples)))
-      tf.logging.info('true n is {}'.format(len(envs)))
-      tf.logging.info('{} questions in dev set.'.format(len(envs)))
-      tf.logging.info('{} dev avg return.'.format(dev_avg_return))
-
-      tf.logging.info('dev: avg return: {}, avg length: {}.'.format(
-        dev_avg_return, dev_avg_len))
+      dev_avg_return, dev_samples, dev_samples_in_beam = beam_search_eval(
+        agent, envs, writer=dev_writer)
+      
       if dev_avg_return > best_dev_avg_return:
         best_model_path = graph.save(
           os.path.join(best_model_dir, 'model'),
@@ -1060,7 +1085,7 @@ class Evaluator(multiprocessing.Process):
         tf.logging.info('New best dev avg returns is {}'.format(best_dev_avg_return))
         tf.logging.info('New best model is saved in {}'.format(best_model_path))
         with open(os.path.join(get_experiment_dir(), 'best_model_info.json'), 'w') as f:
-          result = {'best_model_path': best_model_path}
+          result = {'best_model_path': compress_home_path(best_model_path)}
           if FLAGS.eval_only:
             result['best_eval_avg_return'] = best_dev_avg_return
           else:
