@@ -1097,7 +1097,7 @@ class Evaluator(multiprocessing.Process):
         dev_programs_in_beam_dict = {}
         for sample in dev_samples_in_beam:
           name = sample.traj.env_name
-          program = agent_factory.traj_to_program(sample.traj, batch_envs[0].de_vocab)
+          program = agent_factory.traj_to_program(sample.traj, envs[0].de_vocab)
           answer = sample.traj.answer
           if name in dev_programs_in_beam_dict:
             dev_programs_in_beam_dict[name].append((program, answer, sample.prob))
