@@ -625,6 +625,23 @@ def main(unused_argv):
     
     dump_examples(examples, train_file)
 
+    # Save all the train data.
+    processed_input_dir = os.path.join(
+        FLAGS.processed_input_dir, 'no_split')
+    if not tf.gfile.Exists(processed_input_dir):
+        tf.gfile.MkDir(processed_input_dir)
+    train_shards = []
+    for i in range(FLAGS.n_train_shard):
+        train_shards.append([])
+    for i, e in enumerate(examples):
+        train_shards[i % FLAGS.n_train_shard].append(e)
+    for i, sh in enumerate(train_shards):
+        train_shard_jsonl = os.path.join(
+            processed_input_dir, 'train_split_shard_{}-{}.jsonl'.format(
+                FLAGS.n_train_shard, i))
+        dump_examples(sh, train_shard_jsonl)
+
+    # Save each split.
     for split_id in xrange(1, 6):
         processed_input_dir = os.path.join(
             FLAGS.processed_input_dir, 'data_split_{}'.format(split_id))

@@ -194,6 +194,7 @@ class Graph(object):
                         tf.cast(decay_every_n_steps, tf.float32))
       decay = lr_decay_factor ** decay_exponent
       decayed_lr = lr * decay
+
       lr_summary = tf.summary.scalar(self.vs_name + '/' + 'learning_rate', decayed_lr)
       all_summaries.append(lr_summary)
       
