@@ -47,6 +47,7 @@ DATA_DIR="$HOME/projects/data/wikisql/"
 INPUT_DIR=$DATA_DIR"processed_input/preprocess_2/"
 SPLIT_DIR=$INPUT_DIR
 python ../experiment.py \
+       --random_seed=1 \
        --output_dir=$DATA_DIR$OUTPUT \
        --experiment_name=$NAME \
        --n_actors=30 \

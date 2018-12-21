@@ -38,6 +38,11 @@ tf.flags.DEFINE_string('experiment_name', 'experiment',
                        'All outputs of this experiment is'
                        ' saved under a folder with the same name.')
 
+# Random seed.
+tf.app.flags.DEFINE_integer(
+  'random_seed', -1,
+  'Random seed for the NumPy and TF. Not used if setting to -1.')
+
 
 # Tensorboard logging
 tf.app.flags.DEFINE_string(
@@ -729,6 +734,9 @@ class Actor(multiprocessing.Process):
     self.actor_id = actor_id
       
   def run(self):
+    if FLAGS.random_seed != -1:
+      np.random.seed(FLAGS.random_seed)
+      tf.set_random_seed(FLAGS.random_seed)
     agent, envs = init_experiment(
       [get_train_shard_path(i) for i in self.shard_ids],
       use_gpu=FLAGS.actor_use_gpu,
@@ -1056,6 +1064,9 @@ class Evaluator(multiprocessing.Process):
     self.fns = fns
 
   def run(self):
+    if FLAGS.random_seed != -1:
+      np.random.seed(FLAGS.random_seed)
+      tf.set_random_seed(FLAGS.random_seed)
     agent, envs = init_experiment(self.fns, FLAGS.eval_use_gpu, gpu_id=str(FLAGS.eval_gpu_id))
     for env in envs:
       env.punish_extra_work = False
@@ -1174,6 +1185,9 @@ class Learner(multiprocessing.Process):
     self.fns = fns
       
   def run(self):
+    if FLAGS.random_seed != -1:
+      np.random.seed(FLAGS.random_seed)
+      tf.set_random_seed(FLAGS.random_seed)
     # Writers to record training and replay information.
     train_writer = tf.summary.FileWriter(os.path.join(
       get_experiment_dir(), FLAGS.tb_log_dir, 'train'))
