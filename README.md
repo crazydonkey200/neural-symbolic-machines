@@ -123,11 +123,12 @@ Example learning curves for WikiTable (left) and WikiSQL (right) experiments (0.
 ## Citation
 If you use the code in your research, please cite:
 
-    @misc{1807.02322,
-    Author = {Chen Liang and Mohammad Norouzi and Jonathan Berant and Quoc Le and Ni Lao},
-    Title = {Memory Augmented Policy Optimization for Program Synthesis and Semantic Parsing},
-    Year = {2018},
-    Eprint = {arXiv:1807.02322},
+    @inproceedings{liang2018memory,
+      title={Memory Augmented Policy Optimization for Program Synthesis and Semantic Parsing},
+      author={Liang, Chen and Norouzi, Mohammad and Berant, Jonathan and Le, Quoc V and Lao, Ni},
+      booktitle={Advances in Neural Information Processing Systems},
+      pages={10014--10026},
+      year={2018}
     }
 
     @inproceedings{liang2017neural,
