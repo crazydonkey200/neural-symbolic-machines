@@ -735,6 +735,7 @@ class Actor(multiprocessing.Process):
       
   def run(self):
     if FLAGS.random_seed != -1:
+      random.seed(FLAGS.random_seed)
       np.random.seed(FLAGS.random_seed)
       tf.set_random_seed(FLAGS.random_seed)
     agent, envs = init_experiment(
@@ -1065,6 +1066,7 @@ class Evaluator(multiprocessing.Process):
 
   def run(self):
     if FLAGS.random_seed != -1:
+      random.seed(FLAGS.random_seed)
       np.random.seed(FLAGS.random_seed)
       tf.set_random_seed(FLAGS.random_seed)
     agent, envs = init_experiment(self.fns, FLAGS.eval_use_gpu, gpu_id=str(FLAGS.eval_gpu_id))
@@ -1186,6 +1188,7 @@ class Learner(multiprocessing.Process):
       
   def run(self):
     if FLAGS.random_seed != -1:
+      random.seed(FLAGS.random_seed)
       np.random.seed(FLAGS.random_seed)
       tf.set_random_seed(FLAGS.random_seed)
     # Writers to record training and replay information.
