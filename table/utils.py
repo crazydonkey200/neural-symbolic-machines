@@ -70,7 +70,7 @@ def wikisql_normalize(val):
   elif isinstance(val, str) or isinstance(val, unicode):
     try:
       val = babel.numbers.parse_decimal(val)
-    except babel.numbers.NumberFormatError:
+    except (babel.numbers.NumberFormatError, UnicodeEncodeError):
       val = val.lower()
     return val
   else:
