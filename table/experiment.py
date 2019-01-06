@@ -957,7 +957,7 @@ class Actor(multiprocessing.Process):
         else:
           clip_frac = 0.0
   
-        self.train_queue.put((train_samples, step_logprobs, clip_frac))
+        self.train_queue.put((train_samples, step_logprobs, clip_frac, self.actor_id))
         t2 = time.time()
         tf.logging.info(
           ('{} sec used preparing and enqueuing samples, {}'
@@ -1209,7 +1209,12 @@ class Learner(multiprocessing.Process):
     while True:
       tf.logging.info('Start train step {}'.format(i))
       t1 = time.time()
-      train_samples, behaviour_logprobs, clip_frac  = self.train_queue.get()
+      train_samples, behaviour_logprobs, clip_frac, actor_id  = self.train_queue.get()
+
+      with open(os.path.join(
+          get_experiment_dir(), 'train_data_log.txt'), 'a') as f:
+        f.write('{} '.format(actor_id))
+
       eval_samples, eval_true_n = self.eval_queue.get()
       replay_samples, replay_true_n = self.replay_queue.get()
       t2 = time.time()
