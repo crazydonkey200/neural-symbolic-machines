@@ -738,7 +738,6 @@ class Actor(multiprocessing.Process):
   def run(self):
     if FLAGS.random_seed != -1:
       np.random.seed(FLAGS.random_seed)
-      tf.set_random_seed(FLAGS.random_seed)
     agent, envs = init_experiment(
       [get_train_shard_path(i) for i in self.shard_ids],
       use_gpu=FLAGS.actor_use_gpu,
@@ -1068,7 +1067,6 @@ class Evaluator(multiprocessing.Process):
   def run(self):
     if FLAGS.random_seed != -1:
       np.random.seed(FLAGS.random_seed)
-      tf.set_random_seed(FLAGS.random_seed)
     agent, envs = init_experiment(self.fns, FLAGS.eval_use_gpu, gpu_id=str(FLAGS.eval_gpu_id))
     for env in envs:
       env.punish_extra_work = False
@@ -1189,7 +1187,6 @@ class Learner(multiprocessing.Process):
   def run(self):
     if FLAGS.random_seed != -1:
       np.random.seed(FLAGS.random_seed)
-      tf.set_random_seed(FLAGS.random_seed)
     # Writers to record training and replay information.
     train_writer = tf.summary.FileWriter(os.path.join(
       get_experiment_dir(), FLAGS.tb_log_dir, 'train'))
