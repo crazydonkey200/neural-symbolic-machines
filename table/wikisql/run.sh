@@ -1,5 +1,6 @@
 CONFIG=$1
 NAME=$2
+SEED=$3
 USE_NONREPLAY=nouse_nonreplay_samples_in_train
 RANDOM_REPLAY=norandom_replay_samples
 USE_REPLAY_PROB=nouse_replay_prob_as_weight
@@ -47,7 +48,7 @@ DATA_DIR="$HOME/projects/data/wikisql/"
 INPUT_DIR=$DATA_DIR"processed_input/preprocess_2/"
 SPLIT_DIR=$INPUT_DIR
 python ../experiment.py \
-       --random_seed=1 \
+       --random_seed=$SEED \
        --output_dir=$DATA_DIR$OUTPUT \
        --experiment_name=$NAME \
        --n_actors=30 \
@@ -62,7 +63,7 @@ python ../experiment.py \
        --vocab_file=$DATA_DIR"raw_input/wikisql_glove_vocab.json" \
        --table_file=$INPUT_DIR"tables.jsonl" \
        --en_vocab_file=$INPUT_DIR"en_vocab_min_count_5.json" \
-       --save_every_n=10 \
+       --save_every_n=1 \
        --n_explore_samples=1 \
        --n_extra_explore_for_hard=9 \
        --use_cache \
