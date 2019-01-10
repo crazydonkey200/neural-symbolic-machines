@@ -1,6 +1,5 @@
 """Utility fuctions to preprocess data."""
 
-import random
 import six
 import collections
 
@@ -231,7 +230,7 @@ class BatchIterator(object):
     self.examples = zip(*[p[1] for p in kv_pairs])
     self.n_examples = len(self.examples)
     if shuffle:
-      random.shuffle(self.examples)
+      np.random.shuffle(self.examples)
 
   def __iter__(self):
     def _iterator():

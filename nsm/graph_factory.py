@@ -64,6 +64,10 @@ class Graph(object):
       self.vs = vs
 
   @with_graph_variable_scope
+  def set_random_seed(self, seed):
+    tf.set_random_seed(seed)
+  
+  @with_graph_variable_scope
   def launch(self, init_model_path=''):
     "Launch and initialize the graph."
     if self.use_gpu:
@@ -573,6 +577,9 @@ class MemorySeq2seqGraph(Graph):
       os.environ["CUDA_VISIBLE_DEVICES"] = graph_config['gpu_id']
     else:
       os.environ["CUDA_VISIBLE_DEVICES"] = ''
+
+    if 'random_seed' in graph_config and graph_config['random_seed']:
+      self.set_random_seed(graph_config['random_seed'])
 
     self.add_memory_seq2seq(**graph_config['core_config'])
     self.add_outputs(graph_config['output_type'], graph_config['output_config'])

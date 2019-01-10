@@ -7,7 +7,6 @@ import time
 import shutil
 import pprint
 import heapq
-import random
 
 import tensorflow as tf
 import numpy as np
@@ -470,7 +469,7 @@ class AllGoodReplayBuffer(ReplayBuffer):
         # Randomize the samples before truncation in case
         # when no prob information is provided and the trajs
         # need to be truncated randomly.
-        random.shuffle(samples)
+        np.random.shuffle(samples)
         samples = heapq.nlargest(
           truncate_at_n, samples, key=lambda s: s.prob)
         self._buffer[name] = [sample.traj for sample in samples]

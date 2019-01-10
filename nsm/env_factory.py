@@ -284,9 +284,10 @@ class SearchCache(object):
     self.name = name
     self.max_elements = max_elements
     self.error_rate = error_rate
-    self._set = bloom_filter.BloomFilter(
-      max_elements=max_elements, error_rate=error_rate)
-    
+    # self._set = bloom_filter.BloomFilter(
+    #   max_elements=max_elements, error_rate=error_rate)
+    self._set = set()
+
   def check(self, tokens):
     return ' '.join(tokens) in self._set
 
@@ -298,5 +299,6 @@ class SearchCache(object):
     return '(' in self._set
 
   def reset(self):
-    self._set = bloom_filter.BloomFilter(
-      max_elements=self.max_elements, error_rate=self.error_rate)
+    # self._set = bloom_filter.BloomFilter(
+    #   max_elements=self.max_elements, error_rate=self.error_rate)
+    self._set = set()

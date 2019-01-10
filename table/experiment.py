@@ -4,7 +4,6 @@ import time
 import os
 import sys
 import re
-import random
 import cPickle as pkl
 import functools
 import pprint
@@ -574,6 +573,9 @@ def init_experiment(fns, use_gpu=False, gpu_id='0'):
     en_pretrained_vocab_size = en_vocab.size - len(en_vocab.special_tks)
 
     graph_config = {}
+    if FLAGS.random_seed != -1:
+      graph_config['random_seed'] = FLAGS.random_seed
+
     graph_config['core_config'] = dict(
       max_n_valid_indices=FLAGS.max_n_valid_indices,
       n_mem=n_mem,
@@ -735,7 +737,6 @@ class Actor(multiprocessing.Process):
       
   def run(self):
     if FLAGS.random_seed != -1:
-      random.seed(FLAGS.random_seed)
       np.random.seed(FLAGS.random_seed)
       tf.set_random_seed(FLAGS.random_seed)
     agent, envs = init_experiment(
@@ -998,13 +999,13 @@ class Actor(multiprocessing.Process):
         f_train.close()
 
       if agent.model.get_global_step() >= FLAGS.n_steps:
-	if FLAGS.save_replay_buffer_at_end:
-	  all_replay = os.path.join(get_experiment_dir(),
-				    'all_replay_samples_{}.txt'.format(self.name))
-	with codecs.open(all_replay, 'w', encoding='utf-8') as f:
-	 samples = replay_buffer.all_samples(envs, agent=None)
-	 samples = [s for s in samples if not replay_buffer_copy.contain(s.traj)]
-	 f.write(show_samples(samples, envs[0].de_vocab, None))
+        if FLAGS.save_replay_buffer_at_end:
+          all_replay = os.path.join(get_experiment_dir(),
+                                    'all_replay_samples_{}.txt'.format(self.name))
+          with codecs.open(all_replay, 'w', encoding='utf-8') as f:
+            samples = replay_buffer.all_samples(envs, agent=None)
+            samples = [s for s in samples if not replay_buffer_copy.contain(s.traj)]
+            f.write(show_samples(samples, envs[0].de_vocab, None))
 
         tf.logging.info('{} finished'.format(self.name))
         return
@@ -1066,7 +1067,6 @@ class Evaluator(multiprocessing.Process):
 
   def run(self):
     if FLAGS.random_seed != -1:
-      random.seed(FLAGS.random_seed)
       np.random.seed(FLAGS.random_seed)
       tf.set_random_seed(FLAGS.random_seed)
     agent, envs = init_experiment(self.fns, FLAGS.eval_use_gpu, gpu_id=str(FLAGS.eval_gpu_id))
@@ -1188,7 +1188,6 @@ class Learner(multiprocessing.Process):
       
   def run(self):
     if FLAGS.random_seed != -1:
-      random.seed(FLAGS.random_seed)
       np.random.seed(FLAGS.random_seed)
       tf.set_random_seed(FLAGS.random_seed)
     # Writers to record training and replay information.
@@ -1207,57 +1206,71 @@ class Learner(multiprocessing.Process):
     i = 0
     n_save = 0
     while True:
-      tf.logging.info('Start train step {}'.format(i))
+      tf.logging.info('Start train macro step {}'.format(i))
       t1 = time.time()
-      train_samples, behaviour_logprobs, clip_frac, actor_id  = self.train_queue.get()
 
-      with open(os.path.join(
-          get_experiment_dir(), 'train_data_log.txt'), 'a') as f:
-        f.write('{} '.format(actor_id))
-
-      eval_samples, eval_true_n = self.eval_queue.get()
-      replay_samples, replay_true_n = self.replay_queue.get()
+      all_data = range(FLAGS.n_actors)
+      for _ in range(FLAGS.n_actors):
+        train_samples, behaviour_logprobs, clip_frac, actor_id  = self.train_queue.get()
+        eval_samples, eval_true_n = self.eval_queue.get()
+        replay_samples, replay_true_n = self.replay_queue.get()
+        all_data[actor_id] = (actor_id, train_samples, behaviour_logprobs, clip_frac, 
+                              eval_samples, eval_true_n, replay_samples, replay_true_n)
+        
       t2 = time.time()
-      tf.logging.info('{} secs used waiting in train step {}.'.format(
+      tf.logging.info('{} secs used waiting in train macro step {}.'.format(
         t2-t1, i))
-      t1 = time.time()
-      n_train_samples = 0
-      if FLAGS.use_replay_samples_in_train:
-        n_train_samples += FLAGS.n_replay_samples
-      if FLAGS.use_policy_samples_in_train and FLAGS.use_nonreplay_samples_in_train:
-        raise ValueError(
-          'Cannot use both on-policy samples and nonreplay samples for training!')
-      if FLAGS.use_policy_samples_in_train:
-        n_train_samples += FLAGS.n_policy_samples
 
-      if train_samples:
-        if FLAGS.use_trainer_prob:
-          train_samples = agent.update_replay_prob(
-            train_samples, min_replay_weight=FLAGS.min_replay_weight)
-        for _ in xrange(FLAGS.n_opt_step):
-          agent.train(
-            train_samples,
-            parameters=dict(en_rnn_dropout=FLAGS.dropout,rnn_dropout=FLAGS.dropout),
-            use_baseline=FLAGS.use_baseline,
-            min_prob=FLAGS.min_prob,
-            scale=n_train_samples,
-            behaviour_logprobs=behaviour_logprobs,
-            use_importance_sampling=FLAGS.use_importance_sampling,
-            ppo_epsilon=FLAGS.ppo_epsilon,
-            de_vocab=envs[0].de_vocab,
-            debug=FLAGS.debug)
+      np.random.shuffle(all_data)
+      print('{}: {}'.format(i, [d[0] for d in all_data]))
 
-      avg_return, avg_len = agent.evaluate(
-        eval_samples, writer=train_writer, true_n=eval_true_n,
-        clip_frac=clip_frac)
-      tf.logging.info('train: avg return: {}, avg length: {}.'.format(
-        avg_return, avg_len))
-      avg_return, avg_len = agent.evaluate(
-        replay_samples, writer=replay_writer, true_n=replay_true_n)
-      tf.logging.info('replay: avg return: {}, avg length: {}.'.format(avg_return, avg_len))
-      t2 = time.time()
-      tf.logging.info('{} sec used in training train iteration {}, {} samples.'.format(
-        t2-t1, i, len(train_samples)))
+      for j, d in enumerate(all_data):
+        (actor_id, train_samples, behaviour_logprobs, clip_frac,
+         eval_samples, eval_true_n, replay_samples, replay_true_n) = d
+
+        with open(os.path.join(
+            get_experiment_dir(), 'train_data_log.txt'), 'a') as f:
+          f.write('{} '.format(actor_id))
+
+        t1 = time.time()
+        n_train_samples = 0
+        if FLAGS.use_replay_samples_in_train:
+          n_train_samples += FLAGS.n_replay_samples
+        if FLAGS.use_policy_samples_in_train and FLAGS.use_nonreplay_samples_in_train:
+          raise ValueError(
+            'Cannot use both on-policy samples and nonreplay samples for training!')
+        if FLAGS.use_policy_samples_in_train:
+          n_train_samples += FLAGS.n_policy_samples
+
+        if train_samples:
+          if FLAGS.use_trainer_prob:
+            train_samples = agent.update_replay_prob(
+              train_samples, min_replay_weight=FLAGS.min_replay_weight)
+          for _ in xrange(FLAGS.n_opt_step):
+            agent.train(
+              train_samples,
+              parameters=dict(en_rnn_dropout=FLAGS.dropout,rnn_dropout=FLAGS.dropout),
+              use_baseline=FLAGS.use_baseline,
+              min_prob=FLAGS.min_prob,
+              scale=n_train_samples,
+              behaviour_logprobs=behaviour_logprobs,
+              use_importance_sampling=FLAGS.use_importance_sampling,
+              ppo_epsilon=FLAGS.ppo_epsilon,
+              de_vocab=envs[0].de_vocab,
+              debug=FLAGS.debug)
+
+        avg_return, avg_len = agent.evaluate(
+          eval_samples, writer=train_writer, true_n=eval_true_n,
+          clip_frac=clip_frac)
+        tf.logging.info('train: avg return: {}, avg length: {}.'.format(
+          avg_return, avg_len))
+        avg_return, avg_len = agent.evaluate(
+          replay_samples, writer=replay_writer, true_n=replay_true_n)
+        tf.logging.info('replay: avg return: {}, avg length: {}.'.format(avg_return, avg_len))
+        t2 = time.time()
+        tf.logging.info('{} sec used in training train macro step {} micro step {}, {} samples.'.format(
+          t2-t1, i, j, len(train_samples)))
+
       i += 1
       if i % self.save_every_n == 0:
         t1 = time.time()
@@ -1265,27 +1278,30 @@ class Learner(multiprocessing.Process):
           os.path.join(saved_model_dir, 'model'),
           agent.model.get_global_step())
         t2 = time.time()
-        tf.logging.info('{} sec used saving model to {}, train iteration {}.'.format(
+        tf.logging.info('{} sec used saving model to {}, train macro step {}.'.format(
           t2-t1, current_ckpt, i))
-        self.ckpt_queue.put(current_ckpt)
-        if agent.model.get_global_step() >= FLAGS.n_steps:
-          t1 = time.time()
-          while True:
-            train_data = self.train_queue.get()
-            _ = self.eval_queue.get()
-            _ = self.replay_queue.get()
-            self.ckpt_queue.put(current_ckpt)
-            # Get the signal that all the actors have
-            # finished.
-            if train_data is None:
-              t2 = time.time()
-              tf.logging.info('{} finished, {} sec used waiting for actors'.format(
-                self.name, t2-t1))
-              return
+        for _ in range(FLAGS.n_actors):
+          self.ckpt_queue.put(current_ckpt)
       else:
         # After training on one set of samples, put one ckpt
         # back so that the ckpt queue is always full.
-        self.ckpt_queue.put(current_ckpt)
+        for _ in range(FLAGS.n_actors):
+          self.ckpt_queue.put(current_ckpt)
+
+      if agent.model.get_global_step() >= FLAGS.n_steps:
+        t1 = time.time()
+        while True:
+          train_data = self.train_queue.get()
+          _ = self.eval_queue.get()
+          _ = self.replay_queue.get()
+          self.ckpt_queue.put(current_ckpt)
+          # Get the signal that all the actors have
+          # finished.
+          if train_data is None:
+            t2 = time.time()
+            tf.logging.info('{} finished, {} sec used waiting for actors'.format(
+              self.name, t2-t1))
+            return
 
 
 def main(unused_argv):
