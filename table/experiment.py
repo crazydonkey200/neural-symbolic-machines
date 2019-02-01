@@ -1099,10 +1099,11 @@ class Evaluator(multiprocessing.Process):
           name = sample.traj.env_name
           program = agent_factory.traj_to_program(sample.traj, envs[0].de_vocab)
           answer = sample.traj.answer
+          reward = sum(sample.traj.rewards)
           if name in dev_programs_in_beam_dict:
-            dev_programs_in_beam_dict[name].append((program, answer, sample.prob))
+            dev_programs_in_beam_dict[name].append((program, answer, sample.prob, reward))
           else:
-            dev_programs_in_beam_dict[name] = [(program, answer, sample.prob)]
+            dev_programs_in_beam_dict[name] = [(program, answer, sample.prob, reward)]
 
         t3 = time.time()
         with open(
