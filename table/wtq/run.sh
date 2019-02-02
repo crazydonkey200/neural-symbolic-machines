@@ -1,5 +1,6 @@
 CONFIG=$1
 NAME=$2
+SPLIT=${3:-data_split_1}
 USE_NONREPLAY=nouse_nonreplay_samples_in_train
 RANDOM_REPLAY=norandom_replay_samples
 USE_REPLAY_PROB=nouse_replay_prob_as_weight
@@ -38,7 +39,7 @@ case $CONFIG in
 esac
 DATA_DIR=$HOME"/projects/data/wikitable/"
 INPUT_DIR=$DATA_DIR"processed_input/preprocess_14/"
-SPLIT_DIR=$INPUT_DIR"data_split_1/"
+SPLIT_DIR=$INPUT_DIR$SPLIT"/"
 python ../experiment.py \
        --output_dir=$DATA_DIR$OUTPUT \
        --experiment_name=$NAME \
