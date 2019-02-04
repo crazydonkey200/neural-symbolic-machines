@@ -78,7 +78,8 @@ class Graph(object):
       device_count={'GPU' : n_gpu},
       allow_soft_placement=False,
       log_device_placement=False,
-    )
+      inter_op_parallelism_threads=1,
+      intra_op_parallelism_threads=1)
     if n_gpu:
       session_config.gpu_options.allow_growth = True
     tf.logging.info('number of gpu used {}'.format(n_gpu))
