@@ -35,7 +35,7 @@ def main(unused_argv):
             if name not in ensemble_pred:
                 ensemble_pred[name] = {}
             for c in candidates:
-                prob = c[-1]
+                prob = c[2]
                 prog = ' '.join(c[0])
                 answer = c[1]
                 if prog in ensemble_pred[name]:
