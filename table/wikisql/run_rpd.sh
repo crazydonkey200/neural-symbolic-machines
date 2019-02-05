@@ -64,6 +64,7 @@ python ../experiment.py \
        --table_file=$INPUT_DIR"tables.jsonl" \
        --en_vocab_file=$INPUT_DIR"en_vocab_min_count_5.json" \
        --save_every_n=1 \
+       --eval_every_n=500 \
        --n_explore_samples=1 \
        --n_extra_explore_for_hard=9 \
        --use_cache \
