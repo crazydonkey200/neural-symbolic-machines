@@ -1078,7 +1078,7 @@ class Evaluator(multiprocessing.Process):
         agent, envs, writer=dev_writer)
       
       if dev_avg_return > best_dev_avg_return:
-        best_model_path = graph.save(
+        best_model_path = graph.save_best(
           os.path.join(best_model_dir, 'model'),
           agent.model.get_global_step())
         best_dev_avg_return = dev_avg_return
