@@ -52,6 +52,8 @@ tf.app.flags.DEFINE_string(
 tf.app.flags.DEFINE_string(
   'saved_model_dir', 'saved_model', 'Path for saving models.')
 tf.app.flags.DEFINE_string(
+  'eval_model_dir', 'eval_model', 'Path for saving models for evaluator.')
+tf.app.flags.DEFINE_string(
   'best_model_dir', 'best_model', 'Path for saving best models.')
 tf.app.flags.DEFINE_string(
   'init_model_path', '', 'Path for saving best models.')
@@ -165,6 +167,9 @@ tf.app.flags.DEFINE_integer(
   'n_actors', 3, 'Number of actors for generating samples.')
 tf.app.flags.DEFINE_integer(
   'save_every_n', -1,
+  'Save model to a ckpt every n train steps, -1 means save every epoch.')
+tf.app.flags.DEFINE_integer(
+  'eval_every_n', 1000,
   'Save model to a ckpt every n train steps, -1 means save every epoch.')
 tf.app.flags.DEFINE_bool(
   'save_replay_buffer_at_end', True,
@@ -1155,7 +1160,7 @@ class Evaluator(multiprocessing.Process):
       while new_ckpt is None or new_ckpt == current_ckpt:
         time.sleep(1)
         new_ckpt = tf.train.latest_checkpoint(
-          os.path.join(get_experiment_dir(), FLAGS.saved_model_dir))
+          os.path.join(get_experiment_dir(), FLAGS.eval_model_dir))
       t2 = time.time()
       tf.logging.info('{} sec used waiting for new checkpoint in evaluator.'.format(
         t2-t1))
@@ -1182,6 +1187,7 @@ class Learner(multiprocessing.Process):
     self.replay_queue = replay_queue
     self.name = name
     self.save_every_n = FLAGS.save_every_n
+    self.eval_every_n = FLAGS.eval_every_n
     self.fns = fns
       
   def run(self):
@@ -1193,8 +1199,12 @@ class Learner(multiprocessing.Process):
     replay_writer = tf.summary.FileWriter(os.path.join(
       get_experiment_dir(), FLAGS.tb_log_dir, 'replay'))
     saved_model_dir = os.path.join(get_experiment_dir(), FLAGS.saved_model_dir)
+    eval_model_dir = os.path.join(get_experiment_dir(), FLAGS.eval_model_dir)
     if not tf.gfile.Exists(saved_model_dir):
       tf.gfile.MkDir(saved_model_dir)
+    if not tf.gfile.Exists(eval_model_dir):
+      tf.gfile.MkDir(eval_model_dir)
+
     agent, envs = init_experiment(self.fns, FLAGS.train_use_gpu, gpu_id=str(FLAGS.train_gpu_id))
     agent.train_writer = train_writer
     graph = agent.model.graph
@@ -1219,7 +1229,7 @@ class Learner(multiprocessing.Process):
         t2-t1, i))
 
       np.random.shuffle(all_data)
-      print('{}: {}'.format(i, [d[0] for d in all_data]))
+      # print('{}: {}'.format(i, [d[0] for d in all_data]))
 
       for j, d in enumerate(all_data):
         (actor_id, train_samples, behaviour_logprobs, clip_frac,
@@ -1267,8 +1277,13 @@ class Learner(multiprocessing.Process):
         t2 = time.time()
         tf.logging.info('{} sec used in training train macro step {} micro step {}, {} samples.'.format(
           t2-t1, i, j, len(train_samples)))
-
+        
       i += 1
+      if i % self.eval_every_n == 0:
+        current_ckpt = graph.save_for_eval(
+          os.path.join(eval_model_dir, 'model'),
+          agent.model.get_global_step())
+
       if i % self.save_every_n == 0:
         t1 = time.time()
         current_ckpt = graph.save(
