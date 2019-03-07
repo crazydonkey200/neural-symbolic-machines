@@ -989,14 +989,13 @@ class Actor(multiprocessing.Process):
         f_train.close()
 
       if agent.model.get_global_step() >= FLAGS.n_steps:
-	if FLAGS.save_replay_buffer_at_end:
-	  all_replay = os.path.join(get_experiment_dir(),
-				    'all_replay_samples_{}.txt'.format(self.name))
-	with codecs.open(all_replay, 'w', encoding='utf-8') as f:
-	 samples = replay_buffer.all_samples(envs, agent=None)
-	 samples = [s for s in samples if not replay_buffer_copy.contain(s.traj)]
-	 f.write(show_samples(samples, envs[0].de_vocab, None))
-
+        if FLAGS.save_replay_buffer_at_end:
+          all_replay = os.path.join(get_experiment_dir(),
+                                    'all_replay_samples_{}.txt'.format(self.name))
+          with codecs.open(all_replay, 'w', encoding='utf-8') as f:
+            samples = replay_buffer.all_samples(envs, agent=None)
+            samples = [s for s in samples if not replay_buffer_copy.contain(s.traj)]
+            f.write(show_samples(samples, envs[0].de_vocab, None))
         tf.logging.info('{} finished'.format(self.name))
         return
       i += 1
