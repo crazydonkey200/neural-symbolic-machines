@@ -86,6 +86,7 @@ python ../experiment.py \
        --$TOPK_REPLAY \
        --fixed_replay_weight=$FIXED_REPLAY_WEIGHT \
        --$RANDOM_REPLAY \
+       --$USE_TRAINER_PROB \
        --min_replay_weight=0.1 \
        --truncate_replay_buffer_at_n=$TRUNCATE_AT_N \
        --train_use_gpu \
