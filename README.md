@@ -53,6 +53,8 @@ cd ~/projects/neural-symbolic-machines/
 ./aws_setup.sh
 ```
 
+Note that this downloads the preprocessed dataset, if you want to replicate the preprocessing and/or adapt the code to a similar dataset, here's a great [manual / summary](https://github.com/ShaharKSegal/MAPO-Reproducing-Manual) created by [ShaharKSegal](https://github.com/ShaharKSegal).
+
 ## Running experiments and monitor with tensorboard
 
 ### Start WikiTable experiment
